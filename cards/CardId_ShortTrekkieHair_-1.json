@@ -1,0 +1,10 @@
+{
+  "Id": "ShortTrekkieHair",
+  "AssetId": "ShortTrekkieHairUI",
+  "Slot": "Hair",
+  "Ingame": "ShortTrekkieHair",
+  "ItemId": 1793,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 7
+  }
+}

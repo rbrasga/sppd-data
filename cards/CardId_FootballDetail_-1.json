@@ -1,0 +1,10 @@
+{
+  "Id": "FootballDetail",
+  "AssetId": "FootballDetailUI",
+  "Slot": "Detail",
+  "Ingame": "FootballDetail",
+  "ItemId": 1562,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 8
+  }
+}

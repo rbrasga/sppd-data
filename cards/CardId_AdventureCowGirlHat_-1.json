@@ -1,0 +1,11 @@
+{
+  "Id": "AdventureCowGirlHat",
+  "AssetId": "AdvCowGirlHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "AdvCowGirlHatHeadGear",
+  "ItemId": 1855,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 2,
+  "SilhouetteIfNotOwned": false
+}

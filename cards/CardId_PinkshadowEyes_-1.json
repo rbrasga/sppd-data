@@ -1,0 +1,10 @@
+{
+  "Id": "PinkshadowEyes",
+  "AssetId": "PinkshadowEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "PinkshadowEyes",
+  "ItemId": 1787,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 8
+  }
+}

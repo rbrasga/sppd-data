@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralWaterBearHat",
+  "AssetId": "NeutWaterBearHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "NeutWaterBearHatHeadGear",
+  "ItemId": 1883,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

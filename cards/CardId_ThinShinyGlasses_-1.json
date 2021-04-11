@@ -1,0 +1,10 @@
+{
+  "Id": "ThinShinyGlasses",
+  "AssetId": "ThinShinyGlassesUI",
+  "Slot": "Glasses",
+  "Ingame": "ThinShinyGlasses",
+  "ItemId": 1602,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

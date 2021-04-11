@@ -1,0 +1,60 @@
+{
+  "Id": 1517,
+  "LevelId": "Level_Fan_14",
+  "Environment": "Forest_snow",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1527,
+      "Cards": [
+        {
+          "Id": 1527
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 11,
+  "LevelingStickers": {
+    "BaseStickers": 16,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 240,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 144,
+    "AddedHardDifficulty": 36
+  }
+}

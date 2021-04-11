@@ -1,0 +1,10 @@
+{
+  "Id": "SleepyEyes",
+  "AssetId": "SleepyEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "SleepyEyes",
+  "ItemId": 1571,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "LongStraightenedHair",
+  "AssetId": "LongStraightenedHairUI",
+  "Slot": "Hair",
+  "Ingame": "LongStraightenedHair",
+  "ItemId": 1607,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralPoopShirt",
+  "AssetId": "NeutPoopShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutPoopShirtBodyGear",
+  "ItemId": 2255,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

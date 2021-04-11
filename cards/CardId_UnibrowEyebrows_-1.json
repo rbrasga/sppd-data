@@ -1,0 +1,10 @@
+{
+  "Id": "UnibrowEyebrows",
+  "AssetId": "UnibrowEyebrowsUI",
+  "Slot": "Eyebrows",
+  "Ingame": "UnibrowEyebrows",
+  "ItemId": 1780,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 10
+  }
+}

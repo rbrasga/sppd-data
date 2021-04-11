@@ -1,0 +1,95 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1457759645224427193
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": -1617551092162329364
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": -2860084112794165637
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": 2268804445497733724
+  },
+  "data": {
+    "sourceHeight": 1.47035825,
+    "sourceRadius": 0.380768359,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 3,
+          "name": "Attacking",
+          "duration": 3.6,
+          "durationTicks": 108,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Attack",
+              "time": 2.7,
+              "timeTicks": 81
+            }
+          ]
+        },
+        {
+          "state": 10,
+          "name": "BossEntrance",
+          "duration": 4.0,
+          "durationTicks": 120,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "BossName",
+              "time": 3.9,
+              "timeTicks": 117
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 2.16666675,
+          "durationTicks": 65,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.5,
+          "durationTicks": 15,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 1.2,
+          "durationTicks": 36,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.4,
+          "durationTicks": 12,
+          "loop": 1,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

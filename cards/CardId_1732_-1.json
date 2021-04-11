@@ -1,0 +1,60 @@
+{
+  "Id": 1732,
+  "LevelId": "MP_City2",
+  "Environment": "CityStreet_PVP2",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1,
+      "Cards": [
+        {
+          "Id": 1
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 0,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 0,
+    "BaseEasyDifficulty": 0,
+    "AddedEasyDifficulty": 0,
+    "BaseHardDifficulty": 0,
+    "AddedHardDifficulty": 0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "BeardJaakkoFacialHair",
+  "AssetId": "BeardJaakkoFacialHairUI",
+  "Slot": "FacialHair",
+  "Ingame": "BeardJaakkoFacialHair",
+  "ItemId": 1573,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

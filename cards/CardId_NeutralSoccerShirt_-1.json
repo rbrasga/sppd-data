@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralSoccerShirt",
+  "AssetId": "NeutSoccerShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutSoccerShirtBodyGear",
+  "ItemId": 2038,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 2,
+  "SilhouetteIfNotOwned": false
+}

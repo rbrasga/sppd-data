@@ -1,0 +1,65 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4566144902631011194
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": 7323661665055518841
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": -5971194688496624967
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": 6506358233562248323
+  },
+  "data": {
+    "sourceHeight": 0.5705073,
+    "sourceRadius": 0.491292238,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 3.0,
+          "durationTicks": 90,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "DeathPower",
+              "time": 0.1,
+              "timeTicks": 3
+            }
+          ]
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 2.0,
+          "durationTicks": 60,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 6,
+          "name": "EnteringLevel",
+          "duration": 0.6,
+          "durationTicks": 18,
+          "loop": 0,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

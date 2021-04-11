@@ -1,0 +1,10 @@
+{
+  "Id": "ShortSurferHair",
+  "AssetId": "ShortSurferHairUI",
+  "Slot": "Hair",
+  "Ingame": "ShortSurferHair",
+  "ItemId": 1621,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Id": "CrateSoapboxTegridy",
+  "AssetId": "TegridyBoxSkinUI",
+  "Slot": "BoxSkin",
+  "Ingame": "TegridyBoxSkinPF",
+  "ItemId": 2273,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": true
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "BeautyspotDetail",
+  "AssetId": "BeautyspotDetailUI",
+  "Slot": "Detail",
+  "Ingame": "BeautyspotDetail",
+  "ItemId": 1768,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 2
+  }
+}

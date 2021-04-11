@@ -1,0 +1,10 @@
+{
+  "Id": "ShortCurlyHair",
+  "AssetId": "ShortCurlyHairUI",
+  "Slot": "Hair",
+  "Ingame": "ShortCurlyHair",
+  "ItemId": 1616,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

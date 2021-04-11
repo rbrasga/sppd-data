@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralGardenerShirt",
+  "AssetId": "NeutGardenerShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutGardenerShirtBodyGear",
+  "ItemId": 2338,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

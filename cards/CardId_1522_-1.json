@@ -1,0 +1,60 @@
+{
+  "Id": 1522,
+  "LevelId": "Level_Fan_19",
+  "Environment": "Forest_snow",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1528,
+      "Cards": [
+        {
+          "Id": 1528
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 12,
+  "LevelingStickers": {
+    "BaseStickers": 18,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 280,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 184,
+    "AddedHardDifficulty": 36
+  }
+}

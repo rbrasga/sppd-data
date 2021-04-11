@@ -1,0 +1,60 @@
+{
+  "Id": 1510,
+  "LevelId": "Level_Fan_7",
+  "Environment": "CityStreet_9",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1523,
+      "Cards": [
+        {
+          "Id": 1523
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 10,
+  "LevelingStickers": {
+    "BaseStickers": 13,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 204,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 108,
+    "AddedHardDifficulty": 36
+  }
+}

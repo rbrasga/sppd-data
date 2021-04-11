@@ -1,0 +1,10 @@
+{
+  "Id": "AsianEyes",
+  "AssetId": "AsianEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "AsianEyes",
+  "ItemId": 1568,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

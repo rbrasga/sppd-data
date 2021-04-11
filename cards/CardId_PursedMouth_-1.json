@@ -1,0 +1,10 @@
+{
+  "Id": "PursedMouth",
+  "AssetId": "PursedMouthUI",
+  "Slot": "Mouth",
+  "Ingame": "PursedMouth",
+  "ItemId": 1800,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 2
+  }
+}

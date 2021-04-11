@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralChaos42Shirt",
+  "AssetId": "NeutChaos42ShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutChaos42ShirtBodyGear",
+  "ItemId": 2321,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

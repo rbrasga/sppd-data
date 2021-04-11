@@ -1,0 +1,10 @@
+{
+  "Id": "CoffinGlasses",
+  "AssetId": "CoffinGlassesUI",
+  "Slot": "Glasses",
+  "Ingame": "CoffinGlasses",
+  "ItemId": 1589,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 15
+  }
+}

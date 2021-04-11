@@ -1,0 +1,10 @@
+{
+  "Id": "MediumVidalsassoonHair",
+  "AssetId": "MediumVidalsassoonHairUI",
+  "Slot": "Hair",
+  "Ingame": "MediumVidalsassoonHair",
+  "ItemId": 1613,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 8
+  }
+}

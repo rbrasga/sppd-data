@@ -1,0 +1,95 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2471546149306119688
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": 5198917198807146257
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": 8209750532623200731
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": -4471940234656319111
+  },
+  "data": {
+    "sourceHeight": 1.95230579,
+    "sourceRadius": 0.7853624,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.937000036,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 3,
+          "name": "Attacking",
+          "duration": 1.3,
+          "durationTicks": 39,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Attack",
+              "time": 0.7,
+              "timeTicks": 21
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 3.8,
+          "durationTicks": 114,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.7,
+          "durationTicks": 21,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 0.8,
+          "durationTicks": 24,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 6,
+          "name": "EnteringLevel",
+          "duration": 1.6,
+          "durationTicks": 48,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "SpawnPower",
+              "time": 0.7,
+              "timeTicks": 21
+            }
+          ]
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.533333361,
+          "durationTicks": 16,
+          "loop": 1,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

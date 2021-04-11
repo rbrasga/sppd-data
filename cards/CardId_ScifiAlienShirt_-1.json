@@ -1,0 +1,11 @@
+{
+  "Id": "ScifiAlienShirt",
+  "AssetId": "SciAlienShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "SciAlienShirtBodyGear",
+  "ItemId": 1336,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 2,
+  "SilhouetteIfNotOwned": false
+}

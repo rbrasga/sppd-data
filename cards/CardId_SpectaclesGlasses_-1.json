@@ -1,0 +1,10 @@
+{
+  "Id": "SpectaclesGlasses",
+  "AssetId": "SpectaclesGlassesUI",
+  "Slot": "Glasses",
+  "Ingame": "SpectaclesGlasses",
+  "ItemId": 1599,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 5
+  }
+}

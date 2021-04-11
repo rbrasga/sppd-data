@@ -1,0 +1,95 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -12525234795674952
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": -1473129033564129605
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": -7445607276048079946
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": -5447274998035677234
+  },
+  "data": {
+    "sourceHeight": 2.19286,
+    "sourceRadius": 0.655877352,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 3,
+          "name": "Attacking",
+          "duration": 1.93333328,
+          "durationTicks": 58,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Attack",
+              "time": 1.43333328,
+              "timeTicks": 43
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 2.4,
+          "durationTicks": 72,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.6,
+          "durationTicks": 18,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 1.4,
+          "durationTicks": 42,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 5,
+          "name": "SuperPower",
+          "duration": 1.4,
+          "durationTicks": 42,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "SuperPower",
+              "time": 0.8,
+              "timeTicks": 24
+            }
+          ]
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.4,
+          "durationTicks": 12,
+          "loop": 1,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

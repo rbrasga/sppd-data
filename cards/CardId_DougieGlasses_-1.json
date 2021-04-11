@@ -1,0 +1,10 @@
+{
+  "Id": "DougieGlasses",
+  "AssetId": "DougieGlassesUI",
+  "Slot": "Glasses",
+  "Ingame": "DougieGlasses",
+  "ItemId": 1590,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

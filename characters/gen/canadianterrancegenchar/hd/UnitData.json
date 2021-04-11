@@ -1,0 +1,105 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7063953240428876313
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": -3846040505239592954
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": -4334945828209567666
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": 9135830427285572136
+  },
+  "data": {
+    "sourceHeight": 2.17842841,
+    "sourceRadius": 0.388427347,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [
+        "Trigger FartRight time 0.3 for state: Attacking does not match with other triggers. Animations of same state must have equal triggers with equal names and times",
+        "Triggers for state: Attacking do not match. Animations of same state must have equal triggers with equal names and times",
+        "Trigger FartLeft time 0.3 for state: Attacking does not match with other triggers. Animations of same state must have equal triggers with equal names and times",
+        "Triggers for state: Attacking do not match. Animations of same state must have equal triggers with equal names and times",
+        "Trigger FartUp time 0.3 for state: Attacking does not match with other triggers. Animations of same state must have equal triggers with equal names and times",
+        "Triggers for state: Attacking do not match. Animations of same state must have equal triggers with equal names and times",
+        "Trigger FartRight time 0.3 for state: Attacking does not match with other triggers. Animations of same state must have equal triggers with equal names and times",
+        "Triggers for state: Attacking do not match. Animations of same state must have equal triggers with equal names and times",
+        "Trigger FartLeft time 0.3 for state: Attacking does not match with other triggers. Animations of same state must have equal triggers with equal names and times",
+        "Triggers for state: Attacking do not match. Animations of same state must have equal triggers with equal names and times",
+        "Trigger FartUp time 0.3 for state: Attacking does not match with other triggers. Animations of same state must have equal triggers with equal names and times",
+        "Triggers for state: Attacking do not match. Animations of same state must have equal triggers with equal names and times"
+      ],
+      "animationItems": [
+        {
+          "state": 3,
+          "name": "Attacking",
+          "duration": 1.0,
+          "durationTicks": 30,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Attack",
+              "time": 0.3,
+              "timeTicks": 9
+            },
+            {
+              "name": "FartDown",
+              "time": 0.3,
+              "timeTicks": 9
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 3.3,
+          "durationTicks": 99,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "DeathPower",
+              "time": 1.6,
+              "timeTicks": 48
+            }
+          ]
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.5,
+          "durationTicks": 15,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 1.0,
+          "durationTicks": 30,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.266666681,
+          "durationTicks": 8,
+          "loop": 1,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

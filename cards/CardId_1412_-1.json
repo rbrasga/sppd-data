@@ -1,0 +1,27 @@
+{
+  "Id": 1412,
+  "LevelId": "Level_Scifi_3",
+  "Environment": "ChinaTown_2",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1693,
+      "Cards": [
+        {
+          "Id": 1693
+        }
+      ]
+    }
+  ],
+  "Rewards": [],
+  "EpisodeIndex": 3,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 18,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": -78,
+    "AddedHardDifficulty": 36
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "Id": 1419,
+  "LevelId": "Level_Scifi_9",
+  "Environment": "CityStreet_13",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1455,
+      "Cards": [
+        {
+          "Id": 1455
+        }
+      ]
+    }
+  ],
+  "Rewards": [],
+  "EpisodeIndex": 4,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 64,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": -16,
+    "AddedHardDifficulty": 36
+  }
+}

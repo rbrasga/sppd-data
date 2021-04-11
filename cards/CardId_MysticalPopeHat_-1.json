@@ -1,0 +1,11 @@
+{
+  "Id": "MysticalPopeHat",
+  "AssetId": "MysPopeHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "MysPopeHatHeadGear",
+  "ItemId": 181,
+  "Scale": 1.05,
+  "PositionOffset": "5,-70,0",
+  "Rarity": 2,
+  "SilhouetteIfNotOwned": false
+}

@@ -1,0 +1,11 @@
+{
+  "Id": "AngryEyebrows",
+  "AssetId": "AngryEyebrowsUI",
+  "Slot": "Eyebrows",
+  "Ingame": "AngryEyebrows",
+  "ItemId": 1548,
+  "UnlockRequirements": 
+  {
+    "MinPlayerLevel": 1
+  }
+}

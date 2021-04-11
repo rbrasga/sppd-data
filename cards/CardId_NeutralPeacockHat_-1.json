@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralPeacockHat",
+  "AssetId": "NeutPeacockHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "NeutPeacockHatHeadGear",
+  "ItemId": 2103,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

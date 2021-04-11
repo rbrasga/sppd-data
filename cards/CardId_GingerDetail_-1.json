@@ -1,0 +1,10 @@
+{
+  "Id": "GingerDetail",
+  "AssetId": "GingerDetailUI",
+  "Slot": "Detail",
+  "Ingame": "GingerDetail",
+  "ItemId": 1771,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 6
+  }
+}

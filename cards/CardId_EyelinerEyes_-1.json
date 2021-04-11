@@ -1,0 +1,10 @@
+{
+  "Id": "EyelinerEyes",
+  "AssetId": "EyelinerEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "EyelinerEyes",
+  "ItemId": 1569,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

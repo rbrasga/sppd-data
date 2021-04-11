@@ -1,0 +1,11 @@
+{
+  "Id": "MysticalSatanicHat",
+  "AssetId": "MysSatanicHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "MysSatanicHatHeadGear",
+  "ItemId": 2083,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

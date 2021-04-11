@@ -1,0 +1,54 @@
+{
+  "Id": 1660,
+  "LevelId": "Level_Scifi_10",
+  "Environment": "KennyYard",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1423,
+      "Cards": [
+        {
+          "Id": 1423
+        }
+      ]
+    }
+  ],
+  "Rewards": [],
+  "SpecialRewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {
+          "ItemType": "Card",
+          "Amount": 5,
+          "Items": [
+            1509
+          ]
+        },
+        {
+          "ItemType": "Card",
+          "Amount": 25,
+          "Items": [
+            193
+          ]
+        },
+        {
+          "ItemType": "Sticker",
+          "Amount": 10,
+          "Theme": "Sci",
+          "StarLevel": 1
+        }
+      ]
+    }
+  ],
+  "EpisodeIndex": 4,
+  "LevelingStickers": {
+    "BaseStickers": 1,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 96,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": -16,
+    "AddedHardDifficulty": 36
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "LongWavyHair",
+  "AssetId": "LongWavyHairUI",
+  "Slot": "Hair",
+  "Ingame": "LongWavyHair",
+  "ItemId": 1608,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 6
+  }
+}

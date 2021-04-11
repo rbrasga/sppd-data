@@ -1,0 +1,122 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2634116608564860671
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": 3804318100736525272
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": -2417995125731512559
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": 1264699005248464110
+  },
+  "data": {
+    "sourceHeight": 1.1275,
+    "sourceRadius": 0.346588939,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 3,
+          "name": "Attacking",
+          "duration": 1.3,
+          "durationTicks": 39,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Attack",
+              "time": 0.5,
+              "timeTicks": 15
+            }
+          ]
+        },
+        {
+          "state": 10,
+          "name": "BossEntrance",
+          "duration": 1.4666667,
+          "durationTicks": 44,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "BossName",
+              "time": 1.43333328,
+              "timeTicks": 43
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 2.2,
+          "durationTicks": 66,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.7,
+          "durationTicks": 21,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 11,
+          "name": "Idle_BossEntrance",
+          "duration": 1.2,
+          "durationTicks": 36,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 1.0,
+          "durationTicks": 30,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 6,
+          "name": "EnteringLevel",
+          "duration": 2.6,
+          "durationTicks": 78,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Land",
+              "time": 0.2,
+              "timeTicks": 6
+            },
+            {
+              "name": "SpawnPower",
+              "time": 1.1,
+              "timeTicks": 33
+            }
+          ]
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.266666681,
+          "durationTicks": 8,
+          "loop": 1,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

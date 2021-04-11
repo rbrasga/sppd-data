@@ -1,0 +1,87 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 4286099772190100800
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": -3586691763086474109
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": -7355196991102884086
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": -5482018806386566825
+  },
+  "data": {
+    "sourceHeight": 2.39201927,
+    "sourceRadius": 0.5874234,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 3,
+          "name": "Attacking",
+          "duration": 1.3,
+          "durationTicks": 39,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Attack",
+              "time": 0.5,
+              "timeTicks": 15
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 5.0,
+          "durationTicks": 150,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "DeathPower",
+              "time": 3.2,
+              "timeTicks": 96
+            }
+          ]
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.5,
+          "durationTicks": 15,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 1.2,
+          "durationTicks": 36,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.4,
+          "durationTicks": 12,
+          "loop": 1,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

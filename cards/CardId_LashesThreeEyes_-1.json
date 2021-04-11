@@ -1,0 +1,10 @@
+{
+  "Id": "LashesThreeEyes",
+  "AssetId": "LashesThreeEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "LashesThreeEyes",
+  "ItemId": 1785,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 7
+  }
+}

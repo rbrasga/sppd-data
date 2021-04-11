@@ -1,0 +1,11 @@
+{
+  "Id": "AdventureMummyShirt",
+  "AssetId": "AdvMummyShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "AdvMummyShirtBodyGear",
+  "ItemId": 2077,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

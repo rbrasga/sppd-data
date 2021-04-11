@@ -1,0 +1,11 @@
+{
+  "Id": "FantasyWizard2Hat",
+  "AssetId": "FanWizard2HatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "FanWizard2HatHeadGear",
+  "ItemId": 2353,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

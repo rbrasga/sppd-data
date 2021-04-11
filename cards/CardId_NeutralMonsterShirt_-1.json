@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralMonsterShirt",
+  "AssetId": "NeutMonsterShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutMonsterShirtBodyGear",
+  "ItemId": 2352,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

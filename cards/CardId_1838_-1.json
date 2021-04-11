@@ -1,0 +1,49 @@
+{
+  "Id": 1838,
+  "LevelId": "MP_Playground",
+  "Environment": "CityStreet_playground",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1,
+      "Cards": [
+        {
+          "Id": 1
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 50
+        },
+        {
+          "ItemType": "Sticker",
+          "Amount": 7,
+          "Theme": "Gen",
+          "StarLevel": 0
+        },
+        {
+          "ItemType": "Sticker",
+          "Amount": 5,
+          "Theme": "Adv",
+          "StarLevel": 0
+        }
+      ]
+    }
+  ],
+  "EpisodeIndex": 0,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 0,
+    "BaseEasyDifficulty": 0,
+    "AddedEasyDifficulty": 0,
+    "BaseHardDifficulty": 0,
+    "AddedHardDifficulty": 0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1723142780347743011
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": 2642417582880931636
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": -2042605229625591874
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": -6893007650935394501
+  },
+  "data": {
+    "sourceHeight": 1.593279,
+    "sourceRadius": 0.371140033,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.912049532,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 0.5,
+          "durationTicks": 15,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 1.0,
+          "durationTicks": 30,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 6,
+          "name": "EnteringLevel",
+          "duration": 90.0,
+          "durationTicks": 2700,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Land",
+              "time": 0.2,
+              "timeTicks": 6
+            },
+            {
+              "name": "SpawnPower",
+              "time": 0.4,
+              "timeTicks": 12
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

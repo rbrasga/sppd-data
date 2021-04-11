@@ -1,0 +1,46 @@
+{
+  "Id": 1475,
+  "LevelId": "Level_Adv_7",
+  "Environment": "CityStreet_10",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1631,
+      "Cards": [
+        {
+          "Id": 1631
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {
+          "ItemType": "Card",
+          "Items": [
+            131
+          ]
+        },
+        {},
+        {
+          "ItemType": "Sticker",
+          "Amount": 1,
+          "Theme": "Adv",
+          "StarLevel": 1
+        }
+      ]
+    }
+  ],
+  "EpisodeIndex": 2,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 16,
+    "AddedEasyDifficulty": 32,
+    "BaseHardDifficulty": -80,
+    "AddedHardDifficulty": 32
+  }
+}

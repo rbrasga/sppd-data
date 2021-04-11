@@ -1,0 +1,10 @@
+{
+  "Id": "ClassicthickEyebrows",
+  "AssetId": "ClassicthickEyebrowsUI",
+  "Slot": "Eyebrows",
+  "Ingame": "ClassicthickEyebrows",
+  "ItemId": 1564,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "ShortGrandmaHair",
+  "AssetId": "ShortGrandmaHairUI",
+  "Slot": "Hair",
+  "Ingame": "ShortGrandmaHair",
+  "ItemId": 1618,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

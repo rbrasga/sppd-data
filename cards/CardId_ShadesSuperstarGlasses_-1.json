@@ -1,0 +1,10 @@
+{
+  "Id": "ShadesSuperstarGlasses",
+  "AssetId": "ShadesSuperstarGlassesUI",
+  "Slot": "Glasses",
+  "Ingame": "ShadesSuperstarGlasses",
+  "ItemId": 1598,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 11
+  }
+}

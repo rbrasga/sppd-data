@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralPantherHat",
+  "AssetId": "NeutPantherHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "NeutPantherHatHeadGear",
+  "ItemId": 2036,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

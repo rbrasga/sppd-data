@@ -1,0 +1,312 @@
+{
+  "Id": 1655,
+  "Visible": true,
+  "Finalized": true,
+  "UnlockedDuringEvent": false,
+  "CanAttack": true,
+  "NameKey": "Transmogriphy",
+  "OasisNameOverride": "",
+  "OasisDescOverride": "",
+  "Image": "SpellTransformFanCard",
+  "Frame": "",
+  "ManaCost": 5,
+  "Damage": "4",
+  "Health": "30",
+  "Type": "Spell",
+  "IngameAssets": [
+    "DebuffPowerRet"
+  ],
+  "UIAssets": [
+    "SpellTransformFanCard"
+  ],
+  "Targeting": {
+    "AssetId": "DebuffPowerRet",
+    "Radius": 1.0
+  },
+  "CardUI": "SpellCardUI",
+  "Tags": [
+    "Epic",
+    "Fan",
+    "Spell"
+  ],
+  "Ingame": "",
+  "AttackRange": 0.4,
+  "TimeToReachMaxVelocity": 0.0,
+  "MaxVelocity": 2.0,
+  "TimeInBetweenAttacks": 0.0,
+  "AgroRangeMultiplier": 1.2,
+  "_notes": "",
+  "PhysicsProperties": {
+    "FrictionCoefficient": 0.0,
+    "RestingFriction": 0.0,
+    "BounceFactor": 0.0,
+    "Weight": 30.0
+  },
+  "KnockbackImpulse": "0.0000",
+  "KnockbackAngleDeg": 45.0,
+  "ChargedPowerRegen": 0.0,
+  "ChargedPowerRadius": 0.0,
+  "ChargedPowerReticle": "",
+  "Rarity": 2,
+  "Theme": "Fan",
+  "RetreatDistanceFactor": 0.0,
+  "RetreatVelocityFactor": 0.0,
+  "WalkingAnimationThresholdFactor": 0.0,
+  "TargetHeightFactor": 0.0,
+  "HealthBarOffset": 0.0,
+  "Pows": [
+    {
+      "Trigger": {
+        "Type": "CardPlayed",
+        "Params": {
+          "Delay": "0.3",
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false
+        }
+      },
+      "UniqueId": "transform",
+      "Nodes": [
+        {
+          "Type": "PlayCardPositionSelector"
+        },
+        {
+          "Type": "NearestUnitsSelector",
+          "Params": {
+            "CanSelectAnyUnits": false,
+            "IncludeCaster": false,
+            "CanSelectTraps": false,
+            "SelectFurthest": false,
+            "IsAreaOfEffect": false,
+            "Amount": "1",
+            "MaximumDistance": "2",
+            "UsedForVisualization": false,
+            "Side": "Enemy",
+            "ExcludeTags": "Boss,HumanTotem,MovingObject,NegativeSpellImmune,Object,SpellImmune,TransformImmune"
+          }
+        },
+        {
+          "Type": "UnitsToPositionsSelector"
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "TransformBeamTargetOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false,
+            "SoundEvent": "PlayBeam_01",
+            "SoundBankName": "SoundBank_Transform"
+          }
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "TransformOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false,
+            "SoundEvent": "PlayTransform",
+            "SoundBankName": "SoundBank_Transform"
+          }
+        },
+        {
+          "Type": "NearestUnitsSelector",
+          "Params": {
+            "CanSelectAnyUnits": false,
+            "IncludeCaster": false,
+            "CanSelectTraps": false,
+            "SelectFurthest": false,
+            "IsAreaOfEffect": false,
+            "Amount": "1",
+            "MaximumDistance": "2",
+            "UsedForVisualization": false,
+            "Side": "Enemy",
+            "ExcludeTags": "Boss,Hero,HumanTotem,MovingObject,NegativeSpellImmune,Object,SpellImmune,TransformImmune"
+          }
+        },
+        {
+          "Type": "ChangeCharacterEffect",
+          "Params": {
+            "CardId": 1405,
+            "Level": "-PowerSummonLevelAbs",
+            "LevelVariableId": "PowerSummonEnemyLevel",
+            "SimpleLevel": "+PowerSummonLevelAbs",
+            "SwitchUnitTeam": false
+          }
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "CardPlayed",
+        "Params": {
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false
+        }
+      },
+      "UniqueId": "1655_TransformHeroCastVFX",
+      "Nodes": [
+        {
+          "Type": "AllUnitsSelector",
+          "Params": {
+            "CanSelectTraps": false,
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterFriendsSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "Tags": "Boss"
+          }
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "HeroTransformCastOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "BoneName": "Projectile",
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false
+          }
+        }
+      ]
+    }
+  ],
+  "SameTeamCollisionRadiusMultiplier": 1.75,
+  "TechTree2": {
+    "Slots": [],
+    "Evolve": [
+      {
+        "StarLevel": 0,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerSummonLevelAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 1,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerSummonLevelAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 2,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerSummonLevelAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 3,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerSummonLevelAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 4,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerSummonLevelAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 5,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerSummonLevelAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "Requirements": {
+    "MinEpisodeCompleted": 3,
+    "MinPlayerLevel": 0,
+    "MinPVPRank": 15,
+    "MinPVPArena": 4
+  },
+  "AOEDamagePercentage": 0.0,
+  "AOERadius": 0.0,
+  "AOEAttackConeDegree": 0.0,
+  "AOEKnockbackPercentage": 0.0,
+  "PreAttackDelay": 0.0,
+  "CanCastOnLava": true,
+  "CastArea": "Anywhere",
+  "TechtreePatterns": {
+    "Upgrades": [],
+    "Evolutions": [
+      {
+        "EvoPatternType": 0,
+        "SlotType": "TechSlotPowerValueModifier",
+        "SlotProperty": "PowerSummonLevelAbs",
+        "SlotValue": "1",
+        "MaxMultiplier": "",
+        "PowerValue": "",
+        "Weighted": false,
+        "IgnoreEvoLvl": []
+      }
+    ]
+  },
+  "ChildUnitLimit": 0,
+  "SpineSkin": "",
+  "CastOverrideAnim": "",
+  "ColliderRadiusOverride": -1.0,
+  "AttackEffect": "",
+  "CheckAndRemoveFromDeckOnSpawn": false,
+  "ChargedPowerReticlePositionOffset": "",
+  "ChargedPowerReticleLockDirection": false
+}

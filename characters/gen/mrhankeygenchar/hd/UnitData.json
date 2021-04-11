@@ -1,0 +1,133 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 6021891448982082529
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": 8840783560862748320
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": -7589418191571285377
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": 5917006969502959380
+  },
+  "data": {
+    "sourceHeight": 0.4565698,
+    "sourceRadius": 0.10779389,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 3,
+          "name": "Attacking",
+          "duration": 1.2,
+          "durationTicks": 36,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Attack",
+              "time": 0.5,
+              "timeTicks": 15
+            },
+            {
+              "name": "Stain",
+              "time": 0.5,
+              "timeTicks": 15
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 2.0,
+          "durationTicks": 60,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Stain",
+              "time": 1.26666665,
+              "timeTicks": 38
+            }
+          ]
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.6,
+          "durationTicks": 18,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Stain",
+              "time": 0.4,
+              "timeTicks": 12
+            }
+          ]
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 1.0,
+          "durationTicks": 30,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 6,
+          "name": "EnteringLevel",
+          "duration": 1.8,
+          "durationTicks": 54,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Land",
+              "time": 0.2,
+              "timeTicks": 6
+            },
+            {
+              "name": "Stain",
+              "time": 0.2,
+              "timeTicks": 6
+            },
+            {
+              "name": "SpawnPower",
+              "time": 0.7,
+              "timeTicks": 21
+            },
+            {
+              "name": "Stain",
+              "time": 1.6,
+              "timeTicks": 48
+            }
+          ]
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.7,
+          "durationTicks": 21,
+          "loop": 1,
+          "triggers": [
+            {
+              "name": "Stain",
+              "time": 0.6,
+              "timeTicks": 18
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "MonocleGlasses",
+  "AssetId": "MonocleGlassesUI",
+  "Slot": "Glasses",
+  "Ingame": "MonocleGlasses",
+  "ItemId": 1593,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 13
+  }
+}

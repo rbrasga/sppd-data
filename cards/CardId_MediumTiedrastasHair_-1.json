@@ -1,0 +1,10 @@
+{
+  "Id": "MediumTiedrastasHair",
+  "AssetId": "MediumTiedrastasHairUI",
+  "Slot": "Hair",
+  "Ingame": "MediumTiedrastasHair",
+  "ItemId": 1552,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 16
+  }
+}

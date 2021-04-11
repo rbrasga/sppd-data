@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralPeacockShirt",
+  "AssetId": "NeutPeacockShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutPeacockShirtBodyGear",
+  "ItemId": 2104,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

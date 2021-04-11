@@ -1,0 +1,60 @@
+{
+  "Id": 1500,
+  "LevelId": "Level_Mys_7",
+  "Environment": "CityStreet_rich",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1708,
+      "Cards": [
+        {
+          "Id": 1708
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 7,
+  "LevelingStickers": {
+    "BaseStickers": 8,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 160,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 48,
+    "AddedHardDifficulty": 36
+  }
+}

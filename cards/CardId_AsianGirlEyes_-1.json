@@ -1,0 +1,10 @@
+{
+  "Id": "AsianGirlEyes",
+  "AssetId": "AsianGirlEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "AsianGirlEyes",
+  "ItemId": 1635,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

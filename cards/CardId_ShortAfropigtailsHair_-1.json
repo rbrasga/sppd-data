@@ -1,0 +1,10 @@
+{
+  "Id": "ShortAfropigtailsHair",
+  "AssetId": "ShortAfropigtailsHairUI",
+  "Slot": "Hair",
+  "Ingame": "ShortAfropigtailsHair",
+  "ItemId": 1792,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 9
+  }
+}

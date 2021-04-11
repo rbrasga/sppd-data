@@ -1,0 +1,10 @@
+{
+  "Id": "HenriettaEyes",
+  "AssetId": "HenriettaEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "HenriettaEyes",
+  "ItemId": 1784,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 5
+  }
+}

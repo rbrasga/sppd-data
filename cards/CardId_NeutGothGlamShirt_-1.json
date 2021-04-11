@@ -1,0 +1,11 @@
+{
+  "Id": "NeutGothGlamShirt",
+  "AssetId": "NeutGothGlamShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutGothGlamShirtBodyGear",
+  "ItemId": 2345,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

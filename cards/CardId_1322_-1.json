@@ -1,0 +1,265 @@
+{
+  "Id": 1322,
+  "SortIndex": 0,
+  "ExperienceReward": 5,
+  "LevelId": "Level_Forest_3",
+  "Environment": "CityStreet_4",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 23,
+      "Cards": [
+        {
+          "Id": 23
+        }
+      ],
+      "Deck": [],
+      "Characters": []
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {
+          "ItemType": "Card",
+          "Items": [
+            45
+          ],
+          "Rare": true
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "Sticker",
+          "Amount": 1,
+          "Theme": "Adv",
+          "StarLevel": 0,
+          "Rare": false
+        }
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {
+          "ItemType": "Card",
+          "Items": [
+            45
+          ],
+          "Rare": true
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "Sticker",
+          "Amount": 1,
+          "Theme": "Adv",
+          "StarLevel": 0,
+          "Rare": false
+        }
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {
+          "ItemType": "Card",
+          "Items": [
+            45
+          ],
+          "Rare": true
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "Sticker",
+          "Amount": 1,
+          "Theme": "Adv",
+          "StarLevel": 0,
+          "Rare": false
+        }
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {
+          "ItemType": "Card",
+          "Items": [
+            45
+          ],
+          "Rare": true
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 10,
+          "Rare": false
+        },
+        {
+          "ItemType": "Sticker",
+          "Amount": 1,
+          "Theme": "Adv",
+          "StarLevel": 0,
+          "Rare": false
+        }
+      ]
+    }
+  ],
+  "StickerCount": [
+    0,
+    6,
+    16,
+    30
+  ]
+}

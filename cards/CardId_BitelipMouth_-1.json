@@ -1,0 +1,10 @@
+{
+  "Id": "BitelipMouth",
+  "AssetId": "BitelipMouthUI",
+  "Slot": "Mouth",
+  "Ingame": "BitelipMouth",
+  "ItemId": 1624,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

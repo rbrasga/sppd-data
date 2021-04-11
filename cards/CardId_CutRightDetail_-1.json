@@ -1,0 +1,10 @@
+{
+  "Id": "CutRightDetail",
+  "AssetId": "CutRightDetailUI",
+  "Slot": "Detail",
+  "Ingame": "CutRightDetail",
+  "ItemId": 1561,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 12
+  }
+}

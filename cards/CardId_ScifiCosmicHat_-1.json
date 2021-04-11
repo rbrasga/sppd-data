@@ -1,0 +1,11 @@
+{
+  "Id": "ScifiCosmicHat",
+  "AssetId": "SciCosmicHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "SciCosmicHatHeadGear",
+  "ItemId": 2021,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

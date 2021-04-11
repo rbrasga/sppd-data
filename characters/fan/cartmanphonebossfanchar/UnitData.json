@@ -1,0 +1,109 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -9198525561833945718
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": -4631872925529214309
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": -2584067799516277649
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": -3604917924465197579
+  },
+  "data": {
+    "sourceHeight": 1.52436817,
+    "sourceRadius": 0.64862293,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 10,
+          "name": "BossEntrance",
+          "duration": 7.4,
+          "durationTicks": 0,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "BossName",
+              "time": 5.9,
+              "timeTicks": 0
+            }
+          ]
+        },
+        {
+          "state": 7,
+          "name": "CastCard",
+          "duration": 1.6,
+          "durationTicks": 0,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "CastCard",
+              "time": 0.4,
+              "timeTicks": 0
+            }
+          ]
+        },
+        {
+          "state": 8,
+          "name": "CastSpell",
+          "duration": 1.7,
+          "durationTicks": 0,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "CastCard",
+              "time": 0.4,
+              "timeTicks": 0
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 1.7,
+          "durationTicks": 0,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.5,
+          "durationTicks": 0,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 8.0,
+          "durationTicks": 0,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.4,
+          "durationTicks": 0,
+          "loop": 1,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

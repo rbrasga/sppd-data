@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralScientistHat",
+  "AssetId": "NeutScientistHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "NeutScientistHatHeadGear",
+  "ItemId": 1882,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 2,
+  "SilhouetteIfNotOwned": false
+}

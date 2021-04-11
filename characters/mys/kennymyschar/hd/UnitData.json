@@ -1,0 +1,101 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7205346955206362093
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": -2473380427344622474
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": 4232536706240943973
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": 7243039907399250972
+  },
+  "data": {
+    "sourceHeight": 1.29756773,
+    "sourceRadius": 0.497642219,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 3,
+          "name": "Attacking",
+          "duration": 1.4,
+          "durationTicks": 42,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Attack",
+              "time": 0.7,
+              "timeTicks": 21
+            }
+          ]
+        },
+        {
+          "state": 10,
+          "name": "BossEntrance",
+          "duration": 3.5,
+          "durationTicks": 105,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "BossName",
+              "time": 3.23333335,
+              "timeTicks": 97
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 3.33333325,
+          "durationTicks": 100,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "DeathPower",
+              "time": 0.6,
+              "timeTicks": 18
+            }
+          ]
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.7,
+          "durationTicks": 21,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 1.0,
+          "durationTicks": 30,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.266666681,
+          "durationTicks": 8,
+          "loop": 1,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

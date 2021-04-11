@@ -1,0 +1,10 @@
+{
+  "Id": "BeardPetitegoateeFacialHair",
+  "AssetId": "BeardPetitegoateeFacialHairUI",
+  "Slot": "FacialHair",
+  "Ingame": "BeardPetitegoateeFacialHair",
+  "ItemId": 1576,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Id": "FantasyElfetteShirt",
+  "AssetId": "FanElfetteShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "FanElfetteShirtBodyGear",
+  "ItemId": 2373,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

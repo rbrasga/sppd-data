@@ -1,0 +1,60 @@
+{
+  "Id": 1524,
+  "LevelId": "Level_Mys_11",
+  "Environment": "CityStreet_mall",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1514,
+      "Cards": [
+        {
+          "Id": 1514
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 8,
+  "LevelingStickers": {
+    "BaseStickers": 9,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 156,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 60,
+    "AddedHardDifficulty": 36
+  }
+}

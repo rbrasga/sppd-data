@@ -1,0 +1,10 @@
+{
+  "Id": "BlushDetail",
+  "AssetId": "BlushDetailUI",
+  "Slot": "Detail",
+  "Ingame": "BlushDetail",
+  "ItemId": 1668,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

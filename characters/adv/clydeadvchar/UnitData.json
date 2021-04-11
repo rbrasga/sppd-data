@@ -1,0 +1,43 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8096244615826357795
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": -2735138796447824272
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": 8799147073488825092
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": 4006482111588857269
+  },
+  "data": {
+    "sourceHeight": 1.30166566,
+    "sourceRadius": 0.5485933,
+    "bodyPositionX": 0.0263999831,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 1.0,
+          "durationTicks": 0,
+          "loop": 1,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

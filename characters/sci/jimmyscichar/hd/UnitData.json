@@ -1,0 +1,127 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -934807870488769349
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": 3989058454363062310
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": -6389208174925862863
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": 2801380464492038990
+  },
+  "data": {
+    "sourceHeight": 1.14618719,
+    "sourceRadius": 0.273521781,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [
+        "Trigger SoundStep time 0.1666667 for state: Walking does not match with other triggers. Animations of same state must have equal triggers with equal names and times",
+        "Trigger SoundStep time 0.3666667 for state: Walking does not match with other triggers. Animations of same state must have equal triggers with equal names and times",
+        "Trigger SoundStep time 0.5666667 for state: Walking does not match with other triggers. Animations of same state must have equal triggers with equal names and times",
+        "Trigger SoundStep time 0.7666667 for state: Walking does not match with other triggers. Animations of same state must have equal triggers with equal names and times",
+        "Triggers for state: Walking do not match. Animations of same state must have equal triggers with equal names and times"
+      ],
+      "animationItems": [
+        {
+          "state": 3,
+          "name": "Attacking",
+          "duration": 1.8,
+          "durationTicks": 54,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Attack",
+              "time": 0.6,
+              "timeTicks": 18
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 3.33333325,
+          "durationTicks": 100,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.5,
+          "durationTicks": 15,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 1.2,
+          "durationTicks": 36,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 6,
+          "name": "EnteringLevel",
+          "duration": 1.5,
+          "durationTicks": 45,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Land",
+              "time": 0.2,
+              "timeTicks": 6
+            },
+            {
+              "name": "SpawnPower",
+              "time": 0.8,
+              "timeTicks": 24
+            }
+          ]
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.8,
+          "durationTicks": 24,
+          "loop": 1,
+          "triggers": [
+            {
+              "name": "SoundStep",
+              "time": 0.06666667,
+              "timeTicks": 2
+            },
+            {
+              "name": "SoundStep",
+              "time": 0.266666681,
+              "timeTicks": 8
+            },
+            {
+              "name": "SoundStep",
+              "time": 0.466666669,
+              "timeTicks": 14
+            },
+            {
+              "name": "SoundStep",
+              "time": 0.6666667,
+              "timeTicks": 20
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

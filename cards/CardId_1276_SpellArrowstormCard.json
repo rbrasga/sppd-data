@@ -1,0 +1,303 @@
+{
+  "Id": 1276,
+  "Visible": true,
+  "Finalized": true,
+  "UnlockedDuringEvent": false,
+  "CanAttack": true,
+  "NameKey": "Arrowstorm",
+  "OasisNameOverride": "",
+  "OasisDescOverride": "",
+  "Image": "SpellArrowstormCard",
+  "Frame": "",
+  "ManaCost": 4,
+  "Damage": "4",
+  "Health": "30",
+  "Type": "Spell",
+  "IngameAssets": [
+    "EmptyPowerRet"
+  ],
+  "UIAssets": [
+    "SpellArrowstormCard"
+  ],
+  "Targeting": {
+    "AssetId": "EmptyPowerRet",
+    "Radius": 12.0
+  },
+  "CardUI": "SpellCardUI",
+  "Tags": [
+    "Adv",
+    "Epic",
+    "Spell"
+  ],
+  "Ingame": "",
+  "AttackRange": 0.4,
+  "TimeToReachMaxVelocity": 0.0,
+  "MaxVelocity": 2.0,
+  "TimeInBetweenAttacks": 0.0,
+  "AgroRangeMultiplier": 1.2,
+  "_notes": "",
+  "PhysicsProperties": {
+    "FrictionCoefficient": 0.0,
+    "RestingFriction": 0.0,
+    "BounceFactor": 0.0,
+    "Weight": 30.0
+  },
+  "KnockbackImpulse": "0.0000",
+  "KnockbackAngleDeg": 45.0,
+  "ChargedPowerRegen": 0.0,
+  "ChargedPowerRadius": 0.0,
+  "ChargedPowerReticle": "",
+  "Rarity": 2,
+  "Theme": "Adv",
+  "RetreatDistanceFactor": 0.0,
+  "RetreatVelocityFactor": 0.0,
+  "WalkingAnimationThresholdFactor": 0.0,
+  "TargetHeightFactor": 0.0,
+  "HealthBarOffset": 0.0,
+  "Pows": [
+    {
+      "Trigger": {
+        "Type": "CardPlayed",
+        "Params": {
+          "Delay": "0",
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false
+        }
+      },
+      "UniqueId": "ArrowstormSpell",
+      "Nodes": [
+        {
+          "Type": "PlayCardPositionSelector"
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "ArrowStormOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "BoneName": "Phone",
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false,
+            "SoundEvent": "PlayArrowstorm",
+            "SoundBankName": "SoundBank_Arrowstorm"
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "5.0"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "CardPlayed",
+        "Params": {
+          "Delay": "1.1",
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false
+        }
+      },
+      "UniqueId": "1276_Arrowstorm_1",
+      "Nodes": [
+        {
+          "Type": "AllUnitsSelector",
+          "Params": {
+            "CanSelectTraps": false,
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterEnemiesSelector"
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "ExcludeTags": "Boss,Hero,Invincible,NegativeSpellImmune,SpellImmune"
+          }
+        },
+        {
+          "Type": "DamageEffect",
+          "Params": {
+            "Amount": "112+PowerDamageAbs",
+            "AmountVariableId": "PowerDamage",
+            "HideDamage": false
+          }
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "CardPlayed",
+        "Params": {
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false
+        }
+      },
+      "UniqueId": "1276_Arrowstorm_2",
+      "Nodes": [
+        {
+          "Type": "AllUnitsSelector",
+          "Params": {
+            "CanSelectTraps": false,
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterFriendsSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "Tags": "Boss"
+          }
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "ArrowStormLaunchOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "BoneName": "Projectile",
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false
+          }
+        }
+      ]
+    }
+  ],
+  "SameTeamCollisionRadiusMultiplier": 1.75,
+  "TechTree2": {
+    "Slots": [],
+    "Evolve": [
+      {
+        "StarLevel": 0,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerDamageAbs",
+            "calculatedValue": 34.22222,
+            "value": 34.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 1,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerDamageAbs",
+            "calculatedValue": 102.666664,
+            "value": 103.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 2,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerDamageAbs",
+            "calculatedValue": 68.44444,
+            "value": 68.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 3,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerDamageAbs",
+            "calculatedValue": 34.22222,
+            "value": 34.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 4,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerDamageAbs",
+            "calculatedValue": 34.22222,
+            "value": 34.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 5,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerDamageAbs",
+            "calculatedValue": 34.22222,
+            "value": 34.0
+          }
+        ]
+      }
+    ]
+  },
+  "Requirements": {
+    "MinEpisodeCompleted": 0,
+    "MinPlayerLevel": 0,
+    "MinPVPRank": 10,
+    "MinPVPArena": 3
+  },
+  "AOEDamagePercentage": 0.0,
+  "AOERadius": 0.0,
+  "AOEAttackConeDegree": 0.0,
+  "AOEKnockbackPercentage": 0.0,
+  "PreAttackDelay": 0.0,
+  "CanCastOnLava": true,
+  "CastArea": "Anywhere",
+  "TechtreePatterns": {
+    "Upgrades": [],
+    "Evolutions": [
+      {
+        "EvoPatternType": 0,
+        "SlotType": "TechSlotPowerValueModifier",
+        "SlotProperty": "PowerDamageAbs",
+        "SlotValue": "",
+        "MaxMultiplier": "",
+        "PowerValue": "112",
+        "Weighted": true,
+        "IgnoreEvoLvl": []
+      }
+    ]
+  },
+  "ChildUnitLimit": 0,
+  "SpineSkin": "",
+  "CastOverrideAnim": "",
+  "ColliderRadiusOverride": -1.0,
+  "AttackEffect": "",
+  "CheckAndRemoveFromDeckOnSpawn": false,
+  "ChargedPowerReticlePositionOffset": "",
+  "ChargedPowerReticleLockDirection": false
+}

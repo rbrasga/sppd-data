@@ -1,0 +1,10 @@
+{
+  "Id": "BloodDetail",
+  "AssetId": "BloodDetailUI",
+  "Slot": "Detail",
+  "Ingame": "BloodDetail",
+  "ItemId": 1769,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 9
+  }
+}

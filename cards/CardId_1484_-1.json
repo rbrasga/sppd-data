@@ -1,0 +1,39 @@
+{
+  "Id": 1484,
+  "SortIndex": 0,
+  "ExperienceReward": 0,
+  "LevelId": "LevelD_Adv_2",
+  "Environment": "ChinaTown",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 75,
+      "Cards": [
+        {
+          "Id": 75
+        }
+      ],
+      "Deck": [],
+      "Characters": []
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": []
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": []
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": []
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": []
+    }
+  ]
+}

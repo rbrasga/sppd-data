@@ -1,0 +1,296 @@
+{
+  "Id": 1273,
+  "Visible": true,
+  "Finalized": true,
+  "UnlockedDuringEvent": false,
+  "CanAttack": true,
+  "NameKey": "Purity",
+  "OasisNameOverride": "",
+  "OasisDescOverride": "",
+  "Image": "SpellPurityCard",
+  "Frame": "",
+  "ManaCost": 2,
+  "Damage": "4",
+  "Health": "30",
+  "Type": "Spell",
+  "IngameAssets": [
+    "CleansePowerRet"
+  ],
+  "UIAssets": [
+    "SpellPurityCard"
+  ],
+  "Targeting": {
+    "AssetId": "CleansePowerRet",
+    "Radius": 1.3
+  },
+  "CardUI": "SpellCardUI",
+  "Tags": [
+    "Common",
+    "Mys",
+    "Spell"
+  ],
+  "Ingame": "",
+  "AttackRange": 0.4,
+  "TimeToReachMaxVelocity": 0.0,
+  "MaxVelocity": 2.0,
+  "TimeInBetweenAttacks": 0.0,
+  "AgroRangeMultiplier": 1.2,
+  "_notes": "",
+  "PhysicsProperties": {
+    "FrictionCoefficient": 0.0,
+    "RestingFriction": 0.0,
+    "BounceFactor": 0.0,
+    "Weight": 30.0
+  },
+  "KnockbackImpulse": "0.0000",
+  "KnockbackAngleDeg": 45.0,
+  "ChargedPowerRegen": 0.0,
+  "ChargedPowerRadius": 0.0,
+  "ChargedPowerReticle": "",
+  "Rarity": 0,
+  "Theme": "Mys",
+  "RetreatDistanceFactor": 0.0,
+  "RetreatVelocityFactor": 0.0,
+  "WalkingAnimationThresholdFactor": 0.0,
+  "TargetHeightFactor": 0.0,
+  "HealthBarOffset": 0.0,
+  "Pows": [
+    {
+      "Trigger": {
+        "Type": "CardPlayed",
+        "Params": {
+          "Delay": "0.5",
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false
+        }
+      },
+      "UniqueId": "CleansingRainSpell_Target",
+      "Nodes": [
+        {
+          "Type": "PlayCardPositionSelector"
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "CleansingRainGlobalPowerFX",
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false,
+            "SoundEvent": "PlayPurifyFX",
+            "SoundBankName": "SoundBank_Purify"
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "3"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "NearestUnitsSelector",
+          "Params": {
+            "CanSelectAnyUnits": false,
+            "MaximumDistance": "1.3+PowerRangeAbs",
+            "MaximumDistanceVariableId": "PowerRange",
+            "Side": "Both",
+            "ExcludeTags": "Object,PurifyImmune,SpellImmune",
+            "IncludeCaster": false,
+            "CanSelectTraps": false
+          }
+        },
+        {
+          "Type": "DeactivateEffect",
+          "Params": {
+            "EffectImpact": "Negative"
+          }
+        },
+        {
+          "Type": "DeactivateEffect",
+          "Params": {
+            "EffectImpact": "Positive"
+          }
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "StarCleanseOncePowerFX",
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false,
+            "SoundEvent": "PlayPurifyUnitGlow",
+            "SoundBankName": "SoundBank_Purify"
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "4.0"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "CardPlayed",
+        "Params": {
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false
+        }
+      },
+      "UniqueId": "1273_Purity_CasterVFX",
+      "Nodes": [
+        {
+          "Type": "AllUnitsSelector",
+          "Params": {
+            "CanSelectTraps": false
+          }
+        },
+        {
+          "Type": "FilterFriendsSelector"
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "Tags": "Boss"
+          }
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "PurityLaunchOncePowerFX",
+            "BoneName": "Projectile",
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false
+          }
+        }
+      ]
+    }
+  ],
+  "SameTeamCollisionRadiusMultiplier": 1.75,
+  "TechTree2": {
+    "Slots": [],
+    "Evolve": [
+      {
+        "StarLevel": 0,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerRangeAbs",
+            "calculatedValue": 0.05,
+            "value": 0.05
+          }
+        ]
+      },
+      {
+        "StarLevel": 1,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerRangeAbs",
+            "calculatedValue": 0.05,
+            "value": 0.05
+          }
+        ]
+      },
+      {
+        "StarLevel": 2,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerRangeAbs",
+            "calculatedValue": 0.05,
+            "value": 0.05
+          }
+        ]
+      },
+      {
+        "StarLevel": 3,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerRangeAbs",
+            "calculatedValue": 0.05,
+            "value": 0.05
+          }
+        ]
+      },
+      {
+        "StarLevel": 4,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerRangeAbs",
+            "calculatedValue": 0.05,
+            "value": 0.05
+          }
+        ]
+      },
+      {
+        "StarLevel": 5,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerRangeAbs",
+            "calculatedValue": 0.05,
+            "value": 0.05
+          }
+        ]
+      }
+    ]
+  },
+  "Requirements": {
+    "MinEpisodeCompleted": 3,
+    "MinPlayerLevel": 0,
+    "MinPVPRank": 10,
+    "MinPVPArena": 3
+  },
+  "AOEDamagePercentage": 0.0,
+  "AOERadius": 0.0,
+  "AOEKnockbackPercentage": 0.0,
+  "PreAttackDelay": 0.0,
+  "CanCastOnLava": true,
+  "CastArea": "Anywhere",
+  "TechtreePatterns": {
+    "Upgrades": [],
+    "Evolutions": [
+      {
+        "EvoPatternType": 0,
+        "SlotType": "TechSlotPowerValueModifier",
+        "SlotProperty": "PowerRangeAbs",
+        "SlotValue": "0.05",
+        "MaxMultiplier": "",
+        "PowerValue": "1.3",
+        "Weighted": false,
+        "IgnoreEvoLvl": []
+      }
+    ]
+  },
+  "ChildUnitLimit": 0,
+  "SpineSkin": "",
+  "CastOverrideAnim": "",
+  "ColliderRadiusOverride": -1.0,
+  "AttackEffect": "",
+  "CheckAndRemoveFromDeckOnSpawn": false
+}

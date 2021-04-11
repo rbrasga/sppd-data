@@ -1,0 +1,10 @@
+{
+  "Id": "AnnoyedEyebrows",
+  "AssetId": "AnnoyedEyebrowsUI",
+  "Slot": "Eyebrows",
+  "Ingame": "AnnoyedEyebrows",
+  "ItemId": 1774,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 8
+  }
+}

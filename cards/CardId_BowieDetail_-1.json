@@ -1,0 +1,10 @@
+{
+  "Id": "BowieDetail",
+  "AssetId": "BowieDetailUI",
+  "Slot": "Detail",
+  "Ingame": "BowieDetail",
+  "ItemId": 1770,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 11
+  }
+}

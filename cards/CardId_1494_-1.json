@@ -1,0 +1,60 @@
+{
+  "Id": 1494,
+  "LevelId": "Level_Mys_1",
+  "Environment": "Forest_street",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1724,
+      "Cards": [
+        {
+          "Id": 1724
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 6,
+  "LevelingStickers": {
+    "BaseStickers": 5,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 92,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": -4,
+    "AddedHardDifficulty": 36
+  }
+}

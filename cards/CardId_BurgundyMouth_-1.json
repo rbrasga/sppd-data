@@ -1,0 +1,10 @@
+{
+  "Id": "BurgundyMouth",
+  "AssetId": "BurgundyMouthUI",
+  "Slot": "Mouth",
+  "Ingame": "BurgundyMouth",
+  "ItemId": 1796,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralDandelionShirt",
+  "AssetId": "NeutDandelionShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutDandelionShirtBodyGear",
+  "ItemId": 2332,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

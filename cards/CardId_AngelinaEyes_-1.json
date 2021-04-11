@@ -1,0 +1,10 @@
+{
+  "Id": "AngelinaEyes",
+  "AssetId": "AngelinaEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "AngelinaEyes",
+  "ItemId": 1781,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 4
+  }
+}

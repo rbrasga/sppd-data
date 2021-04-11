@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralValentinesDressShirt",
+  "AssetId": "NeutValentinesDressShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutValentinesDressShirtBodyGear",
+  "ItemId": 1932,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "PuzzledEyebrows",
+  "AssetId": "PuzzledEyebrowsUI",
+  "Slot": "Eyebrows",
+  "Ingame": "PuzzledEyebrows",
+  "ItemId": 1565,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

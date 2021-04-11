@@ -1,0 +1,10 @@
+{
+  "Id": "RandyEyebrows",
+  "AssetId": "RandyEyebrowsUI",
+  "Slot": "Eyebrows",
+  "Ingame": "RandyEyebrows",
+  "ItemId": 1777,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 9
+  }
+}

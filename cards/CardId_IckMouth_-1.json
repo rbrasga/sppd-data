@@ -1,0 +1,11 @@
+{
+  "Id": "IckMouth",
+  "AssetId": "IckMouthUI",
+  "Slot": "Mouth",
+  "Ingame": "IckMouth",
+  "ItemId": 1541,
+  "UnlockRequirements": 
+  {
+    "MinPlayerLevel": 1
+  }
+}

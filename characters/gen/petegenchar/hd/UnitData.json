@@ -1,0 +1,81 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4156582121285854540
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": -8869784468242180440
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": 4984916082014970288
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": 7020614897467165474
+  },
+  "data": {
+    "sourceHeight": 1.2286607,
+    "sourceRadius": 0.381077945,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 3,
+          "name": "Attacking",
+          "duration": 2.3,
+          "durationTicks": 69,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Attack",
+              "time": 1.6,
+              "timeTicks": 48
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 1.8,
+          "durationTicks": 54,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.7,
+          "durationTicks": 21,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 1.6,
+          "durationTicks": 48,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.266666681,
+          "durationTicks": 8,
+          "loop": 1,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

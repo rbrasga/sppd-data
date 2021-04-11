@@ -1,0 +1,60 @@
+{
+  "Id": 1512,
+  "LevelId": "Level_Fan_9",
+  "Environment": "CityStreet_tweek",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1530,
+      "Cards": [
+        {
+          "Id": 1530
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 10,
+  "LevelingStickers": {
+    "BaseStickers": 14,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 216,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 120,
+    "AddedHardDifficulty": 36
+  }
+}

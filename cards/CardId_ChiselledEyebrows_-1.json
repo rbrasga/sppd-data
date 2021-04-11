@@ -1,0 +1,10 @@
+{
+  "Id": "ChiselledEyebrows",
+  "AssetId": "ChiselledEyebrowsUI",
+  "Slot": "Eyebrows",
+  "Ingame": "ChiselledEyebrows",
+  "ItemId": 1776,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 3
+  }
+}

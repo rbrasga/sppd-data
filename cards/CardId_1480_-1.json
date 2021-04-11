@@ -1,0 +1,39 @@
+{
+  "Id": 1480,
+  "SortIndex": 0,
+  "ExperienceReward": 0,
+  "LevelId": "LevelD_Scifi_3",
+  "Environment": "CityStreet_10",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1444,
+      "Cards": [
+        {
+          "Id": 1444
+        }
+      ],
+      "Deck": [],
+      "Characters": []
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": []
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": []
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": []
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": []
+    }
+  ]
+}

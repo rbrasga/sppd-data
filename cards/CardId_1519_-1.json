@@ -1,0 +1,60 @@
+{
+  "Id": 1519,
+  "LevelId": "Level_Fan_16",
+  "Environment": "Forest_lake",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1725,
+      "Cards": [
+        {
+          "Id": 1725
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 12,
+  "LevelingStickers": {
+    "BaseStickers": 17,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 252,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 156,
+    "AddedHardDifficulty": 36
+  }
+}

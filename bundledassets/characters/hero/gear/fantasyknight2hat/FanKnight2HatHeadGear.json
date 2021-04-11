@@ -1,0 +1,1270 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6140362683068752140
+  },
+  "m_Name": "FanKnight2HatHeadGear",
+  "gearType": 0,
+  "gearSlots": [
+    {
+      "slot": 0,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 1,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 2,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 3,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 1905586500460943402
+      }
+    },
+    {
+      "slot": 4,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": -5674618041991254384
+      }
+    },
+    {
+      "slot": 5,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 2822296880558765983
+      }
+    },
+    {
+      "slot": 6,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 7,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 8,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 9,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 10,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 11,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 12,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 13,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 14,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 15,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 16,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 17,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 18,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 19,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 20,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 21,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 22,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 23,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 24,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 25,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 26,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 27,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 28,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 29,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 30,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 31,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 32,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 33,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 34,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 35,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 36,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 37,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 38,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 39,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 40,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 41,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 42,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 43,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 44,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 45,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 46,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 47,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 48,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 49,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 50,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 51,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 52,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 53,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 54,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 55,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 56,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 57,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 58,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 59,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 60,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 61,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 62,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 63,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 64,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 65,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 66,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 67,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 68,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 69,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 70,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 71,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 72,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 2822296880558765983
+      }
+    },
+    {
+      "slot": 73,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 74,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 75,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 76,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 77,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 78,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": -7555042300810947345
+      }
+    },
+    {
+      "slot": 79,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 80,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 81,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 82,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 83,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 84,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 85,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 86,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 87,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ],
+  "colorA": {
+    "r": 0.882352948,
+    "g": 0.882352948,
+    "b": 0.882352948,
+    "a": 1.0
+  },
+  "colorB": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "altGearSlots": [
+    {
+      "slot": 0,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 1,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 2,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 3,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 4,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 5,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 6,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 7,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 8,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 9,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 10,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 11,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 12,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 13,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 14,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 15,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 16,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 17,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 18,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 19,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 20,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 21,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 22,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 23,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 24,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 25,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 26,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 27,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 28,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 29,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 30,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 31,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 32,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 33,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 34,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 35,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 36,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 37,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 38,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 39,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 40,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 41,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 42,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 43,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 44,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 45,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 46,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 47,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 48,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 49,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 50,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 51,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 52,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 53,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 54,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 55,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 56,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 57,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 58,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 59,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 60,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 61,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 62,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 63,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 64,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 65,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 66,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 67,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 68,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 69,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 70,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 71,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 72,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 73,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 74,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 75,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 76,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 77,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 78,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 79,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 80,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 81,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 82,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 83,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 84,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 85,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 86,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    },
+    {
+      "slot": 87,
+      "sprite": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      }
+    }
+  ],
+  "toggleAltHear": 1,
+  "mannequinMaskUnused": 0,
+  "maskBits": 11,
+  "uiGraphicBounds": {
+    "x": 225.5,
+    "y": 265.5,
+    "width": 247.0,
+    "height": 339.0
+  }
+}

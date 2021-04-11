@@ -1,0 +1,60 @@
+{
+  "Id": 1514,
+  "LevelId": "Level_Fan_11",
+  "Environment": "Forest_street",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1723,
+      "Cards": [
+        {
+          "Id": 1723
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 11,
+  "LevelingStickers": {
+    "BaseStickers": 15,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 212,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 116,
+    "AddedHardDifficulty": 36
+  }
+}

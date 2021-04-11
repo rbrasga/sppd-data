@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralDrBadShirt",
+  "AssetId": "NeutDrBadShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutDrBadShirtBodyGear",
+  "ItemId": 2139,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

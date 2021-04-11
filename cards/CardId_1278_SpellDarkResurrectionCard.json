@@ -1,0 +1,227 @@
+{
+  "Id": 1278,
+  "Visible": false,
+  "Finalized": true,
+  "UnlockedDuringEvent": false,
+  "CanAttack": true,
+  "NameKey": "Dark Resurrection",
+  "OasisNameOverride": "",
+  "OasisDescOverride": "",
+  "Image": "SpellDarkResurrectionCard",
+  "Frame": "",
+  "ManaCost": 5,
+  "Damage": "4",
+  "Health": "30",
+  "Type": "Spell",
+  "IngameAssets": [
+    "TotemAuraPowerRet"
+  ],
+  "UIAssets": [
+    "SpellDarkResurrectionCard"
+  ],
+  "Targeting": {
+    "AssetId": "TotemAuraPowerRet",
+    "Radius": 0.0
+  },
+  "CardUI": "SpellCardUI",
+  "Tags": [
+    "Mys",
+    "Rare",
+    "Spell"
+  ],
+  "Ingame": "",
+  "AttackRange": 0.4,
+  "TimeToReachMaxVelocity": 0.0,
+  "MaxVelocity": 2.0,
+  "TimeInBetweenAttacks": 0.0,
+  "AgroRangeMultiplier": 1.2,
+  "_notes": "yes this damages hero right now but its not supposed to in the new effect system",
+  "PhysicsProperties": {
+    "FrictionCoefficient": 0.0,
+    "RestingFriction": 0.0,
+    "BounceFactor": 0.0,
+    "Weight": 30.0
+  },
+  "KnockbackImpulse": "20.0000",
+  "KnockbackAngleDeg": 45.0,
+  "ChargedPowerRegen": 0.0,
+  "ChargedPowerRadius": 0.0,
+  "ChargedPowerReticle": "",
+  "Rarity": 1,
+  "Theme": "Mys",
+  "RetreatDistanceFactor": 0.0,
+  "RetreatVelocityFactor": 0.0,
+  "WalkingAnimationThresholdFactor": 0.0,
+  "TargetHeightFactor": 0.0,
+  "HealthBarOffset": 0.0,
+  "Pows": [
+    {
+      "Trigger": {
+        "Type": "CardPlayed",
+        "Params": {
+          "Delay": "1.6",
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false
+        }
+      },
+      "UniqueId": "1278_Resurrection",
+      "Nodes": [
+        {
+          "Type": "PlayCardPositionSelector"
+        },
+        {
+          "Type": "ReviveEffect",
+          "Params": {
+            "Amount": "1",
+            "AmountVariableId": "PowerSummonAmount",
+            "Level": "1+PowerSummonLevelAbs",
+            "LevelVariableId": "PowerSummonLevel",
+            "OnSpot": false,
+            "Side": "Friendly",
+            "ExcludeTags": "Boss,HumanTotem,MovingObject,Object,ResurrectImmune,SpellImmune"
+          }
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "CardPlayed",
+        "Params": {
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false
+        }
+      },
+      "UniqueId": "1278_VFX",
+      "Nodes": [
+        {
+          "Type": "PlayCardPositionSelector"
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "DarkResurrectionTargetPowerFX",
+            "OwnerTeamOnly": false,
+            "SoundEvent": "PlayDarkResurrection",
+            "SoundBankName": "SoundBank_DarkResurrection"
+          }
+        }
+      ]
+    }
+  ],
+  "SameTeamCollisionRadiusMultiplier": 1.75,
+  "TechTree2": {
+    "Slots": [],
+    "Evolve": [
+      {
+        "StarLevel": 0,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerSummonLevelAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 1,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerSummonLevelAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 2,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerSummonLevelAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 3,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerSummonLevelAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 4,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerSummonLevelAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 5,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerSummonLevelAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "Requirements": {
+    "MinEpisodeCompleted": 6,
+    "MinPlayerLevel": 0,
+    "MinPVPRank": 0,
+    "MinPVPArena": 0
+  },
+  "AOEDamagePercentage": 0.0,
+  "AOERadius": 0.0,
+  "AOEKnockbackPercentage": 0.0,
+  "PreAttackDelay": 0.0,
+  "CanCastOnLava": false,
+  "CastArea": "OwnSide",
+  "TechtreePatterns": {
+    "Upgrades": [],
+    "Evolutions": [
+      {
+        "EvoPatternType": 0,
+        "SlotType": "TechSlotPowerValueModifier",
+        "SlotProperty": "PowerSummonLevelAbs",
+        "SlotValue": "1",
+        "MaxMultiplier": "",
+        "PowerValue": "",
+        "Weighted": false,
+        "IgnoreEvoLvl": []
+      }
+    ]
+  },
+  "ChildUnitLimit": 0,
+  "SpineSkin": "",
+  "ColliderRadiusOverride": -1.0,
+  "CheckAndRemoveFromDeckOnSpawn": false
+}

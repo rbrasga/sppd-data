@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralSafetyVestShirt",
+  "AssetId": "NeutSafetyVestShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutSafetyVestShirtBodyGear",
+  "ItemId": 2100,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

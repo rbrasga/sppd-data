@@ -1,0 +1,81 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1935085464775732320
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": -6881483061260044319
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": -2302869721161882769
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": 4853566382757164407
+  },
+  "data": {
+    "sourceHeight": 2.0523057,
+    "sourceRadius": 0.8788539,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 1.49264038,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 2.8,
+          "durationTicks": 84,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.7,
+          "durationTicks": 21,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 0.8,
+          "durationTicks": 24,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 5,
+          "name": "SuperPower",
+          "duration": 1.66666663,
+          "durationTicks": 50,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "SuperPower",
+              "time": 0.7,
+              "timeTicks": 21
+            }
+          ]
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.533333361,
+          "durationTicks": 16,
+          "loop": 1,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

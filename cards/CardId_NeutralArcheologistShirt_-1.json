@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralArcheologistShirt",
+  "AssetId": "NeutArcheologistShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutArcheologistShirtBodyGear",
+  "ItemId": 2240,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "BeardKlingonFacialHair",
+  "AssetId": "BeardKlingonFacialHairUI",
+  "Slot": "FacialHair",
+  "Ingame": "BeardKlingonFacialHair",
+  "ItemId": 1574,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 14
+  }
+}

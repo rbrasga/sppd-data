@@ -1,0 +1,11 @@
+{
+  "Id": "OpenMouth",
+  "AssetId": "OpenMouthUI",
+  "Slot": "Mouth",
+  "Ingame": "OpenMouth",
+  "ItemId": 1553,
+  "UnlockRequirements": 
+  {
+    "MinPlayerLevel": 1
+  }
+}

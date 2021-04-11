@@ -1,0 +1,10 @@
+{
+  "Id": "DefaultMouth",
+  "AssetId": "DefaultMouthUI",
+  "Slot": "Mouth",
+  "Ingame": "DefaultMouth",
+  "ItemId": 1555,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "MalcomxGlasses",
+  "AssetId": "MalcomxGlassesUI",
+  "Slot": "Glasses",
+  "Ingame": "MalcomxGlasses",
+  "ItemId": 1592,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 14
+  }
+}

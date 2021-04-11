@@ -1,0 +1,27 @@
+{
+  "Id": 1401,
+  "LevelId": "Level_Adv_8",
+  "Environment": "CityStreet_6",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 70,
+      "Cards": [
+        {
+          "Id": 70
+        }
+      ]
+    }
+  ],
+  "Rewards": [],
+  "EpisodeIndex": 2,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 16,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": -80,
+    "AddedHardDifficulty": 36
+  }
+}

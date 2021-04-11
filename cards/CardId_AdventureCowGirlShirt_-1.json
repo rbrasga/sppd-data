@@ -1,0 +1,11 @@
+{
+  "Id": "AdventureCowGirlShirt",
+  "AssetId": "AdvCowGirlShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "AdvCowgirlShirtBodyGear",
+  "ItemId": 1856,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 2,
+  "SilhouetteIfNotOwned": false
+}

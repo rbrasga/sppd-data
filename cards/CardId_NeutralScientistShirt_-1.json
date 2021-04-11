@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralScientistShirt",
+  "AssetId": "NeutScientistShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutScientistShirtBodyGear",
+  "ItemId": 1880,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

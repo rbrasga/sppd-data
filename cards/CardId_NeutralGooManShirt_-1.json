@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralGooManShirt",
+  "AssetId": "NeutGooManShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutGooManShirtBodyGear",
+  "ItemId": 2236,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

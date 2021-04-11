@@ -1,0 +1,96 @@
+{
+  "Id": 1539,
+  "LevelId": "MP_China2",
+  "Environment": "ChinaTown_PVP2",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1,
+      "Cards": [
+        {
+          "Id": 1
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 750
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 500
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 250
+        }
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 750
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 500
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 250
+        }
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 750
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 500
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 250
+        }
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 750
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 500
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 250
+        }
+      ]
+    }
+  ],
+  "EpisodeIndex": 0,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 0,
+    "BaseEasyDifficulty": 0,
+    "AddedEasyDifficulty": 0,
+    "BaseHardDifficulty": 0,
+    "AddedHardDifficulty": 0
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7951347698785465374
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": -328155413166467570
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": 4973985190793316939
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": -1171482336117725762
+  },
+  "data": {
+    "sourceHeight": 2.26307559,
+    "sourceRadius": 0.373536766,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 3,
+          "name": "Attacking",
+          "duration": 1.8,
+          "durationTicks": 54,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Attack",
+              "time": 0.3,
+              "timeTicks": 9
+            }
+          ]
+        },
+        {
+          "state": 10,
+          "name": "BossEntrance",
+          "duration": 4.16666651,
+          "durationTicks": 125,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "BossName",
+              "time": 4.0666666,
+              "timeTicks": 122
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 3.6,
+          "durationTicks": 108,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.766666651,
+          "durationTicks": 23,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 1.0,
+          "durationTicks": 30,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 5,
+          "name": "SuperPower",
+          "duration": 3.0,
+          "durationTicks": 90,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "SuperPower",
+              "time": 1.4,
+              "timeTicks": 42
+            }
+          ]
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.266666681,
+          "durationTicks": 8,
+          "loop": 1,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

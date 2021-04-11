@@ -1,0 +1,11 @@
+{
+  "Id": "MysticalGenieShirt",
+  "AssetId": "MysGenieShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "MysGenieShirtBodyGear",
+  "ItemId": 1294,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

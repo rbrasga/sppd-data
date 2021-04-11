@@ -1,0 +1,406 @@
+{
+  "Id": 1472,
+  "Visible": true,
+  "Finalized": true,
+  "UnlockedDuringEvent": false,
+  "CanAttack": true,
+  "NameKey": "Cock Magic",
+  "OasisNameOverride": "",
+  "OasisDescOverride": "DF_DESC_COCKMAGIC2",
+  "Image": "SpellCockMagicCard",
+  "Frame": "",
+  "ManaCost": 6,
+  "Damage": "4",
+  "Health": "30",
+  "Type": "Spell",
+  "IngameAssets": [
+    "DebuffPowerRet"
+  ],
+  "UIAssets": [
+    "SpellCockMagicCard"
+  ],
+  "Targeting": {
+    "AssetId": "DebuffPowerRet",
+    "Radius": 1.0
+  },
+  "CardUI": "SpellCardUI",
+  "Tags": [
+    "Epic",
+    "Fan",
+    "Spell"
+  ],
+  "Ingame": "",
+  "AttackRange": 0.4,
+  "TimeToReachMaxVelocity": 0.0,
+  "MaxVelocity": 2.0,
+  "TimeInBetweenAttacks": 0.0,
+  "AgroRangeMultiplier": 1.2,
+  "_notes": "",
+  "PhysicsProperties": {
+    "FrictionCoefficient": 0.0,
+    "RestingFriction": 0.0,
+    "BounceFactor": 0.0,
+    "Weight": 30.0
+  },
+  "KnockbackImpulse": "0.0000",
+  "KnockbackAngleDeg": 45.0,
+  "ChargedPowerRegen": 0.0,
+  "ChargedPowerRadius": 0.0,
+  "ChargedPowerReticle": "",
+  "Rarity": 2,
+  "Theme": "Fan",
+  "RetreatDistanceFactor": 0.0,
+  "RetreatVelocityFactor": 0.0,
+  "WalkingAnimationThresholdFactor": 0.0,
+  "TargetHeightFactor": 0.0,
+  "HealthBarOffset": 0.0,
+  "Pows": [
+    {
+      "Trigger": {
+        "Type": "CardPlayed",
+        "Params": {
+          "Delay": "0.3",
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false
+        }
+      },
+      "UniqueId": "cockmagic",
+      "Nodes": [
+        {
+          "Type": "AllUnitsSelector",
+          "Params": {
+            "CanSelectTraps": false,
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "ExcludeTags": "Boss,Cock,HumanTotem,MovingObject,NegativeSpellImmune,Object,SpellImmune,TransformImmune"
+          }
+        },
+        {
+          "Type": "RandomUnitsSelector",
+          "Params": {
+            "Amount": "2+PowerTargetAbs",
+            "AmountVariableId": "PowerTargetAmount",
+            "HideSelectionVisualization": true,
+            "CanSelectTraps": false
+          }
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "CockMagicOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false,
+            "SoundEvent": "PlayCockmagic",
+            "SoundBankName": "SoundBank_Cockmagic"
+          }
+        },
+        {
+          "Type": "AddTagsEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "Tags": "ResurrectImmune",
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "ChangeCharacterEffect",
+          "Params": {
+            "CardId": 1456,
+            "Delay": "0",
+            "SwitchUnitTeam": false
+          }
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "CardPlayed",
+        "Params": {
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false
+        }
+      },
+      "UniqueId": "1472_Cock Magic_1",
+      "Nodes": [
+        {
+          "Type": "AllUnitsSelector",
+          "Params": {
+            "CanSelectTraps": false,
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterFriendsSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "Tags": "Boss"
+          }
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "CockMagicSpellcastGlobalOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "BoneName": "Phone",
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false
+          }
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "CardPlayed",
+        "Params": {
+          "Delay": "0.5",
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false
+        }
+      },
+      "UniqueId": "1472_Cock Magic_2",
+      "Nodes": [
+        {
+          "Type": "AllUnitsSelector",
+          "Params": {
+            "CanSelectTraps": false,
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterFriendsSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "Tags": "Cock",
+            "ExcludeTags": "AttackchangeImmune"
+          }
+        },
+        {
+          "Type": "AttackBoostEffect",
+          "EffectImpact": "Positive",
+          "Params": {
+            "Add": "20+PowerAttackBoostAbs",
+            "AddVariableId": "PowerAttackBoost",
+            "HideIcon": false
+          }
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Positive",
+          "Params": {
+            "AssetId": "BoostAttackPowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false
+          }
+        }
+      ]
+    }
+  ],
+  "SameTeamCollisionRadiusMultiplier": 1.75,
+  "TechTree2": {
+    "Slots": [],
+    "Evolve": [
+      {
+        "StarLevel": 0,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerTargetAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerAttackBoostAbs",
+            "calculatedValue": 6.111111,
+            "value": 6.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 1,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerTargetAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerAttackBoostAbs",
+            "calculatedValue": 18.333334,
+            "value": 18.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 2,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerTargetAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerAttackBoostAbs",
+            "calculatedValue": 12.2222223,
+            "value": 12.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 3,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerTargetAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerAttackBoostAbs",
+            "calculatedValue": 6.111111,
+            "value": 6.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 4,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerTargetAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerAttackBoostAbs",
+            "calculatedValue": 6.111111,
+            "value": 6.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 5,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerTargetAbs",
+            "calculatedValue": 1.0,
+            "value": 1.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerAttackBoostAbs",
+            "calculatedValue": 6.111111,
+            "value": 6.0
+          }
+        ]
+      }
+    ]
+  },
+  "Requirements": {
+    "MinEpisodeCompleted": 3,
+    "MinPlayerLevel": 0,
+    "MinPVPRank": 20,
+    "MinPVPArena": 5
+  },
+  "AOEDamagePercentage": 0.0,
+  "AOERadius": 0.0,
+  "AOEAttackConeDegree": 0.0,
+  "AOEKnockbackPercentage": 0.0,
+  "PreAttackDelay": 0.0,
+  "CanCastOnLava": true,
+  "CastArea": "Anywhere",
+  "TechtreePatterns": {
+    "Upgrades": [],
+    "Evolutions": [
+      {
+        "EvoPatternType": 0,
+        "SlotType": "TechSlotPowerValueModifier",
+        "SlotProperty": "PowerTargetAbs",
+        "SlotValue": "1",
+        "MaxMultiplier": "",
+        "PowerValue": "2",
+        "Weighted": false,
+        "IgnoreEvoLvl": []
+      },
+      {
+        "EvoPatternType": 0,
+        "SlotType": "TechSlotPowerValueModifier",
+        "SlotProperty": "PowerAttackBoostAbs",
+        "SlotValue": "",
+        "MaxMultiplier": "",
+        "PowerValue": "20",
+        "Weighted": true,
+        "IgnoreEvoLvl": []
+      }
+    ]
+  },
+  "ChildUnitLimit": 0,
+  "SpineSkin": "",
+  "CastOverrideAnim": "",
+  "ColliderRadiusOverride": -1.0,
+  "AttackEffect": "",
+  "CheckAndRemoveFromDeckOnSpawn": false,
+  "ChargedPowerReticlePositionOffset": "",
+  "ChargedPowerReticleLockDirection": false
+}

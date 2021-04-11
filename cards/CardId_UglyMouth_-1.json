@@ -1,0 +1,10 @@
+{
+  "Id": "UglyMouth",
+  "AssetId": "UglyMouthUI",
+  "Slot": "Mouth",
+  "Ingame": "UglyMouth",
+  "ItemId": 1803,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 10
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "SneezeEyes",
+  "AssetId": "SneezeEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "SneezeEyes",
+  "ItemId": 1789,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 11
+  }
+}

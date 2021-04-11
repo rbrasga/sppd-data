@@ -1,0 +1,11 @@
+{
+  "Id": "CrateSoapboxGolden",
+  "AssetId": "GoldenBoxSkinUI",
+  "Slot": "BoxSkin",
+  "Ingame": "GoldenBoxSkinPF",
+  "ItemId": 2212,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": true
+}

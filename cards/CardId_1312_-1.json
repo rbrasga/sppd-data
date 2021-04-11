@@ -1,0 +1,44 @@
+{
+  "Id": 1312,
+  "LevelId": "Level_Adv_5",
+  "Environment": "CityStreet",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 56,
+      "Cards": [
+        {
+          "Id": 56
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {
+          "ItemType": "Gear",
+          "Items": [
+            1256
+          ]
+        },
+        {
+          "ItemType": "HardCurrency",
+          "Amount": 15
+        },
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 1,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 16,
+    "AddedEasyDifficulty": 32,
+    "BaseHardDifficulty": -80,
+    "AddedHardDifficulty": 32
+  }
+}

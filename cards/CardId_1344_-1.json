@@ -1,0 +1,41 @@
+{
+  "Id": 1344,
+  "LevelId": "Level_Adv_2",
+  "Environment": "CityStreet_3",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1473,
+      "Cards": [
+        {
+          "Id": 1473
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {
+          "ItemType": "Sticker",
+          "Amount": 1,
+          "Theme": "Adv",
+          "StarLevel": 1
+        },
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 1,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 16,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": -80,
+    "AddedHardDifficulty": 36
+  }
+}

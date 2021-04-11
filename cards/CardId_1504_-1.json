@@ -1,0 +1,60 @@
+{
+  "Id": 1504,
+  "LevelId": "Level_Fan_1",
+  "Environment": "City_Church",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1531,
+      "Cards": [
+        {
+          "Id": 1531
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 9,
+  "LevelingStickers": {
+    "BaseStickers": 11,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 212,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 116,
+    "AddedHardDifficulty": 36
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "RectangleGlasses",
+  "AssetId": "RectangleGlassesUI",
+  "Slot": "Glasses",
+  "Ingame": "RectangleGlasses",
+  "ItemId": 1594,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

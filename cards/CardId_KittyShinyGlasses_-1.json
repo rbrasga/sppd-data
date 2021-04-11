@@ -1,0 +1,10 @@
+{
+  "Id": "KittyShinyGlasses",
+  "AssetId": "KittyShinyGlassesUI",
+  "Slot": "Glasses",
+  "Ingame": "KittyShinyGlasses",
+  "ItemId": 1591,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 10
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralMountieShirt",
+  "AssetId": "NeutMountieShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutMountieShirtBodyGear",
+  "ItemId": 1940,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

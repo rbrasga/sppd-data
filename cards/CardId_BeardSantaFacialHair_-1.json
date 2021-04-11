@@ -1,0 +1,10 @@
+{
+  "Id": "BeardSantaFacialHair",
+  "AssetId": "BeardSantaFacialHairUI",
+  "Slot": "FacialHair",
+  "Ingame": "BeardSantaFacialHair",
+  "ItemId": 1544,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 3
+  }
+}

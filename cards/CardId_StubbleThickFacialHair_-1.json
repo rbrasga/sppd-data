@@ -1,0 +1,10 @@
+{
+  "Id": "StubbleThickFacialHair",
+  "AssetId": "StubbleThickFacialHairUI",
+  "Slot": "FacialHair",
+  "Ingame": "StubbleThickFacialHair",
+  "ItemId": 1588,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 6
+  }
+}

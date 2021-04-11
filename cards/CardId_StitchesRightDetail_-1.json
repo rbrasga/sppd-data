@@ -1,0 +1,10 @@
+{
+  "Id": "StitchesRightDetail",
+  "AssetId": "StitchesRightDetailUI",
+  "Slot": "Detail",
+  "Ingame": "StitchesRightDetail",
+  "ItemId": 1547,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 4
+  }
+}

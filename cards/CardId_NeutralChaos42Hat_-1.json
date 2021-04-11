@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralChaos42Hat",
+  "AssetId": "NeutChaos42HatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "NeutChaos42HatHeadGear",
+  "ItemId": 2320,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

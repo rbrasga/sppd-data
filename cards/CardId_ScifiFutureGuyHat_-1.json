@@ -1,0 +1,11 @@
+{
+  "Id": "ScifiFutureGuyHat",
+  "AssetId": "SciFutureGuyHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "SciFutureGuyHatHeadGear",
+  "ItemId": 1831,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

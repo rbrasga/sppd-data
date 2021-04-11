@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralDayOfTheDeadHat",
+  "AssetId": "NeutDayOfTheDeadHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "NeutDayOfTheDeadHatHeadGear",
+  "ItemId": 2050,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

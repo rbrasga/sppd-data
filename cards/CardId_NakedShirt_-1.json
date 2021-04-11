@@ -1,0 +1,10 @@
+{
+  "Id": "NakedShirt",
+  "AssetId": "DefaultShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NakedShirtBodyGear",
+  "ItemId": 153,
+  "Scale": 0.0,
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

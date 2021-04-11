@@ -1,0 +1,10 @@
+{
+  "Id": "MomMouth",
+  "AssetId": "MomMouthUI",
+  "Slot": "Mouth",
+  "Ingame": "MomMouth",
+  "ItemId": 1640,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

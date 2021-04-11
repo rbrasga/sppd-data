@@ -1,0 +1,10 @@
+{
+  "Id": "MediumEllenHair",
+  "AssetId": "MediumEllenHairUI",
+  "Slot": "Hair",
+  "Ingame": "MediumEllenHair",
+  "ItemId": 1610,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

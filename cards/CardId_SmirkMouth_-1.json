@@ -1,0 +1,10 @@
+{
+  "Id": "SmirkMouth",
+  "AssetId": "SmirkMouthUI",
+  "Slot": "Mouth",
+  "Ingame": "SmirkMouth",
+  "ItemId": 1628,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

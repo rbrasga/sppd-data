@@ -1,0 +1,82 @@
+{
+  "Id": 1731,
+  "DifficultyEasy": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "DifficultyHard": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "ExperienceReward": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "LevelId": "MP_police",
+  "Environment": "CityStreet_police_PVP",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1,
+      "Cards": [
+        {
+          "Id": 1
+        }
+      ],
+      "Deck": [],
+      "Characters": []
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "StickerCount": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "EpisodeIndex": 0,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 0
+  }
+}

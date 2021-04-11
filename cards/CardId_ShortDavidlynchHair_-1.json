@@ -1,0 +1,10 @@
+{
+  "Id": "ShortDavidlynchHair",
+  "AssetId": "ShortDavidlynchHairUI",
+  "Slot": "Hair",
+  "Ingame": "ShortDavidlynchHair",
+  "ItemId": 1617,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 4
+  }
+}

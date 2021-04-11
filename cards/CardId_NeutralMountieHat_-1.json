@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralMountieHat",
+  "AssetId": "NeutMountieHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "NeutMountieHatHeadGear",
+  "ItemId": 1942,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

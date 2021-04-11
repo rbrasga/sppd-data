@@ -1,0 +1,11 @@
+{
+  "Id": "MysticalArchangelHat",
+  "AssetId": "MysArchangelHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "MysArchangelHatHeadGear",
+  "ItemId": 2374,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

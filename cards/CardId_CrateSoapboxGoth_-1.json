@@ -1,0 +1,11 @@
+{
+  "Id": "CrateSoapboxGoth",
+  "AssetId": "GothBoxSkinUI",
+  "Slot": "BoxSkin",
+  "Ingame": "GothBoxSkinPF",
+  "ItemId": 2344,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": true
+}

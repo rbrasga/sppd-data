@@ -1,0 +1,10 @@
+{
+  "Id": "BandaidLeftDetail",
+  "AssetId": "BandaidLeftDetailUI",
+  "Slot": "Detail",
+  "Ingame": "BandaidLeftDetail",
+  "ItemId": 1558,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

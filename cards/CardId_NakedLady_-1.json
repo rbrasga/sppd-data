@@ -1,0 +1,11 @@
+{
+  "Id": "NakedLady",
+  "AssetId": "DefaultShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NakedLadyBodyGear",
+  "ItemId": 1556,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

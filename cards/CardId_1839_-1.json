@@ -1,0 +1,27 @@
+{
+  "Id": 1839,
+  "LevelId": "MP_StanYard",
+  "Environment": "MP_StanYard",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1,
+      "Cards": [
+        {
+          "Id": 1
+        }
+      ]
+    }
+  ],
+  "Rewards": [],
+  "EpisodeIndex": 0,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 0,
+    "BaseEasyDifficulty": 0,
+    "AddedEasyDifficulty": 0,
+    "BaseHardDifficulty": 0,
+    "AddedHardDifficulty": 0
+  }
+}

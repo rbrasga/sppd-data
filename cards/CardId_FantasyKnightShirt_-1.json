@@ -1,0 +1,11 @@
+{
+  "Id": "FantasyKnightShirt",
+  "AssetId": "FanKnightShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "FanKnightShirtBodyGear",
+  "ItemId": 180,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

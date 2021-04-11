@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralStrongwomanShirt",
+  "AssetId": "NeutStrongwomanShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutStrongwomanShirtBodyGear",
+  "ItemId": 2247,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "MediumBabygirlHair",
+  "AssetId": "MediumBabygirlHairUI",
+  "Slot": "Hair",
+  "Ingame": "MediumBabygirlHair",
+  "ItemId": 1609,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "ShortBeatlesHair",
+  "AssetId": "ShortBeatlesHairUI",
+  "Slot": "Hair",
+  "Ingame": "ShortBeatlesHair",
+  "ItemId": 1614,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

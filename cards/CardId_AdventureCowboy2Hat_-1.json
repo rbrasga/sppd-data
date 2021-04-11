@@ -1,0 +1,11 @@
+{
+  "Id": "AdventureCowboy2Hat",
+  "AssetId": "AdvCowboy2HatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "AdvCowboy2HatHeadGear",
+  "ItemId": 1734,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

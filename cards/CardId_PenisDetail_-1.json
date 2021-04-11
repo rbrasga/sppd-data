@@ -1,0 +1,10 @@
+{
+  "Id": "PenisDetail",
+  "AssetId": "PenisDetailUI",
+  "Slot": "Detail",
+  "Ingame": "PenisDetail",
+  "ItemId": 1560,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 16
+  }
+}

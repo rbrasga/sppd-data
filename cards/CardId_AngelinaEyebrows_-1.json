@@ -1,0 +1,10 @@
+{
+  "Id": "AngelinaEyebrows",
+  "AssetId": "AngelinaEyebrowsUI",
+  "Slot": "Eyebrows",
+  "Ingame": "AngelinaEyebrows",
+  "ItemId": 1773,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 7
+  }
+}

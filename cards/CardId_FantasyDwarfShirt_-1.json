@@ -1,0 +1,11 @@
+{
+  "Id": "FantasyDwarfShirt",
+  "AssetId": "FanDwarfShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "FanDwarfShirtBodyGear",
+  "ItemId": 1302,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

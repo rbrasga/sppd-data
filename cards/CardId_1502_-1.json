@@ -1,0 +1,60 @@
+{
+  "Id": 1502,
+  "LevelId": "Level_Mys_9",
+  "Environment": "CityStreet_9",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 65,
+      "Cards": [
+        {
+          "Id": 65
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 7,
+  "LevelingStickers": {
+    "BaseStickers": 8,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 144,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 48,
+    "AddedHardDifficulty": 36
+  }
+}

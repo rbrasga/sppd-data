@@ -1,0 +1,53 @@
+{
+  "Id": 1513,
+  "LevelId": "Level_Fan_10",
+  "Environment": "CityStreet_police",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1531,
+      "Cards": [
+        {
+          "Id": 1531
+        }
+      ]
+    }
+  ],
+  "Rewards": [],
+  "SpecialRewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {
+          "ItemType": "Card",
+          "Amount": 1,
+          "Items": [
+            54
+          ]
+        },
+        {
+          "ItemType": "Sticker",
+          "Amount": 35,
+          "Theme": "Fan",
+          "StarLevel": 0
+        },
+        {
+          "ItemType": "Sticker",
+          "Amount": 20,
+          "Theme": "Fan",
+          "StarLevel": 1
+        }
+      ]
+    }
+  ],
+  "EpisodeIndex": 10,
+  "LevelingStickers": {
+    "BaseStickers": 15,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 244,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 148,
+    "AddedHardDifficulty": 36
+  }
+}

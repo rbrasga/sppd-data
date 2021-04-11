@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralXmasReindeerHat",
+  "AssetId": "NeutXmasReindeerHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "NeutXmasReindeerHatHeadGear",
+  "ItemId": 1915,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

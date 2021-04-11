@@ -1,0 +1,11 @@
+{
+  "Id": "NervousEyes",
+  "AssetId": "NervousEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "NervousEyes",
+  "ItemId": 1549,
+  "UnlockRequirements": 
+  {
+    "MinPlayerLevel": 1
+  }
+}

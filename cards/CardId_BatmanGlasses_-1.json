@@ -1,0 +1,10 @@
+{
+  "Id": "BatmanGlasses",
+  "AssetId": "BatmanGlassesUI",
+  "Slot": "Glasses",
+  "Ingame": "BatmanGlasses",
+  "ItemId": 1551,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 17
+  }
+}

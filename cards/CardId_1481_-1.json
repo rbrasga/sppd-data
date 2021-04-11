@@ -1,0 +1,39 @@
+{
+  "Id": 1481,
+  "SortIndex": 0,
+  "ExperienceReward": 0,
+  "LevelId": "LevelD_Scifi_4",
+  "Environment": "ChinaTown_2",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1442,
+      "Cards": [
+        {
+          "Id": 1442
+        }
+      ],
+      "Deck": [],
+      "Characters": []
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": []
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": []
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": []
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": []
+    }
+  ]
+}

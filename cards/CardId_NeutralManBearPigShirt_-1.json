@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralManBearPigShirt",
+  "AssetId": "NeutManBearPigShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutManBearPigShirtBodyGear",
+  "ItemId": 1828,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

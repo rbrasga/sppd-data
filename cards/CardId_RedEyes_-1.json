@@ -1,0 +1,10 @@
+{
+  "Id": "RedEyes",
+  "AssetId": "RedEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "RedEyes",
+  "ItemId": 1570,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

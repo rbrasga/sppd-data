@@ -1,0 +1,10 @@
+{
+  "Id": "MediumRockstarHair",
+  "AssetId": "MediumRockstarHairUI",
+  "Slot": "Hair",
+  "Ingame": "MediumRockstarHair",
+  "ItemId": 1611,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 3
+  }
+}

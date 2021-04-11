@@ -1,0 +1,27 @@
+{
+  "Id": 1476,
+  "LevelId": "Level_Adv_9",
+  "Environment": "CityStreet_14",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 77,
+      "Cards": [
+        {
+          "Id": 77
+        }
+      ]
+    }
+  ],
+  "Rewards": [],
+  "EpisodeIndex": 2,
+  "LevelingStickers": {
+    "BaseStickers": 1,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 17,
+    "AddedEasyDifficulty": 32,
+    "BaseHardDifficulty": -79,
+    "AddedHardDifficulty": 32
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Id": "MysticalCleopatraShirt",
+  "AssetId": "MysCleopatraShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "MysCleopatraShirtBodyGear",
+  "ItemId": 1920,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

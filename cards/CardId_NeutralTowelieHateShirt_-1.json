@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralTowelieHateShirt",
+  "AssetId": "NeutTowelieHateShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutTowelieHateShirtBodyGear",
+  "ItemId": 1954,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 2,
+  "SilhouetteIfNotOwned": false
+}

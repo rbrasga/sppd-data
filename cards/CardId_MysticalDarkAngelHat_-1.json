@@ -1,0 +1,11 @@
+{
+  "Id": "MysticalDarkAngelHat",
+  "AssetId": "MysDarkAngelHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "MysDarkAngelHatHeadGear",
+  "ItemId": 2315,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

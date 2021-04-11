@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralPinataShirt",
+  "AssetId": "NeutPinataShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutPinataShirtBodyGear",
+  "ItemId": 2064,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

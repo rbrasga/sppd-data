@@ -1,0 +1,11 @@
+{
+  "Id": "FrecklesLowDetail",
+  "AssetId": "FrecklesLowDetailUI",
+  "Slot": "Detail",
+  "Ingame": "FrecklesLowDetail",
+  "ItemId": 1546,
+  "UnlockRequirements": 
+  {
+    "MinPlayerLevel": 1
+  }
+}

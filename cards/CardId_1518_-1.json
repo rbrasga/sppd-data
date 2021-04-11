@@ -1,0 +1,54 @@
+{
+  "Id": 1518,
+  "LevelId": "Level_Fan_15",
+  "Environment": "Forest_lake",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1531,
+      "Cards": [
+        {
+          "Id": 1531
+        }
+      ]
+    }
+  ],
+  "Rewards": [],
+  "SpecialRewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {
+          "ItemType": "Card",
+          "Amount": 20,
+          "Items": [
+            89
+          ]
+        },
+        {
+          "ItemType": "Card",
+          "Amount": 50,
+          "Items": [
+            1806
+          ]
+        },
+        {
+          "ItemType": "Sticker",
+          "Amount": 10,
+          "Theme": "Fan",
+          "StarLevel": 2
+        }
+      ]
+    }
+  ],
+  "EpisodeIndex": 11,
+  "LevelingStickers": {
+    "BaseStickers": 16,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 272,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 176,
+    "AddedHardDifficulty": 36
+  }
+}

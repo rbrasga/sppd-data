@@ -1,0 +1,10 @@
+{
+  "Id": "LongPigtailsHair",
+  "AssetId": "LongPigtailsHairUI",
+  "Slot": "Hair",
+  "Ingame": "LongPigtailsHair",
+  "ItemId": 1605,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 5
+  }
+}

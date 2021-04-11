@@ -1,0 +1,10 @@
+{
+  "Id": "CrapMouth",
+  "AssetId": "CrapMouthUI",
+  "Slot": "Mouth",
+  "Ingame": "CrapMouth",
+  "ItemId": 1625,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

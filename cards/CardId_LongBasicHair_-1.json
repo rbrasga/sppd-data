@@ -1,0 +1,10 @@
+{
+  "Id": "LongBasicHair",
+  "AssetId": "LongBasicHairUI",
+  "Slot": "Hair",
+  "Ingame": "LongBasicHair",
+  "ItemId": 1540,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 2
+  }
+}

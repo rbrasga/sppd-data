@@ -1,0 +1,11 @@
+{
+  "Id": "CrateSoapboxBattletested",
+  "AssetId": "BattletestedBoxSkinUI",
+  "Slot": "BoxSkin",
+  "Ingame": "BattletestedBoxSkinPF",
+  "ItemId": 2231,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": true
+}

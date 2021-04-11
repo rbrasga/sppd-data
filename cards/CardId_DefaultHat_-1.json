@@ -1,0 +1,11 @@
+{
+  "Id": "DefaultHat",
+  "AssetId": "DefaultHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "DefaultHatHeadGear",
+  "ItemId": 155,
+  "Scale": 1.0,
+  "PositionOffset": "0,-50,0",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

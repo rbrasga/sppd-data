@@ -1,0 +1,44 @@
+{
+  "Id": 1327,
+  "LevelId": "Level_Adv_1",
+  "Environment": "CityStreet 5",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1319,
+      "Cards": [
+        {
+          "Id": 1319
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {
+          "ItemType": "Card",
+          "Items": [
+            24
+          ]
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 100
+        },
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 1,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 4,
+    "BaseEasyDifficulty": 16,
+    "AddedEasyDifficulty": 48,
+    "BaseHardDifficulty": -80,
+    "AddedHardDifficulty": 48
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Id": 1415,
+  "LevelId": "Level_Scifi_5",
+  "Environment": "CityStreet_9",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1423,
+      "Cards": [
+        {
+          "Id": 1423
+        }
+      ]
+    }
+  ],
+  "Rewards": [],
+  "SpecialRewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {
+          "ItemType": "Card",
+          "Amount": 5,
+          "Items": [
+            209
+          ]
+        },
+        {
+          "ItemType": "Sticker",
+          "Amount": 15,
+          "Theme": "Sci",
+          "StarLevel": 0
+        },
+        {
+          "ItemType": "Card",
+          "Amount": 25,
+          "Items": [
+            1407
+          ]
+        }
+      ]
+    }
+  ],
+  "EpisodeIndex": 3,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 80,
+    "AddedEasyDifficulty": 32,
+    "BaseHardDifficulty": -16,
+    "AddedHardDifficulty": 32
+  }
+}

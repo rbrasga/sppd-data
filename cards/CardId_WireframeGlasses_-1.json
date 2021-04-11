@@ -1,0 +1,10 @@
+{
+  "Id": "WireframeGlasses",
+  "AssetId": "WireframeGlassesUI",
+  "Slot": "Glasses",
+  "Ingame": "WireframeGlasses",
+  "ItemId": 1603,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

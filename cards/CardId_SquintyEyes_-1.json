@@ -1,0 +1,10 @@
+{
+  "Id": "SquintyEyes",
+  "AssetId": "SquintyEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "SquintyEyes",
+  "ItemId": 1790,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 9
+  }
+}

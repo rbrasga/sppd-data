@@ -1,0 +1,60 @@
+{
+  "Id": 1507,
+  "LevelId": "Level_Fan_4",
+  "Environment": "CityStreet_Snow",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1725,
+      "Cards": [
+        {
+          "Id": 1725
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 9,
+  "LevelingStickers": {
+    "BaseStickers": 12,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 192,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 96,
+    "AddedHardDifficulty": 36
+  }
+}

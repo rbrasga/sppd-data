@@ -1,0 +1,11 @@
+{
+  "Id": "AdventureIndianShirt",
+  "AssetId": "AdvIndianShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "AdvIndianShirtBodyGear",
+  "ItemId": 1256,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

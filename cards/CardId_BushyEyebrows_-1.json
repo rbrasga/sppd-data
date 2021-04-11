@@ -1,0 +1,10 @@
+{
+  "Id": "BushyEyebrows",
+  "AssetId": "BushyEyebrowsUI",
+  "Slot": "Eyebrows",
+  "Ingame": "BushyEyebrows",
+  "ItemId": 1775,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 5
+  }
+}

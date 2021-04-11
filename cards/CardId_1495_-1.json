@@ -1,0 +1,60 @@
+{
+  "Id": 1495,
+  "LevelId": "Level_Mys_2",
+  "Environment": "Forest_snow",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 65,
+      "Cards": [
+        {
+          "Id": 65
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 6,
+  "LevelingStickers": {
+    "BaseStickers": 5,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 110,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 14,
+    "AddedHardDifficulty": 36
+  }
+}

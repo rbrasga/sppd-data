@@ -1,0 +1,27 @@
+{
+  "Id": 1413,
+  "LevelId": "Level_Scifi_4",
+  "Environment": "CityStreet_8",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1444,
+      "Cards": [
+        {
+          "Id": 1444
+        }
+      ]
+    }
+  ],
+  "Rewards": [],
+  "EpisodeIndex": 3,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 112,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 16,
+    "AddedHardDifficulty": 36
+  }
+}

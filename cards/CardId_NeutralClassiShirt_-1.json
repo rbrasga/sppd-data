@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralClassiShirt",
+  "AssetId": "NeutClassiShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutClassiShirtBodyGear",
+  "ItemId": 1976,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

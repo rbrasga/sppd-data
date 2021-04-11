@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralKiteHat",
+  "AssetId": "NeutKiteHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "NeutKiteHatHeadGear",
+  "ItemId": 2369,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

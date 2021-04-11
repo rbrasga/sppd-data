@@ -1,0 +1,10 @@
+{
+  "Id": "ShadesOvalGlasses",
+  "AssetId": "ShadesOvalGlassesUI",
+  "Slot": "Glasses",
+  "Ingame": "ShadesOvalGlasses",
+  "ItemId": 1597,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

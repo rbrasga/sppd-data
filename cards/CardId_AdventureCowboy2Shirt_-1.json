@@ -1,0 +1,11 @@
+{
+  "Id": "AdventureCowboy2Shirt",
+  "AssetId": "AdvCowboy2ShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "AdvCowboy2ShirtBodyGear",
+  "ItemId": 1733,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

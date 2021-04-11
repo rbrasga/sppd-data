@@ -1,0 +1,10 @@
+{
+  "Id": "SadhappyEyebrows",
+  "AssetId": "SadhappyEyebrowsUI",
+  "Slot": "Eyebrows",
+  "Ingame": "SadhappyEyebrows",
+  "ItemId": 1566,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

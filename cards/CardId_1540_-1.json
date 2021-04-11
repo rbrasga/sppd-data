@@ -1,0 +1,114 @@
+{
+  "Id": 1540,
+  "DifficultyEasy": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "DifficultyHard": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "ExperienceReward": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "LevelId": "MP_Street",
+  "Environment": "CityStreet_PVP",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1,
+      "Cards": [
+        {
+          "Id": 1
+        }
+      ],
+      "Deck": [],
+      "Characters": []
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 750
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 500
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 250
+        }
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 750
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 500
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 250
+        }
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 750
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 500
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 250
+        }
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 750
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 500
+        },
+        {
+          "ItemType": "PVPCurrency",
+          "Amount": 250
+        }
+      ]
+    }
+  ],
+  "StickerCount": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "EpisodeIndex": 0
+}

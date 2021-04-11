@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralCovidMaskHat",
+  "AssetId": "NeutCovidMaskHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "NeutCovidMaskHatHeadGear",
+  "ItemId": 2341,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

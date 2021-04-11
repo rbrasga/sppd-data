@@ -1,0 +1,10 @@
+{
+  "Id": "BruiseRightDetail",
+  "AssetId": "BruiseRightDetailUI",
+  "Slot": "Detail",
+  "Ingame": "BruiseRightDetail",
+  "ItemId": 1669,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

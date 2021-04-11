@@ -1,0 +1,10 @@
+{
+  "Id": "LashesTwoEyes",
+  "AssetId": "LashesTwoEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "LashesTwoEyes",
+  "ItemId": 1786,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 3
+  }
+}

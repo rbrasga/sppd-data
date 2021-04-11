@@ -1,0 +1,37 @@
+11/7/20
+
+- All Other Changes are applied here
+- Inproved rare icon
+- Moved and shrunk the rarity icons to make spells look
+better
+- Changed the dimensions of the images, making the tip of
+all sword icons visible
+- Inproved some class icons
+- Added Mystical Legendary Totem
+
+11/8/20
+
+- Rearraged the layers, making the text overlay the art
+- Changed the position of Totems
+
+11/23/20 Happy B-Day Me
+
+- Moved the sword icon to be directly above the battery
+- TRAPS are unique to their themes
+- Increased the width of all images
+- Tweeked the Superheroes assets
+- Tweeked the Legend Neutral Class Icons
+- Higher Quality Rarity Icons
+
+2/11/21
+
+- Remade the Detailed Textboxes to resemble the cards in-game
+- Adjusted the class icons to resemble the cards in-game
+- Tweeked the theme icons
+- Replaced the higher quality rarity icons in exchange for the ones in-game
+- Revamped all of Trap icons
+- Added shadows to the Trap icons
+- Shrunk the rarity icons
+- Darken all of the Rare and Legendary Neutral class icons
+- Darken the Spell, Totem, and Trap class icons
+

@@ -1,0 +1,11 @@
+{
+  "Id": "FantasyDragonShirt",
+  "AssetId": "FanDragonShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "FanDragonShirtBodyGear",
+  "ItemId": 1879,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

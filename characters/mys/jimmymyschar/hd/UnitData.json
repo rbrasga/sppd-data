@@ -1,0 +1,141 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6973162220002056754
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": -6084038898025808187
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": -3870263661728595206
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": -8250468086015680285
+  },
+  "data": {
+    "sourceHeight": 1.170111,
+    "sourceRadius": 0.271352828,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [
+        "Trigger SoundStep time 0.1666667 for state: Walking does not match with other triggers. Animations of same state must have equal triggers with equal names and times",
+        "Trigger SoundStep time 0.3666667 for state: Walking does not match with other triggers. Animations of same state must have equal triggers with equal names and times",
+        "Trigger SoundStep time 0.5666667 for state: Walking does not match with other triggers. Animations of same state must have equal triggers with equal names and times",
+        "Trigger SoundStep time 0.7666667 for state: Walking does not match with other triggers. Animations of same state must have equal triggers with equal names and times",
+        "Triggers for state: Walking do not match. Animations of same state must have equal triggers with equal names and times"
+      ],
+      "animationItems": [
+        {
+          "state": 3,
+          "name": "Attacking",
+          "duration": 2.2,
+          "durationTicks": 66,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Attack",
+              "time": 0.8,
+              "timeTicks": 24
+            }
+          ]
+        },
+        {
+          "state": 10,
+          "name": "BossEntrance",
+          "duration": 4.9,
+          "durationTicks": 147,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "BossName",
+              "time": 3.1,
+              "timeTicks": 93
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 5.0,
+          "durationTicks": 150,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.5,
+          "durationTicks": 15,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 1.2,
+          "durationTicks": 36,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 6,
+          "name": "EnteringLevel",
+          "duration": 1.9,
+          "durationTicks": 57,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Land",
+              "time": 0.2,
+              "timeTicks": 6
+            },
+            {
+              "name": "SpawnPower",
+              "time": 0.8,
+              "timeTicks": 24
+            }
+          ]
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.8,
+          "durationTicks": 24,
+          "loop": 1,
+          "triggers": [
+            {
+              "name": "SoundStep",
+              "time": 0.06666667,
+              "timeTicks": 2
+            },
+            {
+              "name": "SoundStep",
+              "time": 0.266666681,
+              "timeTicks": 8
+            },
+            {
+              "name": "SoundStep",
+              "time": 0.466666669,
+              "timeTicks": 14
+            },
+            {
+              "name": "SoundStep",
+              "time": 0.6666667,
+              "timeTicks": 20
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

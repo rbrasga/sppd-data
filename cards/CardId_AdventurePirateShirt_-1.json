@@ -1,0 +1,11 @@
+{
+  "Id": "AdventurePirateShirt",
+  "AssetId": "AdvPirateShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "AdvPirateShirtBodyGear",
+  "ItemId": 1268,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

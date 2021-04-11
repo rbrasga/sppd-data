@@ -1,0 +1,11 @@
+{
+  "Id": "FantasyDwarfHat",
+  "AssetId": "FanDwarfHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "FanDwarfHatHeadGear",
+  "ItemId": 1303,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

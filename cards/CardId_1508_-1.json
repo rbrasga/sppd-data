@@ -1,0 +1,50 @@
+{
+  "Id": 1508,
+  "LevelId": "Level_Fan_5",
+  "Environment": "CityStreet_gym",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1531,
+      "Cards": [
+        {
+          "Id": 1531
+        }
+      ]
+    }
+  ],
+  "Rewards": [],
+  "SpecialRewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 2500
+        },
+        {
+          "ItemType": "Gear",
+          "Items": [
+            1878
+          ]
+        },
+        {
+          "ItemType": "Gear",
+          "Items": [
+            1879
+          ]
+        }
+      ]
+    }
+  ],
+  "EpisodeIndex": 9,
+  "LevelingStickers": {
+    "BaseStickers": 12,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 144,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 96,
+    "AddedHardDifficulty": 36
+  }
+}

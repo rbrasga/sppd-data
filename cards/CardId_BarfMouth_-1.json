@@ -1,0 +1,10 @@
+{
+  "Id": "BarfMouth",
+  "AssetId": "BarfMouthUI",
+  "Slot": "Mouth",
+  "Ingame": "BarfMouth",
+  "ItemId": 1795,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 6
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralChristmasTreeShirt",
+  "AssetId": "NeutChristmasTreeShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutChristmasTreeShirtBodyGear",
+  "ItemId": 2244,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 2,
+  "SilhouetteIfNotOwned": false
+}

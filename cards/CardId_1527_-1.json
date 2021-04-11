@@ -1,0 +1,60 @@
+{
+  "Id": 1527,
+  "LevelId": "Level_Mys_14",
+  "Environment": "CityStreet_Snow",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1520,
+      "Cards": [
+        {
+          "Id": 1520
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 8,
+  "LevelingStickers": {
+    "BaseStickers": 10,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 168,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 72,
+    "AddedHardDifficulty": 36
+  }
+}

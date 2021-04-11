@@ -1,0 +1,10 @@
+{
+  "Id": "MoustacheChineseFacialHair",
+  "AssetId": "MoustacheChineseFacialHairUI",
+  "Slot": "FacialHair",
+  "Ingame": "MoustacheChineseFacialHair",
+  "ItemId": 1550,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 17
+  }
+}

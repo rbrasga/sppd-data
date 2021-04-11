@@ -1,0 +1,10 @@
+{
+  "Id": "SympatheticEyebrows",
+  "AssetId": "SympatheticEyebrowsUI",
+  "Slot": "Eyebrows",
+  "Ingame": "SympatheticEyebrows",
+  "ItemId": 1779,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralSnowManShirt",
+  "AssetId": "NeutSnowManShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutSnowManShirtBodyGear",
+  "ItemId": 2260,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

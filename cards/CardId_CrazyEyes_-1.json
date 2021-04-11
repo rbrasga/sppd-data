@@ -1,0 +1,11 @@
+{
+  "Id": "CrazyEyes",
+  "AssetId": "CrazyEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "CrazyEyes",
+  "ItemId": 1543,
+  "UnlockRequirements": 
+  {
+    "MinPlayerLevel": 1
+  }
+}

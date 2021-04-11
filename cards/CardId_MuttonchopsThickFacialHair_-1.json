@@ -1,0 +1,10 @@
+{
+  "Id": "MuttonchopsThickFacialHair",
+  "AssetId": "MuttonchopsThickFacialHairUI",
+  "Slot": "FacialHair",
+  "Ingame": "MuttonchopsThickFacialHair",
+  "ItemId": 1585,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 13
+  }
+}

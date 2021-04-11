@@ -1,0 +1,27 @@
+{
+  "Id": 2162,
+  "LevelId": "Level_Super_8",
+  "Environment": "CityStreet_rich",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 23,
+      "Cards": [
+        {
+          "Id": 23
+        }
+      ]
+    }
+  ],
+  "Rewards": [],
+  "EpisodeIndex": 0,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 0,
+    "BaseEasyDifficulty": 0,
+    "AddedEasyDifficulty": 0,
+    "BaseHardDifficulty": 0,
+    "AddedHardDifficulty": 0
+  }
+}

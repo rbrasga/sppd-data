@@ -1,0 +1,460 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -4486335109316457881
+  },
+  "m_Name": "CardUIVisualsConfig",
+  "themeColors": [
+    {
+      "theme": "Adv",
+      "color": {
+        "r": 0.478431374,
+        "g": 0.698039234,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    {
+      "theme": "Fan",
+      "color": {
+        "r": 1.0,
+        "g": 0.447058827,
+        "b": 0.549019635,
+        "a": 1.0
+      }
+    },
+    {
+      "theme": "Sci",
+      "color": {
+        "r": 1.0,
+        "g": 0.549019635,
+        "b": 0.266666681,
+        "a": 1.0
+      }
+    },
+    {
+      "theme": "Mys",
+      "color": {
+        "r": 0.454901963,
+        "g": 0.847058833,
+        "b": 0.356862754,
+        "a": 1.0
+      }
+    },
+    {
+      "theme": "Gen",
+      "color": {
+        "r": 0.635294139,
+        "g": 0.5803922,
+        "b": 0.5411765,
+        "a": 1.0
+      }
+    },
+    {
+      "theme": "Sup",
+      "color": {
+        "r": 0.8784314,
+        "g": 0.419607848,
+        "b": 0.858823538,
+        "a": 1.0
+      }
+    }
+  ],
+  "levelsEntry": [
+    {
+      "slot": 6,
+      "inBlack": 0.17,
+      "inGamma": 0.8,
+      "inWhite": 0.75,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 36,
+      "inBlack": 0.18,
+      "inGamma": 1.0,
+      "inWhite": 0.66,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 0,
+      "inBlack": 0.03,
+      "inGamma": 1.23,
+      "inWhite": 0.66,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 1,
+      "inBlack": 0.17,
+      "inGamma": 0.8,
+      "inWhite": 0.75,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 2,
+      "inBlack": 0.03,
+      "inGamma": 1.23,
+      "inWhite": 0.66,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 3,
+      "inBlack": 0.17,
+      "inGamma": 0.8,
+      "inWhite": 0.75,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 4,
+      "inBlack": 0.03,
+      "inGamma": 1.23,
+      "inWhite": 0.66,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 5,
+      "inBlack": 0.03,
+      "inGamma": 1.23,
+      "inWhite": 0.66,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 7,
+      "inBlack": 0.04,
+      "inGamma": 1.0,
+      "inWhite": 0.85,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 37,
+      "inBlack": 0.18,
+      "inGamma": 0.713,
+      "inWhite": 0.69,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 12,
+      "inBlack": 0.04,
+      "inGamma": 1.0,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 13,
+      "inBlack": 0.04,
+      "inGamma": 1.0,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 14,
+      "inBlack": 0.04,
+      "inGamma": 1.0,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 15,
+      "inBlack": 0.13,
+      "inGamma": 0.807,
+      "inWhite": 0.64,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 16,
+      "inBlack": 0.03,
+      "inGamma": 1.083,
+      "inWhite": 0.67,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 17,
+      "inBlack": 0.1,
+      "inGamma": 0.863,
+      "inWhite": 0.61,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 8,
+      "inBlack": 0.06,
+      "inGamma": 1.21,
+      "inWhite": 0.68,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 38,
+      "inBlack": 0.06,
+      "inGamma": 1.14,
+      "inWhite": 0.79,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 18,
+      "inBlack": 0.0,
+      "inGamma": 1.19,
+      "inWhite": 0.65,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 19,
+      "inBlack": 0.0,
+      "inGamma": 1.19,
+      "inWhite": 0.65,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 20,
+      "inBlack": 0.0,
+      "inGamma": 1.19,
+      "inWhite": 0.65,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 21,
+      "inBlack": 0.09,
+      "inGamma": 1.011,
+      "inWhite": 0.65,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 22,
+      "inBlack": 0.06,
+      "inGamma": 1.037,
+      "inWhite": 0.65,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 23,
+      "inBlack": 0.09,
+      "inGamma": 1.011,
+      "inWhite": 0.65,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 9,
+      "inBlack": 0.15,
+      "inGamma": 0.959,
+      "inWhite": 0.7,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 39,
+      "inBlack": 0.15,
+      "inGamma": 0.959,
+      "inWhite": 0.7,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 24,
+      "inBlack": 0.03,
+      "inGamma": 1.231,
+      "inWhite": 0.55,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 25,
+      "inBlack": 0.06,
+      "inGamma": 1.231,
+      "inWhite": 0.55,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 26,
+      "inBlack": 0.03,
+      "inGamma": 1.231,
+      "inWhite": 0.55,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 27,
+      "inBlack": 0.06,
+      "inGamma": 1.231,
+      "inWhite": 0.55,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 28,
+      "inBlack": 0.0,
+      "inGamma": 1.415,
+      "inWhite": 0.55,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 29,
+      "inBlack": 0.03,
+      "inGamma": 1.231,
+      "inWhite": 0.55,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 10,
+      "inBlack": 0.048,
+      "inGamma": 1.105,
+      "inWhite": 0.919,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 40,
+      "inBlack": 0.03,
+      "inGamma": 1.17,
+      "inWhite": 0.822,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 30,
+      "inBlack": 0.12,
+      "inGamma": 0.74,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 31,
+      "inBlack": 0.12,
+      "inGamma": 0.74,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 32,
+      "inBlack": 0.082,
+      "inGamma": 0.74,
+      "inWhite": 0.836,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 33,
+      "inBlack": 0.12,
+      "inGamma": 0.74,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 34,
+      "inBlack": 0.0,
+      "inGamma": 1.299,
+      "inWhite": 0.7,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 35,
+      "inBlack": 0.12,
+      "inGamma": 0.74,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 41,
+      "inBlack": 0.12,
+      "inGamma": 0.74,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 42,
+      "inBlack": 0.12,
+      "inGamma": 0.74,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 43,
+      "inBlack": 0.12,
+      "inGamma": 0.74,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 44,
+      "inBlack": 0.12,
+      "inGamma": 0.74,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 45,
+      "inBlack": 0.12,
+      "inGamma": 0.74,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 46,
+      "inBlack": 0.12,
+      "inGamma": 0.74,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 47,
+      "inBlack": 0.12,
+      "inGamma": 0.74,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    },
+    {
+      "slot": 48,
+      "inBlack": 0.12,
+      "inGamma": 0.74,
+      "inWhite": 0.76,
+      "outBlack": 0.0,
+      "outWhite": 1.0
+    }
+  ],
+  "defaultColor": {
+    "r": 0.168627456,
+    "g": 0.168627456,
+    "b": 0.168627456,
+    "a": 1.0
+  }
+}

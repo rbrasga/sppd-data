@@ -1,0 +1,10 @@
+{
+  "Id": "TearyEyes",
+  "AssetId": "TearyEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "TearyEyes",
+  "ItemId": 1791,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 8
+  }
+}

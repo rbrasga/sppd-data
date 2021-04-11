@@ -1,0 +1,10 @@
+{
+  "Id": "LongSeventiesHair",
+  "AssetId": "LongSeventiesHairUI",
+  "Slot": "Hair",
+  "Ingame": "LongSeventiesHair",
+  "ItemId": 1606,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "ShortGrandpaHair",
+  "AssetId": "ShortGrandpaHairUI",
+  "Slot": "Hair",
+  "Ingame": "ShortGrandpaHair",
+  "ItemId": 1619,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 12
+  }
+}

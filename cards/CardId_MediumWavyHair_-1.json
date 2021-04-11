@@ -1,0 +1,10 @@
+{
+  "Id": "MediumWavyHair",
+  "AssetId": "MediumWavyHairUI",
+  "Slot": "Hair",
+  "Ingame": "MediumWavyHair",
+  "ItemId": 1623,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "ShortSpikewavyHair",
+  "AssetId": "ShortSpikewavyHairUI",
+  "Slot": "Hair",
+  "Ingame": "ShortSpikewavyHair",
+  "ItemId": 1620,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 15
+  }
+}

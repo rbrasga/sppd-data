@@ -1,0 +1,66 @@
+{
+  "Id": 1563,
+  "SortIndex": 0,
+  "ExperienceReward": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "LevelId": "Level_Intro",
+  "Environment": "CityStreet_4",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 23,
+      "Cards": [
+        {
+          "Id": 23
+        }
+      ],
+      "Deck": [],
+      "Characters": []
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "StickerCount": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

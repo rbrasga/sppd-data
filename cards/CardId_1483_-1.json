@@ -1,0 +1,39 @@
+{
+  "Id": 1483,
+  "SortIndex": 0,
+  "ExperienceReward": 0,
+  "LevelId": "LevelD_Adv_1",
+  "Environment": "CityStreet_4",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1473,
+      "Cards": [
+        {
+          "Id": 1473
+        }
+      ],
+      "Deck": [],
+      "Characters": []
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": []
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": []
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": []
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": []
+    }
+  ]
+}

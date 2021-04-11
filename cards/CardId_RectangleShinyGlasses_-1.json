@@ -1,0 +1,10 @@
+{
+  "Id": "RectangleShinyGlasses",
+  "AssetId": "RectangleShinyGlassesUI",
+  "Slot": "Glasses",
+  "Ingame": "RectangleShinyGlasses",
+  "ItemId": 1595,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 7
+  }
+}

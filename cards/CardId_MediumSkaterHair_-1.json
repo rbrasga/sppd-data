@@ -1,0 +1,10 @@
+{
+  "Id": "MediumSkaterHair",
+  "AssetId": "MediumSkaterHairUI",
+  "Slot": "Hair",
+  "Ingame": "MediumSkaterHair",
+  "ItemId": 1612,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 10
+  }
+}

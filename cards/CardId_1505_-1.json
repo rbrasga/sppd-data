@@ -1,0 +1,60 @@
+{
+  "Id": 1505,
+  "LevelId": "Level_Fan_2",
+  "Environment": "CityStreet_3",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1532,
+      "Cards": [
+        {
+          "Id": 1532
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 1,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 2,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "StarLevel": 3,
+      "RewardList": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 9,
+  "LevelingStickers": {
+    "BaseStickers": 11,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 180,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": 84,
+    "AddedHardDifficulty": 36
+  }
+}

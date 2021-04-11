@@ -1,0 +1,10 @@
+{
+  "Id": "PopeEyes",
+  "AssetId": "PopeEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "PopeEyes",
+  "ItemId": 1788,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 6
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "OhMouth",
+  "AssetId": "OhMouthUI",
+  "Slot": "Mouth",
+  "Ingame": "OhMouth",
+  "ItemId": 1627,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

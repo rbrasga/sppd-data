@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralPCPrincipalShirt",
+  "AssetId": "NeutPCPrincipalShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutPCPrincipalShirtBodyGear",
+  "ItemId": 1897,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

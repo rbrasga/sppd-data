@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralFireZoneShirt",
+  "AssetId": "NeutFirezoneShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutFirezoneShirtBodyGear",
+  "ItemId": 2155,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 2,
+  "SilhouetteIfNotOwned": false
+}

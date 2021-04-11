@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralTegridyShirt",
+  "AssetId": "NeutTegridyShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutTegridyShirtBodyGear",
+  "ItemId": 2227,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

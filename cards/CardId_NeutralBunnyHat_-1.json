@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralBunnyHat",
+  "AssetId": "NeutBunnyHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "NeutBunnyHatHeadGear",
+  "ItemId": 2294,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

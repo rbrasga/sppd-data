@@ -1,0 +1,10 @@
+{
+  "Id": "AngelinaMouth",
+  "AssetId": "AngelinaMouthUI",
+  "Slot": "Mouth",
+  "Ingame": "AngelinaMouth",
+  "ItemId": 1794,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 3
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Id": "NutgobblerMouth",
+  "AssetId": "NutgobblerMouthUI",
+  "Slot": "Mouth",
+  "Ingame": "NutgobblerMouth",
+  "ItemId": 1799,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 8
+  }
+}

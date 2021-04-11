@@ -1,0 +1,11 @@
+{
+  "Id": "AdventureNinjaHat",
+  "AssetId": "AdvNinjaHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "AdvNinjaHatHeadGear",
+  "ItemId": 1291,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

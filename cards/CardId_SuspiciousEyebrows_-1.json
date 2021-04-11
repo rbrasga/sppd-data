@@ -1,0 +1,11 @@
+{
+  "Id": "SuspiciousEyebrows",
+  "AssetId": "SuspiciousEyebrowsUI",
+  "Slot": "Eyebrows",
+  "Ingame": "SuspiciousEyebrows",
+  "ItemId": 1545,
+  "UnlockRequirements": 
+  {
+    "MinPlayerLevel": 1
+  }
+}

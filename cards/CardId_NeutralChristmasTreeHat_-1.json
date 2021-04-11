@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralChristmasTreeHat",
+  "AssetId": "NeutChristmasTreeHatHeadGearUI",
+  "Slot": "Head",
+  "Ingame": "NeutChristmasTreeHatHeadGear",
+  "ItemId": 2243,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 2,
+  "SilhouetteIfNotOwned": false
+}

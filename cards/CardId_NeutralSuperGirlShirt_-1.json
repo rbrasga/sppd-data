@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralSuperGirlShirt",
+  "AssetId": "NeutSuperGirlShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutSuperGirlShirtBodyGear",
+  "ItemId": 2138,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

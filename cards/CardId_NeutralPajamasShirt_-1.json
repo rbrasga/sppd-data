@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralPajamasShirt",
+  "AssetId": "NeutPajamasShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutPajamasShirtBodyGear",
+  "ItemId": 1936,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

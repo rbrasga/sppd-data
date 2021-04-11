@@ -1,0 +1,44 @@
+{
+  "Id": 1400,
+  "LevelId": "Level_Adv_6",
+  "Environment": "CityStreet_7",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1485,
+      "Cards": [
+        {
+          "Id": 1485
+        }
+      ]
+    }
+  ],
+  "Rewards": [
+    {
+      "StarLevel": 0,
+      "RewardList": [
+        {
+          "ItemType": "Card",
+          "Items": [
+            186
+          ]
+        },
+        {
+          "ItemType": "SoftCurrency",
+          "Amount": 125
+        },
+        {}
+      ]
+    }
+  ],
+  "EpisodeIndex": 2,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 16,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": -80,
+    "AddedHardDifficulty": 36
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4811937990206584067
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": 6127397634404792154
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": 7175107806858929001
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": -8309742594896531698
+  },
+  "data": {
+    "sourceHeight": 1.18654227,
+    "sourceRadius": 0.364216447,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 10,
+          "name": "BossEntrance",
+          "duration": 2.0333333,
+          "durationTicks": 61,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "BossName",
+              "time": 1.933333,
+              "timeTicks": 58
+            }
+          ]
+        },
+        {
+          "state": 7,
+          "name": "CastCard",
+          "duration": 1.6,
+          "durationTicks": 48,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "CastCard",
+              "time": 0.5,
+              "timeTicks": 15
+            }
+          ]
+        },
+        {
+          "state": 8,
+          "name": "CastSpell",
+          "duration": 1.5,
+          "durationTicks": 45,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "CastSpell",
+              "time": 0.4,
+              "timeTicks": 12
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 2.5666666,
+          "durationTicks": 77,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Jump",
+              "time": 0.2,
+              "timeTicks": 6
+            },
+            {
+              "name": "Land",
+              "time": 0.9,
+              "timeTicks": 27
+            }
+          ]
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.6,
+          "durationTicks": 18,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 5.9,
+          "durationTicks": 177,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.266666681,
+          "durationTicks": 8,
+          "loop": 1,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

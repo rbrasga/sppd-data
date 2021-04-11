@@ -1,0 +1,27 @@
+{
+  "Id": 1417,
+  "LevelId": "Level_Scifi_7",
+  "Environment": "CityStreet_11",
+  "Stages": [
+    {
+      "Position": 0.0,
+      "ScrollSpeed": 0.0,
+      "Boss": 1698,
+      "Cards": [
+        {
+          "Id": 1698
+        }
+      ]
+    }
+  ],
+  "Rewards": [],
+  "EpisodeIndex": 4,
+  "LevelingStickers": {
+    "BaseStickers": 0,
+    "AddedStickers": 3,
+    "BaseEasyDifficulty": 48,
+    "AddedEasyDifficulty": 36,
+    "BaseHardDifficulty": -48,
+    "AddedHardDifficulty": 36
+  }
+}

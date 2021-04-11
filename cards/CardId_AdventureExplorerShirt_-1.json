@@ -1,0 +1,11 @@
+{
+  "Id": "AdventureExplorerShirt",
+  "AssetId": "AdvExplorerShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "AdvExplorerShirtBodyGear",
+  "ItemId": 2073,
+  "Scale": 0.0,
+  "PositionOffset": "",
+  "Rarity": 0,
+  "SilhouetteIfNotOwned": false
+}

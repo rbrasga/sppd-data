@@ -1,0 +1,10 @@
+{
+  "Id": "BasicEyes",
+  "AssetId": "BasicEyesUI",
+  "Slot": "Eyes",
+  "Ingame": "BasicEyes",
+  "ItemId": 1554,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 1
+  }
+}

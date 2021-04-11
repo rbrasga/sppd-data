@@ -1,0 +1,10 @@
+{
+  "Id": "MoustacheBasicFacialHair",
+  "AssetId": "MoustacheBasicFacialHairUI",
+  "Slot": "FacialHair",
+  "Ingame": "MoustacheBasicFacialHair",
+  "ItemId": 1579,
+  "UnlockRequirements": {
+    "MinPlayerLevel": 11
+  }
+}

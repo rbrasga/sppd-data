@@ -1,0 +1,11 @@
+{
+  "Id": "NeutralFingerBang2Shirt",
+  "AssetId": "NeutFingerBang2ShirtBodyGearUI",
+  "Slot": "Body",
+  "Ingame": "NeutFingerBang2ShirtBodyGear",
+  "ItemId": 2233,
+  "Scale": 1.0,
+  "PositionOffset": "",
+  "Rarity": 1,
+  "SilhouetteIfNotOwned": false
+}

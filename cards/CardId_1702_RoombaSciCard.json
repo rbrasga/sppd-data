@@ -1,10 +1,10 @@
 {
   "Id": 1702,
   "Visible": false,
-  "Finalized": true,
+  "Finalized": false,
   "UnlockedDuringEvent": false,
   "CanAttack": true,
-  "NameKey": "Roomba",
+  "NameKey": "[Not in use] Old Roomba",
   "OasisNameOverride": "",
   "OasisDescOverride": "",
   "Image": "RoombaSciCard",

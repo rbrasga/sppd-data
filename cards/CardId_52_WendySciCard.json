@@ -155,7 +155,7 @@
         },
         {
           "Type": "FreezeEffect",
-          "EffectImpact": "Neutral",
+          "EffectImpact": "Negative",
           "Params": {
             "MuteFreezeSound": false,
             "CannotDeactivateEarly": false,
@@ -181,7 +181,7 @@
         },
         {
           "Type": "VisualEffect",
-          "EffectImpact": "Neutral",
+          "EffectImpact": "Negative",
           "Params": {
             "AssetId": "FreezeOncePowerFX",
             "IsOffetRelative": false,

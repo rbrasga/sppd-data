@@ -86,7 +86,10 @@
           }
         },
         {
-          "Type": "FilterEnemiesSelector"
+          "Type": "FilterEnemiesSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
         },
         {
           "Type": "FilterByTagSelector",
@@ -99,8 +102,7 @@
         {
           "Type": "DamageEffect",
           "Params": {
-            "Amount": "10+PowerDamageAbs",
-            "AmountVariableId": "PowerDamage",
+            "Amount": "10",
             "HideDamage": false
           }
         },

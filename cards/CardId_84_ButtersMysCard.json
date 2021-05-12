@@ -146,7 +146,7 @@
           "EffectImpact": "Neutral",
           "Params": {
             "Add": "0.1",
-            "AddVariableId": "PowerManaGain"
+            "AddVariableId": "PowerManaIncrease"
           }
         },
         {

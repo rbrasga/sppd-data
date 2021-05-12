@@ -129,6 +129,13 @@
           }
         },
         {
+          "Type": "RemoveTagsEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "Tags": "Invincible"
+          }
+        },
+        {
           "Type": "IfEndConditionEffect",
           "Params": {
             "EndPowerEarly": false
@@ -163,7 +170,7 @@
         {
           "Type": "DamageEffect",
           "Params": {
-            "Amount": "1000000",
+            "Amount": "10000",
             "HideDamage": false
           }
         },

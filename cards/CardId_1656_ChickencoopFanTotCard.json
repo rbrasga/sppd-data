@@ -6,7 +6,7 @@
   "CanAttack": false,
   "NameKey": "Chicken Coop",
   "OasisNameOverride": "",
-  "OasisDescOverride": "",
+  "OasisDescOverride": "DF_DESC_CHICKENCOOPFANTOT2",
   "Image": "ChickencoopFanTotCard",
   "Frame": "",
   "ManaCost": 4,
@@ -52,7 +52,7 @@
   ],
   "CharacterType": "Totem",
   "Ingame": "ChickencoopFanTotPF",
-  "AttackRange": 0.6,
+  "AttackRange": 1.2,
   "TimeToReachMaxVelocity": 0.1,
   "MaxVelocity": 0.0,
   "TimeInBetweenAttacks": 0.5,
@@ -67,7 +67,7 @@
   "KnockbackImpulse": "5",
   "KnockbackAngleDeg": 45.0,
   "ChargedPowerRegen": 0.0,
-  "ChargedPowerRadius": 0.0,
+  "ChargedPowerRadius": 1.1,
   "ChargedPowerReticle": "TotemAuraPowerRet",
   "Rarity": 2,
   "Theme": "Fan",
@@ -82,7 +82,9 @@
         "Type": "Spawned",
         "Params": {
           "EnabledByTechTree": false,
-          "EnabledByFSM": false
+          "EnabledByFSM": false,
+          "RemoveAOEVisualWhenPlayed": false,
+          "RemoveUnitHighlightWhenPlayed": false
         }
       },
       "UniqueId": "Summoningstaff",
@@ -115,13 +117,17 @@
             "CardId": 1456,
             "UseCardFromSelection": false,
             "OnSpot": true,
+            "IgnoreUnitDirection": false,
             "Amount": "1",
             "Level": "PowerSummonLevelAbs",
             "LevelVariableId": "PowerSummonLevel",
             "SimpleLevel": "1+PowerSummonLevelAbs",
             "UseCardFromPlayer": false,
+            "UseCardFromTeamUnits": false,
             "RemoveCardFromHand": false,
-            "SpawnForOriginalTeam": false
+            "RemoveCardFromDeck": false,
+            "SpawnForOriginalTeam": false,
+            "IgnoreIfYourSameUnitAlive": false
           }
         },
         {
@@ -129,10 +135,47 @@
           "EffectImpact": "Neutral",
           "Params": {
             "AssetId": "RandyFanOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
             "BoneName": "Projectile",
             "OwnerTeamOnly": false,
             "CannotPauseVFX": false,
             "CannotClearVFXOnPause": false
+          }
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "AnimationStarted",
+        "Params": {
+          "AnimationName": "Death",
+          "EnabledByTechTree": false
+        }
+      },
+      "UniqueId": "1656_Chicken Coop_1",
+      "Nodes": [
+        {
+          "Type": "CasterPositionSelector",
+          "Params": {
+            "RequestNewSelection": false
+          }
+        },
+        {
+          "Type": "SpawnEffect",
+          "Params": {
+            "CardId": 1456,
+            "UseCardFromSelection": false,
+            "OnSpot": true,
+            "IgnoreUnitDirection": false,
+            "Amount": "2",
+            "Level": "PowerSummonLevelAbs",
+            "UseCardFromPlayer": false,
+            "UseCardFromTeamUnits": false,
+            "RemoveCardFromHand": false,
+            "RemoveCardFromDeck": false,
+            "SpawnForOriginalTeam": false,
+            "IgnoreIfYourSameUnitAlive": false
           }
         }
       ]
@@ -146,7 +189,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 15.7654095,
+        "calculatedValue": 15.76541,
         "value": 16.0
       },
       {
@@ -154,7 +197,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 17.7996559,
+        "calculatedValue": 17.7996578,
         "value": 18.0
       },
       {
@@ -162,7 +205,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 19.32534,
+        "calculatedValue": 19.3253422,
         "value": 19.0
       },
       {
@@ -170,7 +213,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 21.3595867,
+        "calculatedValue": 21.3595886,
         "value": 21.0
       },
       {
@@ -178,7 +221,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 15.4376259,
+        "calculatedValue": 15.4376268,
         "value": 15.0
       },
       {
@@ -226,7 +269,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 27.8873253,
+        "calculatedValue": 27.8873272,
         "value": 28.0
       },
       {
@@ -258,7 +301,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 15.4376259,
+        "calculatedValue": 15.4376268,
         "value": 15.0
       },
       {
@@ -306,7 +349,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 27.8873253,
+        "calculatedValue": 27.8873272,
         "value": 28.0
       },
       {
@@ -346,7 +389,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 13.0590467,
+        "calculatedValue": 13.0590477,
         "value": 13.0
       },
       {
@@ -410,7 +453,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 26.1180935,
+        "calculatedValue": 26.1180954,
         "value": 26.0
       },
       {
@@ -418,7 +461,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 29.8492489,
+        "calculatedValue": 29.84925,
         "value": 30.0
       },
       {
@@ -458,7 +501,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 5.397739,
+        "calculatedValue": 5.39773941,
         "value": 5.0
       },
       {
@@ -466,7 +509,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 6.09422159,
+        "calculatedValue": 6.094222,
         "value": 6.0
       },
       {
@@ -490,7 +533,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 8.009548,
+        "calculatedValue": 8.009549,
         "value": 8.0
       },
       {
@@ -522,7 +565,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 11.6660814,
+        "calculatedValue": 11.6660824,
         "value": 12.0
       },
       {
@@ -530,7 +573,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 12.1884432,
+        "calculatedValue": 12.1884441,
         "value": 12.0
       },
       {
@@ -586,7 +629,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 4.353016,
+        "calculatedValue": 4.35301542,
         "value": 4.0
       },
       {
@@ -594,7 +637,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 4.72613144,
+        "calculatedValue": 4.726131,
         "value": 5.0
       },
       {
@@ -602,7 +645,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 5.223619,
+        "calculatedValue": 5.22361851,
         "value": 5.0
       },
       {
@@ -610,7 +653,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 5.72110653,
+        "calculatedValue": 5.721106,
         "value": 6.0
       },
       {
@@ -626,7 +669,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 6.96482563,
+        "calculatedValue": 6.964825,
         "value": 7.0
       },
       {
@@ -650,7 +693,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 8.706032,
+        "calculatedValue": 8.706031,
         "value": 9.0
       },
       {
@@ -666,7 +709,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 11.19347,
+        "calculatedValue": 11.193469,
         "value": 11.0
       },
       {
@@ -682,7 +725,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 13.5565348,
+        "calculatedValue": 13.5565338,
         "value": 14.0
       },
       {
@@ -690,7 +733,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 14.9246254,
+        "calculatedValue": 14.9246244,
         "value": 15.0
       }
     ],
@@ -784,6 +827,7 @@
   "AOEAttackType": "No",
   "AOEDamagePercentage": 0.0,
   "AOERadius": 0.0,
+  "AOEAttackConeDegree": 0.0,
   "AOEKnockbackPercentage": 0.0,
   "TargetingType": "Ground",
   "PreAttackDelay": 0.0,
@@ -838,10 +882,12 @@
     ]
   },
   "OverrideSoundBankName": "",
-  "ChildUnitLimit": 7,
+  "ChildUnitLimit": 12,
   "SpineSkin": "",
   "CastOverrideAnim": "",
   "ColliderRadiusOverride": -1.0,
   "AttackEffect": "",
-  "CheckAndRemoveFromDeckOnSpawn": false
+  "CheckAndRemoveFromDeckOnSpawn": false,
+  "ChargedPowerReticlePositionOffset": "",
+  "ChargedPowerReticleLockDirection": false
 }

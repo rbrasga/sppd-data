@@ -100,7 +100,8 @@
             "LockToDefaultDirection": true,
             "IgnoreCaster": false,
             "Tags": "isHumanKite2",
-            "ExcludeTags": "Boss,Hero",
+            "ExcludeTags": "Boss,Hero,Totem",
+            "CanSelectAnyUnits": false,
             "Damage": "0",
             "EveryXSeconds": "1",
             "HideDamage": false
@@ -124,6 +125,7 @@
             "LockToDefaultDirection": true,
             "IgnoreCaster": false,
             "ExcludeTags": "AbilityImmune,Boss,Hero,Totem",
+            "CanSelectAnyUnits": false,
             "Damage": "0",
             "EveryXSeconds": "1",
             "HideDamage": false

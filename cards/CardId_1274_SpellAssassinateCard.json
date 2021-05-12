@@ -6,7 +6,7 @@
   "CanAttack": true,
   "NameKey": "Unholy Combustion",
   "OasisNameOverride": "",
-  "OasisDescOverride": "",
+  "OasisDescOverride": "DF_DESC_SPELLASSASSINATE2",
   "Image": "SpellAssassinateCard",
   "Frame": "",
   "ManaCost": 5,
@@ -82,14 +82,15 @@
             "MaximumDistance": "2",
             "UsedForVisualization": false,
             "Side": "Enemy",
-            "ExcludeTags": "Boss,HumanTotem,Invincible,KillAbilityImmune,NegativeSpellImmune,Object,SpellImmune"
+            "ExcludeTags": "Invincible,NegativeSpellImmune,SpellImmune"
           }
         },
         {
           "Type": "AddTagsEffect",
           "EffectImpact": "Neutral",
           "Params": {
-            "Tags": "TemporaryMarked"
+            "Tags": "TemporaryMarked",
+            "CanSelectAnyUnits": false
           }
         },
         {
@@ -121,7 +122,7 @@
             "UsedForVisualization": false,
             "Side": "Enemy",
             "Tags": "TemporaryMarked",
-            "ExcludeTags": "Boss,Flying,HumanTotem,Invincible,KillAbilityImmune,NegativeSpellImmune,Object,SpellImmune"
+            "ExcludeTags": "Boss,Flying,Hero,Invincible,NegativeSpellImmune,Object,SpellImmune"
           }
         },
         {
@@ -180,7 +181,7 @@
             "UsedForVisualization": false,
             "Side": "Enemy",
             "Tags": "Flying,TemporaryMarked",
-            "ExcludeTags": "Boss,Invincible,KillAbilityImmune,NegativeSpellImmune,SpellImmune"
+            "ExcludeTags": "Boss,Hero,Invincible,NegativeSpellImmune,Object,SpellImmune"
           }
         },
         {
@@ -226,8 +227,8 @@
             "MaximumDistance": "2",
             "UsedForVisualization": false,
             "Side": "Enemy",
-            "Tags": "HumanTotem,Object,TemporaryMarked",
-            "ExcludeTags": "Boss,HumanTotem,Invincible,KillAbilityImmune,NegativeSpellImmune,Object,SpellImmune"
+            "Tags": "TemporaryMarked",
+            "ExcludeTags": "Boss,Hero,Invincible,NegativeSpellImmune,SpellImmune"
           }
         },
         {
@@ -246,7 +247,9 @@
         {
           "Type": "DamageEffect",
           "Params": {
-            "Amount": "10000",
+            "Amount": "(1000+PowerDamageAbs)*0.98",
+            "AmountVariableId": "PowerDamage",
+            "SimpleAmount": "1000+PowerDamageAbs",
             "HideDamage": true
           }
         },
@@ -262,21 +265,23 @@
           }
         },
         {
-          "Type": "FilterEnemiesSelector"
+          "Type": "FilterEnemiesSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
         },
         {
           "Type": "FilterByTagSelector",
           "Params": {
             "IncludeAll": false,
             "CanSelectAnyUnits": false,
-            "ExcludeTags": "NegativeSpellImmune,SpellImmune"
+            "ExcludeTags": "Invincible,NegativeSpellImmune,SpellImmune"
           }
         },
         {
           "Type": "DamageEffect",
           "Params": {
-            "Amount": "20+PowerDamageAbs",
-            "AmountVariableId": "PowerDamage",
+            "Amount": "(1000+PowerDamageAbs)*0.02",
             "HideDamage": false
           }
         }
@@ -341,8 +346,8 @@
             "y": 0,
             "type": "TechSlotPowerValueModifier",
             "property": "PowerDamageAbs",
-            "calculatedValue": 4.5555563,
-            "value": 5.0
+            "calculatedValue": 227.7778,
+            "value": 228.0
           }
         ]
       },
@@ -354,8 +359,8 @@
             "y": 0,
             "type": "TechSlotPowerValueModifier",
             "property": "PowerDamageAbs",
-            "calculatedValue": 9.111113,
-            "value": 9.0
+            "calculatedValue": 455.5556,
+            "value": 456.0
           }
         ]
       },
@@ -367,8 +372,8 @@
             "y": 0,
             "type": "TechSlotPowerValueModifier",
             "property": "PowerDamageAbs",
-            "calculatedValue": 13.6666689,
-            "value": 14.0
+            "calculatedValue": 683.3334,
+            "value": 683.0
           }
         ]
       },
@@ -380,8 +385,8 @@
             "y": 0,
             "type": "TechSlotPowerValueModifier",
             "property": "PowerDamageAbs",
-            "calculatedValue": 18.2222252,
-            "value": 18.0
+            "calculatedValue": 911.1112,
+            "value": 911.0
           }
         ]
       },
@@ -393,8 +398,8 @@
             "y": 0,
             "type": "TechSlotPowerValueModifier",
             "property": "PowerDamageAbs",
-            "calculatedValue": 13.6666689,
-            "value": 14.0
+            "calculatedValue": 683.3334,
+            "value": 683.0
           }
         ]
       },
@@ -406,8 +411,8 @@
             "y": 0,
             "type": "TechSlotPowerValueModifier",
             "property": "PowerDamageAbs",
-            "calculatedValue": 9.111113,
-            "value": 9.0
+            "calculatedValue": 455.5556,
+            "value": 456.0
           }
         ]
       }
@@ -435,7 +440,7 @@
         "SlotProperty": "PowerDamageAbs",
         "SlotValue": "",
         "MaxMultiplier": "",
-        "PowerValue": "20",
+        "PowerValue": "1000",
         "Weighted": true,
         "IgnoreEvoLvl": []
       }

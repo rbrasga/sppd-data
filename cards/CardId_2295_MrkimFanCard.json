@@ -40,7 +40,7 @@
   "Ingame": "MrkimFanCharPF",
   "AttackRange": 4.1,
   "TimeToReachMaxVelocity": 0.1,
-  "MaxVelocity": 0.55,
+  "MaxVelocity": 0.4,
   "TimeInBetweenAttacks": 0.5,
   "AgroRangeMultiplier": 2.0,
   "_notes": "",

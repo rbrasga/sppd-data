@@ -17,7 +17,8 @@
   "IngameAssets": [
     "MrgarrisonSciCharPF",
     "LaserBeamProj",
-    "ConeSelectorPowerRet"
+    "ConeSelectorPowerRet",
+    "TargetFX"
   ],
   "UIAssets": [
     "MrgarrisonSciCard"
@@ -152,7 +153,7 @@
             "Radius": "100",
             "Side": "Enemy",
             "ExcludeTags": "AttractImmune,Boss,Hero",
-            "CanSelectAnyUnits": false
+            "CanSelectAnyUnits": true
           },
           "EndTriggers": [
             {
@@ -473,6 +474,21 @@
           "Params": {
             "FilterMode": "Max",
             "Value": "1"
+          }
+        },
+        {
+          "Type": "FilterNearestUnitsSelector",
+          "Params": {
+            "CenterPosition": "CastPosition",
+            "CanSelectAnyUnits": false,
+            "CanSelectTraps": false,
+            "SelectFurthest": false,
+            "IsAreaOfEffect": true,
+            "Amount": "1",
+            "MaximumDistance": "10",
+            "UnitHighlightAssetId": "TargetFX",
+            "UsedForVisualization": true,
+            "PowerAOEReticleAssetId": "ConeSelectorPowerRet"
           }
         },
         {
@@ -1180,7 +1196,7 @@
     "MinEpisodeCompleted": 3,
     "MinPlayerLevel": 0,
     "MinPVPRank": 0,
-    "MinPVPArena": 0
+    "MinPVPArena": 8
   },
   "AOEAttackType": "No",
   "AOEDamagePercentage": 0.0,

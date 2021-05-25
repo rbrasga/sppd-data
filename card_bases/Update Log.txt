@@ -35,3 +35,19 @@ all sword icons visible
 - Darken all of the Rare and Legendary Neutral class icons
 - Darken the Spell, Totem, and Trap class icons
 
+2/12/21
+- Made the Epic and Legendary trap icon's shadow lighter
+- Added a lighter shadow on the rartiy icons
+- Made the rarity icons slightly larger
+- Moved the Sci-fi and Fantasy theme logo
+
+2/18/21
+- Moved the Mystical and Sci-fi theme icon
+- Shrunk the Mystical theme icon
+
+3/26/21
+- Inproved the textboxes to better represent cards in-game
+- Shorten the Adventure and Superheroes
+- Made the Mystical Theme Icon Bigger
+- Made the Rarity Icons bigger
+- Lowered the textboxes by 1px

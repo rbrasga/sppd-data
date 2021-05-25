@@ -82,7 +82,7 @@
             "MaximumDistance": "2",
             "UsedForVisualization": false,
             "Side": "Enemy",
-            "ExcludeTags": "Invincible,NegativeSpellImmune,SpellImmune"
+            "ExcludeTags": "Boss,Invincible,NegativeSpellImmune,SpellImmune"
           }
         },
         {

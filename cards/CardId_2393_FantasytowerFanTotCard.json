@@ -2,7 +2,7 @@
   "Id": 2393,
   "Visible": true,
   "Finalized": true,
-  "UnlockedDuringEvent": true,
+  "UnlockedDuringEvent": false,
   "CanAttack": true,
   "NameKey": "Castle Defender PvP",
   "OasisNameOverride": "",
@@ -928,7 +928,7 @@
     "MinEpisodeCompleted": 3,
     "MinPlayerLevel": 0,
     "MinPVPRank": 0,
-    "MinPVPArena": 0
+    "MinPVPArena": 2
   },
   "AOEAttackType": "No",
   "AOEDamagePercentage": 0.0,
@@ -955,7 +955,7 @@
     ]
   },
   "OverrideSoundBankName": "",
-  "ChildUnitLimit": 2,
+  "ChildUnitLimit": 1,
   "SpineSkin": "",
   "CastOverrideAnim": "",
   "ColliderRadiusOverride": -1.0,

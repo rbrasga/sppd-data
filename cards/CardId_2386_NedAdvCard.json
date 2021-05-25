@@ -2,7 +2,7 @@
   "Id": 2386,
   "Visible": true,
   "Finalized": false,
-  "UnlockedDuringEvent": true,
+  "UnlockedDuringEvent": false,
   "CanAttack": true,
   "NameKey": "War Hero Ned",
   "OasisNameOverride": "",
@@ -822,7 +822,7 @@
     "MinEpisodeCompleted": 0,
     "MinPlayerLevel": 0,
     "MinPVPRank": 35,
-    "MinPVPArena": 0
+    "MinPVPArena": 7
   },
   "AOEAttackType": "No",
   "AOEDamagePercentage": 0.0,

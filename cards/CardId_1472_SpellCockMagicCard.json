@@ -87,7 +87,8 @@
             "Amount": "2+PowerTargetAbs",
             "AmountVariableId": "PowerTargetAmount",
             "HideSelectionVisualization": true,
-            "CanSelectTraps": false
+            "CanSelectTraps": false,
+            "CanSelectAnyUnits": false
           }
         },
         {
@@ -115,7 +116,7 @@
         {
           "Type": "ChangeCharacterEffect",
           "Params": {
-            "CardId": 1456,
+            "CardId": "1456",
             "Delay": "0",
             "SwitchUnitTeam": false
           }
@@ -172,7 +173,7 @@
       "Trigger": {
         "Type": "CardPlayed",
         "Params": {
-          "Delay": "0.5",
+          "Delay": "0.8",
           "EnabledByTechTree": false,
           "EnabledByFSM": false
         }

@@ -40,7 +40,7 @@
   "Ingame": "StuartSciCharPF",
   "AttackRange": 0.7,
   "TimeToReachMaxVelocity": 0.1,
-  "MaxVelocity": 0.55,
+  "MaxVelocity": 0.45,
   "TimeInBetweenAttacks": 0.5,
   "AgroRangeMultiplier": 2.5,
   "_notes": "",
@@ -199,7 +199,10 @@
           }
         },
         {
-          "Type": "FilterEnemiesSelector"
+          "Type": "FilterEnemiesSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
         },
         {
           "Type": "FilterByTagSelector",
@@ -223,6 +226,22 @@
               "Params": {
                 "ElapsedTime": "3.5",
                 "ElapsedTimeVariableId": "PowerDuration"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "AddTagsEffect",
+          "EffectImpact": "Negative",
+          "Params": {
+            "Tags": "Frozen",
+            "CanSelectAnyUnits": false
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "3.5"
               }
             }
           ]

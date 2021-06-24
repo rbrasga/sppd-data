@@ -239,6 +239,22 @@
           ]
         },
         {
+          "Type": "AddTagsEffect",
+          "EffectImpact": "Negative",
+          "Params": {
+            "Tags": "Frozen",
+            "CanSelectAnyUnits": false
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "1.3"
+              }
+            }
+          ]
+        },
+        {
           "Type": "VisualEffect",
           "EffectImpact": "Neutral",
           "Params": {

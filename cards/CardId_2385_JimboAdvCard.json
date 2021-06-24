@@ -2,7 +2,7 @@
   "Id": 2385,
   "Visible": true,
   "Finalized": false,
-  "UnlockedDuringEvent": true,
+  "UnlockedDuringEvent": false,
   "CanAttack": true,
   "NameKey": "Hunter Jimbo",
   "OasisNameOverride": "DF_NAME_JIMBOADV",
@@ -854,7 +854,7 @@
     "MinEpisodeCompleted": 0,
     "MinPlayerLevel": 0,
     "MinPVPRank": 0,
-    "MinPVPArena": 0
+    "MinPVPArena": 7
   },
   "AOEAttackType": "OnUnit",
   "AOEDamagePercentage": 1.0,

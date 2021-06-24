@@ -99,11 +99,16 @@
           }
         },
         {
-          "Type": "FilterEnemiesSelector"
+          "Type": "FilterEnemiesSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
         },
         {
           "Type": "IfContainsTagsConditionEffect",
           "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
             "ExcludeTags": "Boss,Flying,Trap"
           }
         },
@@ -237,6 +242,22 @@
             "CanSelectAnyUnits": false,
             "ExcludeTags": "Boss,Flying,FreezeImmune,Trap"
           }
+        },
+        {
+          "Type": "AddTagsEffect",
+          "EffectImpact": "Negative",
+          "Params": {
+            "Tags": "Frozen",
+            "CanSelectAnyUnits": false
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "2"
+              }
+            }
+          ]
         },
         {
           "Type": "FreezeEffect",

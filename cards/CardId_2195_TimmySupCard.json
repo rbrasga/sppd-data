@@ -111,6 +111,8 @@
           "EffectImpact": "Neutral",
           "Params": {
             "AssetId": "GroundImpactOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
             "OwnerTeamOnly": false,
             "CannotPauseVFX": false,
             "CannotClearVFXOnPause": false
@@ -121,6 +123,8 @@
           "EffectImpact": "Neutral",
           "Params": {
             "AssetId": "TelekinesisOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
             "BoneName": "Target",
             "OwnerTeamOnly": false,
             "CannotPauseVFX": true,
@@ -144,6 +148,22 @@
               "Params": {
                 "ElapsedTime": "4",
                 "ElapsedTimeVariableId": "PowerDuration"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "AddTagsEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "Tags": "Frozen",
+            "CanSelectAnyUnits": false
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "4"
               }
             }
           ]
@@ -188,6 +208,8 @@
           "EffectImpact": "Neutral",
           "Params": {
             "AssetId": "PsychicForceOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
             "BoneName": "Forehead",
             "OwnerTeamOnly": false,
             "CannotPauseVFX": false,

@@ -174,7 +174,7 @@
             "AnimationCurveAsset": "FlightEffectDefaultAltitude",
             "Damage": "50+PowerDamageAbs",
             "DamageVariableId": "PowerDamage",
-            "FlyingColliderType": false,
+            "FlyingColliderType": true,
             "SoundEventOnDeactivate": "PlayTimmySupSuperHit",
             "SoundBankName": "SoundBank_TimmySup"
           },

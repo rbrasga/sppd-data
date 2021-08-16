@@ -39,12 +39,12 @@
   ],
   "CharacterType": "Melee",
   "Ingame": "NellyGenCharPF",
-  "AttackRange": 1.5,
+  "AttackRange": 0.6,
   "TimeToReachMaxVelocity": 0.1,
   "MaxVelocity": 0.675,
   "TimeInBetweenAttacks": 0.5,
   "AgroRangeMultiplier": 5.0,
-  "_notes": "",
+  "_notes": "Nearest unit selector just allows us to display the AoE in the upgrade screen",
   "PhysicsProperties": {
     "FrictionCoefficient": 1.0,
     "RestingFriction": 0.25,
@@ -75,6 +75,23 @@
       "Nodes": [
         {
           "Type": "CasterSelector"
+        },
+        {
+          "Type": "NearestUnitsSelector",
+          "Params": {
+            "CanSelectAnyUnits": false,
+            "IncludeCaster": true,
+            "CanSelectTraps": false,
+            "SelectFurthest": false,
+            "IsAreaOfEffect": false,
+            "Amount": "1",
+            "MaximumDistance": "1.5",
+            "MaximumDistanceVariableId": "PowerRange",
+            "UsedForVisualization": false,
+            "Side": "Friendly",
+            "Tags": "Gen,Human,Melee",
+            "ExcludeTags": "Boss,Enemy,Hero"
+          }
         },
         {
           "Type": "VisualEffect",

@@ -818,7 +818,7 @@
     "MinEpisodeCompleted": 3,
     "MinPlayerLevel": 0,
     "MinPVPRank": 0,
-    "MinPVPArena": 0
+    "MinPVPArena": 9
   },
   "AOEAttackType": "No",
   "AOEDamagePercentage": 0.0,

@@ -97,7 +97,15 @@
             "Add": "7+PowerAttackBoostAbs",
             "AddVariableId": "PowerAttackBoost",
             "HideIcon": false
-          }
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "15"
+              }
+            }
+          ]
         },
         {
           "Type": "VisualEffect",

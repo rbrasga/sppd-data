@@ -41,7 +41,7 @@
   ],
   "CharacterType": "Tank",
   "Ingame": "ManbearpigGenCharPF",
-  "AttackRange": 2.0,
+  "AttackRange": 1.0,
   "TimeToReachMaxVelocity": 0.1,
   "MaxVelocity": 0.7,
   "TimeInBetweenAttacks": 0.5,
@@ -65,7 +65,42 @@
   "WalkingAnimationThresholdFactor": 0.2,
   "TargetHeightFactor": 0.8,
   "HealthBarOffset": -0.35,
-  "Pows": [],
+  "Pows": [
+    {
+      "Trigger": {
+        "Type": "ChargedPowerActivated",
+        "Params": {
+          "Automatic": false,
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false,
+          "SimulateSelectionDuringAnimation": false
+        }
+      },
+      "UniqueId": "1672_Manbearpig_0",
+      "Nodes": [
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "ConeSelector",
+          "Params": {
+            "MaximumDistance": "2",
+            "MaximumDistanceVariableId": "PowerRange",
+            "CanSelectTraps": false,
+            "UsedForVisualization": false,
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "DamageEffect",
+          "Params": {
+            "Amount": "0",
+            "HideDamage": true
+          }
+        }
+      ]
+    }
+  ],
   "SameTeamCollisionRadiusMultiplier": 1.0,
   "TechTree2": {
     "Slots": [

@@ -114,13 +114,16 @@
             "CardId": 2190,
             "UseCardFromSelection": false,
             "OnSpot": true,
+            "IgnoreUnitDirection": false,
             "Amount": "1",
             "Level": "PowerSummonLevelAbs",
             "LevelVariableId": "PowerSummonLevel",
             "SimpleLevel": "1 + PowerSummonLevelAbs",
             "UseCardFromPlayer": false,
             "UseCardFromTeamUnits": false,
+            "UseCardFromOpponentTeamUnits": false,
             "RemoveCardFromHand": false,
+            "RemoveCardFromDeck": false,
             "SpawnForOriginalTeam": false,
             "IgnoreIfYourSameUnitAlive": false
           }
@@ -160,8 +163,8 @@
           "Type": "SpeedUpEffect",
           "EffectImpact": "Neutral",
           "Params": {
-            "SpeedMultiplier": "2.5",
-            "AffectsAnimations": false,
+            "MovementSpeed": "2.5",
+            "AnimationSpeed": "1.0",
             "HideIcon": true
           },
           "EndTriggers": [

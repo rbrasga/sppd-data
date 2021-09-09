@@ -147,8 +147,8 @@
           "Type": "SpeedUpEffect",
           "EffectImpact": "Neutral",
           "Params": {
-            "SpeedMultiplier": "5",
-            "AffectsAnimations": false,
+            "MovementSpeed": "5",
+            "AnimationSpeed": "1",
             "HideIcon": true
           },
           "EndTriggers": [
@@ -247,7 +247,8 @@
             "ChargePower": true,
             "OnDeathPower": false,
             "OnPlayPower": false,
-            "NoPower": false
+            "NoPower": false,
+            "CanSelectAnyUnits": false
           }
         },
         {

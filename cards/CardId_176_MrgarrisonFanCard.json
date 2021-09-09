@@ -105,7 +105,10 @@
           }
         },
         {
-          "Type": "FilterEnemiesSelector"
+          "Type": "FilterEnemiesSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
         },
         {
           "Type": "FilterByTagSelector",
@@ -119,8 +122,8 @@
           "Type": "SlowdownEffect",
           "EffectImpact": "Negative",
           "Params": {
-            "SpeedMultiplier": "0.5",
-            "AffectsAnimations": true,
+            "MovementSpeed": "0.5",
+            "AnimationSpeed": "0.5",
             "HideIcon": true
           },
           "EndTriggers": [

@@ -114,6 +114,8 @@
           "EffectImpact": "Neutral",
           "Params": {
             "AssetId": "DrawTargetLoopPowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
             "BoneName": "Target",
             "OwnerTeamOnly": false,
             "CannotPauseVFX": false,
@@ -159,6 +161,8 @@
           "EffectImpact": "Neutral",
           "Params": {
             "AssetId": "LavaSupTrapPileLoopPowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
             "Scale": "1.4",
             "OwnerTeamOnly": false,
             "CannotPauseVFX": false,
@@ -193,7 +197,10 @@
           }
         },
         {
-          "Type": "FilterEnemiesSelector"
+          "Type": "FilterEnemiesSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
         },
         {
           "Type": "FilterByTagSelector",
@@ -219,6 +226,8 @@
           "EffectImpact": "Neutral",
           "Params": {
             "AssetId": "LavaSupTrapSplashOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
             "OwnerTeamOnly": false,
             "CannotPauseVFX": false,
             "CannotClearVFXOnPause": false,
@@ -246,7 +255,10 @@
           }
         },
         {
-          "Type": "FilterEnemiesSelector"
+          "Type": "FilterEnemiesSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
         },
         {
           "Type": "FilterByTagSelector",
@@ -260,7 +272,8 @@
           "Type": "SlowdownEffect",
           "EffectImpact": "Neutral",
           "Params": {
-            "SpeedMultiplier": "0.555556",
+            "MovementSpeed": "0.555556",
+            "AnimationSpeed": "0.555556",
             "HideIcon": true
           },
           "EndTriggers": [
@@ -283,6 +296,8 @@
           "EffectImpact": "Neutral",
           "Params": {
             "AssetId": "SlowDownOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
             "OwnerTeamOnly": false,
             "CannotPauseVFX": false,
             "CannotClearVFXOnPause": false,

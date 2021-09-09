@@ -82,6 +82,8 @@
           "EffectImpact": "Neutral",
           "Params": {
             "AssetId": "EnergyBurstOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
             "BoneName": "Projectile",
             "OwnerTeamOnly": false,
             "CannotPauseVFX": false,
@@ -103,6 +105,7 @@
             "SelectFurthest": false,
             "IsAreaOfEffect": false,
             "Amount": "1",
+            "UsedForVisualization": false,
             "Side": "Friendly",
             "ExcludeTags": "AbilityImmune,MovingObject,Object,SpeedchangeImmune"
           }
@@ -138,6 +141,8 @@
           "EffectImpact": "Neutral",
           "Params": {
             "AssetId": "AssassinImpactAttackOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
             "OwnerTeamOnly": false,
             "CannotPauseVFX": false,
             "CannotClearVFXOnPause": false
@@ -150,7 +155,9 @@
         "Type": "ProjectileHit",
         "Params": {
           "ActivateOnSuperPower": true,
-          "EnabledByTechTree": false
+          "EnabledByTechTree": false,
+          "RemoveAOEVisualWhenPlayed": false,
+          "RemoveUnitHighlightWhenPlayed": false
         }
       },
       "UniqueId": "55_Astronaut Butters_2",
@@ -165,8 +172,8 @@
           "Type": "SpeedUpEffect",
           "EffectImpact": "Positive",
           "Params": {
-            "SpeedMultiplier": "1.8",
-            "AffectsAnimations": true,
+            "MovementSpeed": "1.8",
+            "AnimationSpeed": "1.8",
             "HideIcon": true
           },
           "EndTriggers": [
@@ -190,6 +197,8 @@
           "EffectImpact": "Neutral",
           "Params": {
             "AssetId": "SpeedUpOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
             "BoneName": "Target",
             "OwnerTeamOnly": false,
             "CannotPauseVFX": false,
@@ -203,6 +212,8 @@
           "EffectImpact": "Neutral",
           "Params": {
             "AssetId": "SpeedUpTargetLoopPowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
             "BoneName": "Target",
             "OwnerTeamOnly": false,
             "CannotPauseVFX": false,
@@ -230,6 +241,8 @@
           "EffectImpact": "Neutral",
           "Params": {
             "AssetId": "SpeedUpGroundTargetLoopPowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
             "OwnerTeamOnly": false,
             "CannotPauseVFX": false,
             "CannotClearVFXOnPause": false
@@ -254,7 +267,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 1.93643844,
+        "calculatedValue": 1.93643856,
         "value": 2.0
       },
       {
@@ -278,7 +291,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 2.62356162,
+        "calculatedValue": 2.62356186,
         "value": 3.0
       },
       {
@@ -302,7 +315,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.67767656,
+        "calculatedValue": 1.67767644,
         "value": 2.0
       },
       {
@@ -326,7 +339,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 2.78276944,
+        "calculatedValue": 2.78276968,
         "value": 3.0
       },
       {
@@ -350,7 +363,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 3.65579534,
+        "calculatedValue": 3.65579557,
         "value": 4.0
       },
       {
@@ -358,7 +371,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 3.090457,
+        "calculatedValue": 3.09045672,
         "value": 3.0
       },
       {
@@ -382,7 +395,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 1.64357734,
+        "calculatedValue": 1.64357746,
         "value": 2.0
       },
       {
@@ -406,7 +419,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 2.78276944,
+        "calculatedValue": 2.78276968,
         "value": 3.0
       },
       {
@@ -430,7 +443,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 3.65579534,
+        "calculatedValue": 3.65579557,
         "value": 4.0
       },
       {
@@ -438,7 +451,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 3.02764249,
+        "calculatedValue": 3.02764273,
         "value": 3.0
       },
       {
@@ -446,7 +459,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.164764,
+        "calculatedValue": 1.16476417,
         "value": 1.0
       },
       {
@@ -454,7 +467,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 1.54406333,
+        "calculatedValue": 1.54406345,
         "value": 2.0
       },
       {
@@ -494,7 +507,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 2.47050142,
+        "calculatedValue": 2.47050166,
         "value": 2.0
       },
       {
@@ -526,7 +539,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 3.52928758,
+        "calculatedValue": 3.52928782,
         "value": 4.0
       },
       {
@@ -590,7 +603,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.43901658,
+        "calculatedValue": 1.43901646,
         "value": 1.0
       },
       {
@@ -678,7 +691,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 4.111476,
+        "calculatedValue": 4.11147547,
         "value": 4.0
       },
       {
@@ -694,7 +707,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.48905861,
+        "calculatedValue": 1.48905873,
         "value": 1.0
       },
       {
@@ -718,7 +731,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.95704854,
+        "calculatedValue": 1.95704865,
         "value": 2.0
       },
       {
@@ -742,7 +755,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 2.1517303,
+        "calculatedValue": 2.15173,
         "value": 2.0
       },
       {
@@ -750,7 +763,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 2.85048366,
+        "calculatedValue": 2.850484,
         "value": 3.0
       },
       {
@@ -766,7 +779,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 3.40356255,
+        "calculatedValue": 3.40356278,
         "value": 3.0
       },
       {
@@ -790,7 +803,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 4.637354,
+        "calculatedValue": 4.63735437,
         "value": 5.0
       },
       {
@@ -811,7 +824,7 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "MaxHealth",
-            "calculatedValue": 7.125001,
+            "calculatedValue": 7.12500048,
             "value": 7.0
           },
           {
@@ -819,7 +832,7 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "Damage",
-            "calculatedValue": 7.125001,
+            "calculatedValue": 7.12500048,
             "value": 7.0
           }
         ]
@@ -832,7 +845,7 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "MaxHealth",
-            "calculatedValue": 10.6875019,
+            "calculatedValue": 10.687501,
             "value": 11.0
           },
           {
@@ -840,7 +853,7 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "Damage",
-            "calculatedValue": 10.6875019,
+            "calculatedValue": 10.687501,
             "value": 11.0
           }
         ]
@@ -853,7 +866,7 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "MaxHealth",
-            "calculatedValue": 14.2500019,
+            "calculatedValue": 14.250001,
             "value": 14.0
           },
           {
@@ -861,7 +874,7 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "Damage",
-            "calculatedValue": 14.2500019,
+            "calculatedValue": 14.250001,
             "value": 14.0
           }
         ]
@@ -895,7 +908,7 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "MaxHealth",
-            "calculatedValue": 28.5000038,
+            "calculatedValue": 28.5000019,
             "value": 29.0
           },
           {
@@ -903,7 +916,7 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "Damage",
-            "calculatedValue": 28.5000038,
+            "calculatedValue": 28.5000019,
             "value": 29.0
           }
         ]
@@ -940,6 +953,7 @@
   "AOEAttackType": "No",
   "AOEDamagePercentage": 0.0,
   "AOERadius": 0.0,
+  "AOEAttackConeDegree": 0.0,
   "AOEKnockbackPercentage": 0.0,
   "TargetingType": "Ground",
   "PreAttackDelay": 0.0,
@@ -968,5 +982,7 @@
   "CastOverrideAnim": "",
   "ColliderRadiusOverride": -1.0,
   "AttackEffect": "",
-  "CheckAndRemoveFromDeckOnSpawn": false
+  "CheckAndRemoveFromDeckOnSpawn": false,
+  "ChargedPowerReticlePositionOffset": "",
+  "ChargedPowerReticleLockDirection": false
 }

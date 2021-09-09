@@ -38,11 +38,11 @@
   ],
   "CharacterType": "Melee",
   "Ingame": "MrgarrisonGenCharPF",
-  "AttackRange": 1.5,
+  "AttackRange": 0.7,
   "TimeToReachMaxVelocity": 0.1,
   "MaxVelocity": 0.5,
   "TimeInBetweenAttacks": 0.5,
-  "AgroRangeMultiplier": 1.67,
+  "AgroRangeMultiplier": 2.86,
   "_notes": "",
   "PhysicsProperties": {
     "FrictionCoefficient": 1.0,
@@ -83,7 +83,10 @@
           }
         },
         {
-          "Type": "FilterEnemiesSelector"
+          "Type": "FilterEnemiesSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
         },
         {
           "Type": "FilterByTagSelector",
@@ -101,7 +104,8 @@
           "Params": {
             "Amount": "1",
             "HideSelectionVisualization": false,
-            "CanSelectTraps": false
+            "CanSelectTraps": false,
+            "CanSelectAnyUnits": false
           }
         },
         {

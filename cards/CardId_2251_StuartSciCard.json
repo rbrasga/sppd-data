@@ -87,8 +87,8 @@
           "Type": "SpeedUpEffect",
           "EffectImpact": "Neutral",
           "Params": {
-            "SpeedMultiplier": "min(2, 1 + GetProperty(CasterId, 'AttackCounter')* 0.15)",
-            "AffectsAnimations": true,
+            "MovementSpeed": "min(2, 1 + GetProperty(CasterId, 'AttackCounter')* 0.15)",
+            "AnimationSpeed": "min(2, 1 + GetProperty(CasterId, 'AttackCounter')* 0.15)",
             "HideIcon": true
           }
         },

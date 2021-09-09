@@ -42,7 +42,7 @@
   "AttackRange": 4.1,
   "TimeToReachMaxVelocity": 0.1,
   "MaxVelocity": 0.675,
-  "TimeInBetweenAttacks": 0.5,
+  "TimeInBetweenAttacks": 0.8,
   "AgroRangeMultiplier": 1.5,
   "_notes": "",
   "Projectile": {

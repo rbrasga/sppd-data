@@ -86,8 +86,8 @@
           "Type": "SpeedUpEffect",
           "EffectImpact": "Positive",
           "Params": {
-            "SpeedMultiplier": "min(1.9,1+UnitsKilled*0.3)",
-            "AffectsAnimations": true,
+            "MovementSpeed": "min(1.9,1+UnitsKilled*0.3)",
+            "AnimationSpeed": "min(1.9,1+UnitsKilled*0.3)",
             "HideIcon": true
           },
           "EndTriggers": [

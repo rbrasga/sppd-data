@@ -293,8 +293,8 @@
           "Type": "SlowdownEffect",
           "EffectImpact": "Neutral",
           "Params": {
-            "MovementSpeed": "0.55555556",
-            "AnimationSpeed": "0.55555556",
+            "SpeedMultiplier": "0.55555556",
+            "AffectsAnimations": true,
             "HideIcon": true
           },
           "EndTriggers": [

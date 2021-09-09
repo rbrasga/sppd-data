@@ -135,8 +135,8 @@
           "Type": "SpeedUpEffect",
           "EffectImpact": "Neutral",
           "Params": {
-            "SpeedMultiplier": "4",
-            "AffectsAnimations": false,
+            "MovementSpeed": "4",
+            "AnimationSpeed": "1",
             "HideIcon": true
           },
           "EndTriggers": [

@@ -6,10 +6,10 @@
   "CanAttack": true,
   "NameKey": "Hyperdrive",
   "OasisNameOverride": "",
-  "OasisDescOverride": "",
+  "OasisDescOverride": "DF_NAME_SPELLHYPERDRIVE2",
   "Image": "SpellHyperdriveCard",
   "Frame": "",
-  "ManaCost": 4,
+  "ManaCost": 2,
   "Damage": "4",
   "Health": "30",
   "Type": "Spell",
@@ -128,15 +128,15 @@
           "Type": "SpeedUpEffect",
           "EffectImpact": "Positive",
           "Params": {
-            "MovementSpeed": "1.8",
-            "AnimationSpeed": "1.8",
+            "MovementSpeed": "1.5",
+            "AnimationSpeed": "1.5",
             "HideIcon": false
           },
           "EndTriggers": [
             {
               "Type": "ElapsedTimeSinceActivation",
               "Params": {
-                "ElapsedTime": "6+PowerDurationAbs",
+                "ElapsedTime": "5+PowerDurationAbs",
                 "ElapsedTimeVariableId": "PowerDuration"
               }
             }
@@ -173,7 +173,7 @@
             {
               "Type": "ElapsedTimeSinceActivation",
               "Params": {
-                "ElapsedTime": "6+PowerDurationAbs"
+                "ElapsedTime": "5+PowerDurationAbs"
               }
             }
           ]
@@ -201,7 +201,7 @@
             {
               "Type": "ElapsedTimeSinceActivation",
               "Params": {
-                "ElapsedTime": "6+PowerDurationAbs"
+                "ElapsedTime": "5+PowerDurationAbs"
               }
             }
           ]
@@ -267,8 +267,8 @@
             "y": 0,
             "type": "TechSlotPowerValueModifier",
             "property": "PowerDurationAbs",
-            "calculatedValue": 0.1,
-            "value": 0.1
+            "calculatedValue": 0.4,
+            "value": 0.4
           }
         ]
       },
@@ -280,8 +280,8 @@
             "y": 0,
             "type": "TechSlotPowerValueModifier",
             "property": "PowerDurationAbs",
-            "calculatedValue": 0.1,
-            "value": 0.1
+            "calculatedValue": 0.4,
+            "value": 0.4
           }
         ]
       },
@@ -293,8 +293,8 @@
             "y": 0,
             "type": "TechSlotPowerValueModifier",
             "property": "PowerDurationAbs",
-            "calculatedValue": 0.1,
-            "value": 0.1
+            "calculatedValue": 0.4,
+            "value": 0.4
           }
         ]
       },
@@ -306,8 +306,8 @@
             "y": 0,
             "type": "TechSlotPowerValueModifier",
             "property": "PowerDurationAbs",
-            "calculatedValue": 0.1,
-            "value": 0.1
+            "calculatedValue": 0.4,
+            "value": 0.4
           }
         ]
       },
@@ -319,8 +319,8 @@
             "y": 0,
             "type": "TechSlotPowerValueModifier",
             "property": "PowerDurationAbs",
-            "calculatedValue": 0.1,
-            "value": 0.1
+            "calculatedValue": 0.4,
+            "value": 0.4
           }
         ]
       },
@@ -332,8 +332,8 @@
             "y": 0,
             "type": "TechSlotPowerValueModifier",
             "property": "PowerDurationAbs",
-            "calculatedValue": 0.1,
-            "value": 0.1
+            "calculatedValue": 0.4,
+            "value": 0.4
           }
         ]
       }
@@ -359,9 +359,9 @@
         "EvoPatternType": 0,
         "SlotType": "TechSlotPowerValueModifier",
         "SlotProperty": "PowerDurationAbs",
-        "SlotValue": "0.1",
+        "SlotValue": "0.4",
         "MaxMultiplier": "",
-        "PowerValue": "6",
+        "PowerValue": "5",
         "Weighted": false,
         "IgnoreEvoLvl": []
       }

@@ -2,7 +2,7 @@
   "Id": 2262,
   "Visible": true,
   "Finalized": true,
-  "UnlockedDuringEvent": true,
+  "UnlockedDuringEvent": false,
   "CanAttack": true,
   "NameKey": "Super Craig",
   "OasisNameOverride": "",
@@ -42,7 +42,7 @@
   "TimeToReachMaxVelocity": 0.1,
   "MaxVelocity": 0.675,
   "TimeInBetweenAttacks": 0.9,
-  "AgroRangeMultiplier": 1.25,
+  "AgroRangeMultiplier": 2.5,
   "_notes": "",
   "PhysicsProperties": {
     "FrictionCoefficient": 1.0,

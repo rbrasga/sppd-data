@@ -2,7 +2,7 @@
   "Id": 2406,
   "Visible": true,
   "Finalized": true,
-  "UnlockedDuringEvent": true,
+  "UnlockedDuringEvent": false,
   "CanAttack": true,
   "NameKey": "Cow Stampede",
   "OasisNameOverride": "DF_NAME_COWGEN",
@@ -975,7 +975,7 @@
     "MinEpisodeCompleted": 0,
     "MinPlayerLevel": 0,
     "MinPVPRank": 0,
-    "MinPVPArena": 0
+    "MinPVPArena": 8
   },
   "AOEAttackType": "No",
   "AOEDamagePercentage": 0.0,

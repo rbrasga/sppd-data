@@ -1,0 +1,614 @@
+{
+  "Id": 2413,
+  "Visible": true,
+  "Finalized": true,
+  "UnlockedDuringEvent": true,
+  "CanAttack": false,
+  "NameKey": "Member Berries",
+  "OasisNameOverride": "DF_NAME_MEMBERBERRIESSUP",
+  "OasisDescOverride": "DF_DESC_MEMBERBERRIESSUP",
+  "Image": "MemberberriesSupCard",
+  "Frame": "",
+  "ManaCost": 5,
+  "Damage": "0",
+  "Health": "18",
+  "HealthLoss": "1",
+  "Type": "Character",
+  "IngameAssets": [
+    "MemberberriesSupTrapPF",
+    "TargetSpellRet",
+    "AttackPowerRet"
+  ],
+  "UIAssets": [
+    "MemberberriesSupCard"
+  ],
+  "Targeting": {
+    "AssetId": "TargetSpellRet",
+    "Radius": 1.5
+  },
+  "CardUI": "CharCardUI",
+  "Tags": [
+    "AbilityImmune",
+    "AttackchangeImmune",
+    "AttractImmune",
+    "Character",
+    "Epic",
+    "FreezeImmune",
+    "HealImmune",
+    "IgnoreDublicates",
+    "KillAbilityImmune",
+    "LifestealImmune",
+    "MAXHPchangeImmune",
+    "MindcontrolImmune",
+    "Object",
+    "PoisonImmune",
+    "PowerbindImmune",
+    "PurifyImmune",
+    "ResurrectImmune",
+    "ShieldImmune",
+    "SpeedchangeImmune",
+    "SpellImmune",
+    "Sup",
+    "TeleportImmune",
+    "TransformImmune",
+    "Trap"
+  ],
+  "CharacterType": "Trap",
+  "Ingame": "MemberberriesSupTrapPF",
+  "AttackRange": 0.6,
+  "TimeToReachMaxVelocity": 0.1,
+  "MaxVelocity": 0.0,
+  "TimeInBetweenAttacks": 0.5,
+  "AgroRangeMultiplier": 1.2,
+  "_notes": "",
+  "PhysicsProperties": {
+    "FrictionCoefficient": 1.0,
+    "RestingFriction": 1.0,
+    "BounceFactor": 0.0,
+    "Weight": 200.0
+  },
+  "KnockbackImpulse": "5",
+  "KnockbackAngleDeg": 45.0,
+  "ChargedPowerRegen": 0.0,
+  "ChargedPowerRadius": 0.0,
+  "ChargedPowerReticle": "",
+  "Rarity": 2,
+  "Theme": "Sup",
+  "RetreatDistanceFactor": 0.8,
+  "RetreatVelocityFactor": 0.3,
+  "WalkingAnimationThresholdFactor": 0.2,
+  "TargetHeightFactor": 0.8,
+  "HealthBarOffset": -1.0,
+  "Pows": [
+    {
+      "Trigger": {
+        "Type": "EnteredRadius",
+        "Params": {
+          "Radius": "0.2",
+          "EnabledByTechTree": false,
+          "TriggerDisabled": false
+        }
+      },
+      "UniqueId": "2413_MemberBerries_OnSteppedOn",
+      "Nodes": [
+        {
+          "Type": "TriggerTargetUnitSelector",
+          "Params": {
+            "CanSelectAnyUnits": true
+          }
+        },
+        {
+          "Type": "FilterEnemiesSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "IfContainsTagsConditionEffect",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "ExcludeTags": "Flying,Hero,Trap"
+          }
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "ExcludeTags": "AbilityImmune,Invincible"
+          }
+        },
+        {
+          "Type": "DamageEffect",
+          "Params": {
+            "Amount": "120+PowerDamageAbs",
+            "AmountVariableId": "PowerDamage",
+            "HideDamage": false
+          }
+        },
+        {
+          "Type": "FriendlyTeamSelector"
+        },
+        {
+          "Type": "PlayerCardsSelector",
+          "Params": {
+            "Amount": "1",
+            "SelectFromHand": true,
+            "SelectRandom": true,
+            "AllowDoubleCharacters": false,
+            "Tags": "Character",
+            "ExcludeTags": "Spell,Trap",
+            "IncludeAll": false
+          }
+        },
+        {
+          "Type": "SpawnEffect",
+          "Params": {
+            "CardId": 1702,
+            "UseCardFromSelection": true,
+            "OnSpot": true,
+            "IgnoreUnitDirection": false,
+            "Amount": "1",
+            "Level": "1",
+            "UseCardFromPlayer": true,
+            "UseCardFromTeamUnits": false,
+            "UseCardFromOpponentTeamUnits": false,
+            "RemoveCardFromHand": true,
+            "RemoveCardFromDeck": false,
+            "MaxUnitGeneration": "1",
+            "SpawnForOriginalTeam": true,
+            "IgnoreIfYourSameUnitAlive": false,
+            "SetupBitmask": 1
+          }
+        },
+        {
+          "Type": "CasterPositionSelector",
+          "Params": {
+            "RequestNewSelection": false
+          }
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "MemberberriesSupSplatPowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false,
+            "SoundEvent": "PlayMemberberriesSupSquish",
+            "SoundBankName": "SoundBank_MemberberriesSup"
+          }
+        },
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "SwapAnimationEffect",
+          "Params": {
+            "State": "Dying",
+            "AnimationName": "DeathPower"
+          }
+        },
+        {
+          "Type": "DamageEffect",
+          "Params": {
+            "Amount": "100000",
+            "HideDamage": true
+          }
+        },
+        {
+          "Type": "IfEndConditionEffect",
+          "Params": {
+            "EndPowerEarly": false
+          }
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "AnimationStarted",
+        "Params": {
+          "AnimationName": "EnteringLevel",
+          "EnabledByTechTree": false
+        }
+      },
+      "UniqueId": "2413_MemberBerries_Timer",
+      "Nodes": [
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "ShowIconEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "HealthLossTimerRadialIconEffect"
+          },
+          "EndTriggers": [
+            {
+              "Type": "CasterDied"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "AnimationTrigger",
+        "Params": {
+          "AnimationName": "EnteringLevel",
+          "AnimationTrigger": "SpawnPower",
+          "EnabledByTechTree": false
+        }
+      },
+      "UniqueId": "2413_MemberBerries_Split",
+      "Nodes": [
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "NearestUnitsSelector",
+          "Params": {
+            "CanSelectAnyUnits": false,
+            "IncludeCaster": false,
+            "CanSelectTraps": false,
+            "SelectFurthest": false,
+            "IsAreaOfEffect": false,
+            "Amount": "3",
+            "MaximumDistance": "5",
+            "UsedForVisualization": false,
+            "Side": "Enemy",
+            "ExcludeTags": "Hero,Trap"
+          }
+        },
+        {
+          "Type": "UnitsToPositionsSelector"
+        },
+        {
+          "Type": "VisualProjectileEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "MemberBerriesProj",
+            "Velocity": "6",
+            "ThrowingAngleDeg": "90",
+            "SoundEvent": "PlayMemberberriesSupLaunch",
+            "SoundBankName": "SoundBank_MemberberriesSup",
+            "ProjectileId": "2413_2413_MemberBerries_Split_2"
+          }
+        },
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "ToggleEnteredRadiusPowerEffect",
+          "Params": {
+            "TriggerEnabled": false
+          }
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "ProjectileHit",
+        "Params": {
+          "ActivateOnSuperPower": true,
+          "EnabledByTechTree": false,
+          "RemoveAOEVisualWhenPlayed": false,
+          "RemoveUnitHighlightWhenPlayed": false
+        }
+      },
+      "UniqueId": "2413_MemberBerries_ProjectileHit",
+      "Nodes": [
+        {
+          "Type": "HitPositionSelector"
+        },
+        {
+          "Type": "SpawnEffect",
+          "Params": {
+            "CardId": 2413,
+            "UseCardFromSelection": false,
+            "OnSpot": true,
+            "IgnoreUnitDirection": false,
+            "Amount": "1",
+            "Level": "1",
+            "UseCardFromPlayer": true,
+            "UseCardFromTeamUnits": false,
+            "UseCardFromOpponentTeamUnits": false,
+            "RemoveCardFromHand": false,
+            "RemoveCardFromDeck": false,
+            "MaxUnitGeneration": "1",
+            "SpawnForOriginalTeam": false,
+            "IgnoreIfYourSameUnitAlive": true,
+            "SetupBitmask": 0
+          }
+        },
+        {
+          "Type": "TriggerTargetUnitSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "ExcludeTags": "AbilityImmune"
+          }
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "MemberberriesSupTargetPowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "BoneName": "Target",
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false,
+            "SoundEvent": "PlayMemberberriesSupSplat",
+            "SoundBankName": "SoundBank_MemberberriesSup"
+          }
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "AnimationTrigger",
+        "Params": {
+          "AnimationName": "Spawn",
+          "AnimationTrigger": "VFXTrigger",
+          "EnabledByTechTree": false
+        }
+      },
+      "UniqueId": "2413_MemberBerries_VFX",
+      "Nodes": [
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "DamageEffect",
+          "Params": {
+            "Amount": "10000",
+            "HideDamage": true
+          }
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "AnimationStarted",
+        "Params": {
+          "AnimationName": "Spawn",
+          "Delay": "0.2",
+          "EnabledByTechTree": false
+        }
+      },
+      "UniqueId": "2413_MemberBerries_TrapArea",
+      "Nodes": [
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "AoeDamageReticleLoopPowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "Scale": "5",
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false
+          },
+          "EndTriggers": [
+            {
+              "Type": "CasterDied"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "Spawned",
+        "Params": {
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false,
+          "RemoveAOEVisualWhenPlayed": true,
+          "RemoveUnitHighlightWhenPlayed": false
+        }
+      },
+      "UniqueId": "2413_MemberBerries_Targeting",
+      "Nodes": [
+        {
+          "Type": "CasterPositionSelector",
+          "Params": {
+            "RequestNewSelection": false
+          }
+        },
+        {
+          "Type": "NearestUnitsSelector",
+          "Params": {
+            "CanSelectAnyUnits": false,
+            "IncludeCaster": false,
+            "CanSelectTraps": false,
+            "SelectFurthest": false,
+            "IsAreaOfEffect": true,
+            "MaximumDistance": "5",
+            "UsedForVisualization": true,
+            "PowerAOEReticleAssetId": "AttackPowerRet",
+            "Side": "Enemy"
+          }
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "AOEDamageRetPowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "Scale": "0",
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "0"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "SameTeamCollisionRadiusMultiplier": 1.0,
+  "TechTree2": {
+    "Slots": [],
+    "Evolve": [
+      {
+        "StarLevel": 0,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerDamageAbs",
+            "calculatedValue": 36.6666679,
+            "value": 37.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 1,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerDamageAbs",
+            "calculatedValue": 110.0,
+            "value": 110.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 2,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerDamageAbs",
+            "calculatedValue": 73.3333359,
+            "value": 73.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 3,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerDamageAbs",
+            "calculatedValue": 36.6666679,
+            "value": 37.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 4,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerDamageAbs",
+            "calculatedValue": 36.6666679,
+            "value": 37.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 5,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPowerValueModifier",
+            "property": "PowerDamageAbs",
+            "calculatedValue": 36.6666679,
+            "value": 37.0
+          }
+        ]
+      }
+    ]
+  },
+  "Requirements": {
+    "MinEpisodeCompleted": 3,
+    "MinPlayerLevel": 0,
+    "MinPVPRank": 0,
+    "MinPVPArena": 0
+  },
+  "AOEAttackType": "No",
+  "AOEDamagePercentage": 0.0,
+  "AOERadius": 0.0,
+  "AOEAttackConeDegree": 0.0,
+  "AOEKnockbackPercentage": 0.0,
+  "TargetingType": "Ground",
+  "PreAttackDelay": 0.0,
+  "CanCastOnLava": false,
+  "CastArea": "OwnSide",
+  "TechtreePatterns": {
+    "Upgrades": [],
+    "Evolutions": [
+      {
+        "EvoPatternType": 0,
+        "SlotType": "TechSlotPowerValueModifier",
+        "SlotProperty": "PowerDamageAbs",
+        "SlotValue": "",
+        "MaxMultiplier": "",
+        "PowerValue": "120",
+        "Weighted": true,
+        "IgnoreEvoLvl": []
+      },
+      {
+        "EvoPatternType": 3,
+        "SlotType": "TechSlotPropertyModifier",
+        "SlotProperty": "",
+        "SlotValue": "",
+        "MaxMultiplier": "",
+        "PowerValue": "",
+        "Weighted": true,
+        "IgnoreEvoLvl": []
+      },
+      {
+        "EvoPatternType": 4,
+        "SlotType": "TechSlotPropertyModifier",
+        "SlotProperty": "",
+        "SlotValue": "",
+        "MaxMultiplier": "",
+        "PowerValue": "",
+        "Weighted": true,
+        "IgnoreEvoLvl": []
+      }
+    ]
+  },
+  "OverrideSoundBankName": "",
+  "ChildUnitLimit": 0,
+  "SpineSkin": "",
+  "CastOverrideAnim": "",
+  "ColliderRadiusOverride": 0.4,
+  "AttackEffect": "",
+  "CheckAndRemoveFromDeckOnSpawn": false,
+  "ChargedPowerReticlePositionOffset": "",
+  "ChargedPowerReticleLockDirection": false
+}

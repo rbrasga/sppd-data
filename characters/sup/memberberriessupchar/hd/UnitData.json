@@ -1,0 +1,94 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1126466620786993372
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": 6275120118738330786
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": -4571610716089707477
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": -4345463058793366707
+  },
+  "data": {
+    "sourceHeight": 0.3688643,
+    "sourceRadius": 0.448883,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 0.333333343,
+          "durationTicks": 10,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 16.333334,
+          "durationTicks": 490,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 6,
+          "name": "EnteringLevel",
+          "duration": 16.0,
+          "durationTicks": 480,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Land",
+              "time": 0.3,
+              "timeTicks": 9
+            },
+            {
+              "name": "SpawnPower",
+              "time": 15.0,
+              "timeTicks": 450
+            },
+            {
+              "name": "VFXTrigger",
+              "time": 15.1333332,
+              "timeTicks": 454
+            }
+          ]
+        },
+        {
+          "state": 5,
+          "name": "SuperPower",
+          "duration": 1.26666665,
+          "durationTicks": 38,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "SuperPower",
+              "time": 0.233333334,
+              "timeTicks": 7
+            },
+            {
+              "name": "VFXTrigger",
+              "time": 0.366666675,
+              "timeTicks": 11
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

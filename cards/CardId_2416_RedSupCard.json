@@ -2,7 +2,7 @@
   "Id": 2416,
   "Visible": true,
   "Finalized": false,
-  "UnlockedDuringEvent": true,
+  "UnlockedDuringEvent": false,
   "CanAttack": true,
   "NameKey": "Changeling Red",
   "OasisNameOverride": "DF_NAME_REDSUP",
@@ -1010,7 +1010,7 @@
     "MinEpisodeCompleted": 3,
     "MinPlayerLevel": 0,
     "MinPVPRank": 0,
-    "MinPVPArena": 0
+    "MinPVPArena": 11
   },
   "AOEAttackType": "No",
   "AOEDamagePercentage": 0.0,

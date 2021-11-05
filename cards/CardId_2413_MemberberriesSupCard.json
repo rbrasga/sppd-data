@@ -2,7 +2,7 @@
   "Id": 2413,
   "Visible": true,
   "Finalized": true,
-  "UnlockedDuringEvent": true,
+  "UnlockedDuringEvent": false,
   "CanAttack": false,
   "NameKey": "Member Berries",
   "OasisNameOverride": "DF_NAME_MEMBERBERRIESSUP",
@@ -101,6 +101,18 @@
           "Type": "FilterEnemiesSelector",
           "Params": {
             "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterNearestUnitsSelector",
+          "Params": {
+            "CenterUnitId": "CasterId",
+            "CanSelectAnyUnits": false,
+            "CanSelectTraps": false,
+            "SelectFurthest": false,
+            "IsAreaOfEffect": false,
+            "Amount": "1",
+            "UsedForVisualization": false
           }
         },
         {
@@ -318,9 +330,9 @@
             "UseCardFromOpponentTeamUnits": false,
             "RemoveCardFromHand": false,
             "RemoveCardFromDeck": false,
-            "MaxUnitGeneration": "1",
+            "MaxUnitGeneration": "0",
             "SpawnForOriginalTeam": false,
-            "IgnoreIfYourSameUnitAlive": true,
+            "IgnoreIfYourSameUnitAlive": false,
             "SetupBitmask": 0
           }
         },
@@ -556,7 +568,7 @@
     "MinEpisodeCompleted": 3,
     "MinPlayerLevel": 0,
     "MinPVPRank": 0,
-    "MinPVPArena": 0
+    "MinPVPArena": 10
   },
   "AOEAttackType": "No",
   "AOEDamagePercentage": 0.0,

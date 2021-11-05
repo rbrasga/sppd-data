@@ -43,7 +43,7 @@
   "AttackRange": 3.0,
   "TimeToReachMaxVelocity": 0.1,
   "MaxVelocity": 0.675,
-  "TimeInBetweenAttacks": 0.5,
+  "TimeInBetweenAttacks": 0.85,
   "AgroRangeMultiplier": 1.2,
   "_notes": "",
   "Projectile": {
@@ -131,7 +131,7 @@
         {
           "Type": "DamageEffect",
           "Params": {
-            "Amount": "160+PowerDamageAbs",
+            "Amount": "150+PowerDamageAbs",
             "AmountVariableId": "PowerDamage",
             "HideDamage": false
           }
@@ -285,8 +285,8 @@
         "y": 0,
         "type": "TechSlotPowerValueModifier",
         "property": "PowerDamageAbs",
-        "calculatedValue": 102.127655,
-        "value": 102.0
+        "calculatedValue": 95.7446747,
+        "value": 96.0
       },
       {
         "x": 8,
@@ -341,8 +341,8 @@
         "y": 0,
         "type": "TechSlotPowerValueModifier",
         "property": "PowerDamageAbs",
-        "calculatedValue": 51.61887,
-        "value": 52.0
+        "calculatedValue": 48.39269,
+        "value": 48.0
       },
       {
         "x": 15,
@@ -397,8 +397,8 @@
         "y": 0,
         "type": "TechSlotPowerValueModifier",
         "property": "PowerDamageAbs",
-        "calculatedValue": 101.572617,
-        "value": 102.0
+        "calculatedValue": 95.22433,
+        "value": 95.0
       },
       {
         "x": 22,
@@ -453,8 +453,8 @@
         "y": 0,
         "type": "TechSlotPowerValueModifier",
         "property": "PowerDamageAbs",
-        "calculatedValue": 51.8147659,
-        "value": 52.0
+        "calculatedValue": 48.5763435,
+        "value": 49.0
       },
       {
         "x": 29,
@@ -509,8 +509,8 @@
         "y": 0,
         "type": "TechSlotPowerValueModifier",
         "property": "PowerDamageAbs",
-        "calculatedValue": 101.376717,
-        "value": 101.0
+        "calculatedValue": 95.04067,
+        "value": 95.0
       },
       {
         "x": 36,
@@ -565,8 +565,8 @@
         "y": 0,
         "type": "TechSlotPowerValueModifier",
         "property": "PowerDamageAbs",
-        "calculatedValue": 17.5793514,
-        "value": 18.0
+        "calculatedValue": 16.4806423,
+        "value": 16.0
       },
       {
         "x": 43,
@@ -621,8 +621,8 @@
         "y": 0,
         "type": "TechSlotPowerValueModifier",
         "property": "PowerDamageAbs",
-        "calculatedValue": 33.484478,
-        "value": 33.0
+        "calculatedValue": 31.3916988,
+        "value": 31.0
       },
       {
         "x": 50,
@@ -677,7 +677,7 @@
         "y": 0,
         "type": "TechSlotPowerValueModifier",
         "property": "PowerDamageAbs",
-        "calculatedValue": 7.186761,
+        "calculatedValue": 6.737588,
         "value": 7.0
       },
       {
@@ -733,8 +733,8 @@
         "y": 0,
         "type": "TechSlotPowerValueModifier",
         "property": "PowerDamageAbs",
-        "calculatedValue": 13.2387705,
-        "value": 13.0
+        "calculatedValue": 12.4113474,
+        "value": 12.0
       },
       {
         "x": 64,
@@ -929,7 +929,7 @@
         "SlotProperty": "PowerDamageAbs",
         "SlotValue": "",
         "MaxMultiplier": "",
-        "PowerValue": "160",
+        "PowerValue": "150",
         "StartIndex": 8,
         "EndIndex": 0,
         "RepeatInterval": 7,

@@ -10,22 +10,22 @@
   "Image": "TweekFanCard",
   "Frame": "",
   "ManaCost": 3,
-  "Damage": "20",
+  "Damage": "30",
   "Health": "80",
   "HealthLoss": "0",
   "Type": "Character",
   "IngameAssets": [
     "TweekFanCharPF",
-    "AttackPowerRet",
+    "ConeSelectorPowerRet",
     "TweekFanArrowProj",
-    "TargetSpellRet"
+    "TargetFX"
   ],
   "UIAssets": [
     "TweekFanCard"
   ],
   "Targeting": {
-    "AssetId": "TargetSpellRet",
-    "Radius": 0.0
+    "AssetId": "ConeSelectorPowerRet",
+    "Radius": 4.1
   },
   "CardUI": "CharCardUI",
   "Tags": [
@@ -61,7 +61,7 @@
   "KnockbackAngleDeg": 45.0,
   "ChargedPowerRegen": 0.0,
   "ChargedPowerRadius": 0.0,
-  "ChargedPowerReticle": "AttackPowerRet",
+  "ChargedPowerReticle": "ConeSelectorPowerRet",
   "Rarity": 0,
   "Theme": "Fan",
   "RetreatDistanceFactor": 0.8,
@@ -74,7 +74,6 @@
       "Trigger": {
         "Type": "Spawned",
         "Params": {
-          "Delay": "0",
           "EnabledByTechTree": false,
           "EnabledByFSM": false,
           "RemoveAOEVisualWhenPlayed": false,
@@ -84,9 +83,19 @@
       "UniqueId": "RobinTweekPowers",
       "Nodes": [
         {
-          "Type": "AllUnitsSelector",
+          "Type": "CasterPositionSelector",
           "Params": {
+            "RequestNewSelection": false
+          }
+        },
+        {
+          "Type": "ConeSelector",
+          "Params": {
+            "MaximumDistance": "4.5",
+            "MaximumAngle": "70",
+            "MaximumDistanceVariableId": "PowerRange",
             "CanSelectTraps": false,
+            "UsedForVisualization": false,
             "CanSelectAnyUnits": false
           }
         },
@@ -108,21 +117,41 @@
           }
         },
         {
-          "Type": "RandomUnitsSelector",
+          "Type": "FilterNearestUnitsSelector",
           "Params": {
+            "CenterPosition": "CastPosition",
+            "CanSelectAnyUnits": false,
+            "CanSelectTraps": false,
+            "SelectFurthest": true,
+            "IsAreaOfEffect": true,
             "Amount": "1",
-            "HideSelectionVisualization": false,
-            "CanSelectTraps": false
+            "MaximumDistance": "4.5",
+            "UnitHighlightAssetId": "TargetFX",
+            "UsedForVisualization": true,
+            "PowerAOEReticleAssetId": "ConeSelectorPowerRet"
           }
         },
         {
-          "Type": "VisualProjectileEffect",
+          "Type": "VisualEffect",
           "EffectImpact": "Neutral",
           "Params": {
-            "AssetId": "TweekFanArrowWithAppleProj",
-            "Velocity": "8",
-            "ProjectileId": "47_RobinTweekPowers_0"
-          }
+            "AssetId": "AoeDamageReticleLoopPowerFX",
+            "PositionOffset": "100,0,0",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "Scale": "0",
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "0"
+              }
+            }
+          ]
         }
       ]
     },
@@ -150,6 +179,13 @@
           "Params": {
             "Add": "100+PowerMaxHPGainAbs",
             "AddVariableId": "PowerMaxHealthBoost"
+          }
+        },
+        {
+          "Type": "HealEffect",
+          "Params": {
+            "Amount": "100+PowerMaxHPGainAbs",
+            "AmountVariableId": "PowerHeal"
           }
         },
         {
@@ -191,6 +227,196 @@
           }
         }
       ]
+    },
+    {
+      "Trigger": {
+        "Type": "AnimationStarted",
+        "Params": {
+          "AnimationName": "Spawn",
+          "EnabledByTechTree": false
+        }
+      },
+      "UniqueId": "47_Robin Tweek_TargetSelector",
+      "Nodes": [
+        {
+          "Type": "CasterPositionSelector",
+          "Params": {
+            "RequestNewSelection": false
+          }
+        },
+        {
+          "Type": "ConeSelector",
+          "Params": {
+            "MaximumDistance": "4.5",
+            "MaximumAngle": "70",
+            "CanSelectTraps": false,
+            "UsedForVisualization": false,
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterFriendsSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterOutCasterSelector"
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "ExcludeTags": "AbilityImmune,Boss,MAXHPchangeImmune,MovingObject,Object"
+          }
+        },
+        {
+          "Type": "FilterNearestUnitsSelector",
+          "Params": {
+            "CenterPosition": "CastPosition",
+            "CanSelectAnyUnits": false,
+            "CanSelectTraps": false,
+            "SelectFurthest": true,
+            "IsAreaOfEffect": false,
+            "Amount": "1",
+            "MaximumDistance": "4.5",
+            "UsedForVisualization": false
+          }
+        },
+        {
+          "Type": "CreateNamedValueEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "Name": "TargetUnitId",
+            "Value": "SelectedUnitId",
+            "Required": true
+          }
+        },
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "CopyNamedValueToUnitEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "NamedValueName": "TargetUnitId",
+            "NamedValueNameNew": "BuffTargetId",
+            "Required": false
+          }
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "AnimationTrigger",
+        "Params": {
+          "AnimationName": "Spawn",
+          "AnimationTrigger": "SpawnPower",
+          "EnabledByTechTree": false
+        }
+      },
+      "UniqueId": "47_Robin Tweek_4",
+      "Nodes": [
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "CopyNamedValueFromUnitEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "NamedValueName": "BuffTargetId",
+            "NamedValueNameNew": "BuffTarget",
+            "Required": false
+          }
+        },
+        {
+          "Type": "NamedValueSelector",
+          "Params": {
+            "NamedValueName": "BuffTarget",
+            "SelectableOutputType": "Unit",
+            "CanSelectTraps": false,
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "IfSelectionCountIsGreaterThanConditionEffect",
+          "Params": {
+            "Amount": "0"
+          }
+        },
+        {
+          "Type": "VisualProjectileEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "TweekFanArrowProj",
+            "Velocity": "8",
+            "ProjectileId": "47_47_Robin Tweek_4_4"
+          }
+        },
+        {
+          "Type": "IfEndConditionEffect",
+          "Params": {
+            "EndPowerEarly": true
+          }
+        },
+        {
+          "Type": "CasterPositionSelector",
+          "Params": {
+            "RequestNewSelection": false
+          }
+        },
+        {
+          "Type": "ConeSelector",
+          "Params": {
+            "Amount": "1",
+            "MaximumDistance": "4.5",
+            "MaximumAngle": "70",
+            "CanSelectTraps": false,
+            "UsedForVisualization": false,
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterFriendsSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterOutCasterSelector"
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "ExcludeTags": "AbilityImmune,Boss,MAXHPchangeImmune,MovingObject,Object"
+          }
+        },
+        {
+          "Type": "FilterNearestUnitsSelector",
+          "Params": {
+            "CenterUnitId": "CasterId",
+            "CanSelectAnyUnits": false,
+            "CanSelectTraps": false,
+            "SelectFurthest": true,
+            "IsAreaOfEffect": false,
+            "Amount": "1",
+            "MaximumDistance": "4.5",
+            "UsedForVisualization": false
+          }
+        },
+        {
+          "Type": "VisualProjectileEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "TweekFanArrowProj",
+            "Velocity": "8",
+            "ProjectileId": "47_47_Robin Tweek_4_4"
+          }
+        }
+      ]
     }
   ],
   "SameTeamCollisionRadiusMultiplier": 1.0,
@@ -209,8 +435,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.824,
-        "value": 2.0
+        "calculatedValue": 2.736,
+        "value": 3.0
       },
       {
         "x": 2,
@@ -233,7 +459,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.547452331,
+        "calculatedValue": 0.821178436,
         "value": 1.0
       },
       {
@@ -249,7 +475,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.6710706,
+        "calculatedValue": 1.00660586,
         "value": 1.0
       },
       {
@@ -265,7 +491,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.8123486,
+        "calculatedValue": 1.21852291,
         "value": 1.0
       },
       {
@@ -281,7 +507,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.98894614,
+        "calculatedValue": 1.48341918,
         "value": 1.0
       },
       {
@@ -305,8 +531,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.23618269,
-        "value": 1.0
+        "calculatedValue": 1.854274,
+        "value": 2.0
       },
       {
         "x": 14,
@@ -321,7 +547,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.744800031,
+        "calculatedValue": 1.1172,
         "value": 1.0
       },
       {
@@ -337,7 +563,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.89376,
+        "calculatedValue": 1.34064007,
         "value": 1.0
       },
       {
@@ -361,8 +587,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.19168007,
-        "value": 1.0
+        "calculatedValue": 1.78752017,
+        "value": 2.0
       },
       {
         "x": 21,
@@ -377,8 +603,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.42576015,
-        "value": 1.0
+        "calculatedValue": 2.13864017,
+        "value": 2.0
       },
       {
         "x": 23,
@@ -393,7 +619,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.441123426,
+        "calculatedValue": 0.6616851,
         "value": 1.0
       },
       {
@@ -409,7 +635,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.5407319,
+        "calculatedValue": 0.81109786,
         "value": 1.0
       },
       {
@@ -433,7 +659,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.725719154,
+        "calculatedValue": 1.0885787,
         "value": 1.0
       },
       {
@@ -449,7 +675,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.8680171,
+        "calculatedValue": 1.30202556,
         "value": 1.0
       },
       {
@@ -465,7 +691,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.996085167,
+        "calculatedValue": 1.49412775,
         "value": 1.0
       },
       {
@@ -489,8 +715,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.408749,
-        "value": 1.0
+        "calculatedValue": 2.11312342,
+        "value": 2.0
       },
       {
         "x": 37,
@@ -505,8 +731,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.70757449,
-        "value": 2.0
+        "calculatedValue": 2.56136179,
+        "value": 3.0
       },
       {
         "x": 39,
@@ -521,7 +747,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.6017481,
+        "calculatedValue": 0.902622163,
         "value": 1.0
       },
       {
@@ -537,7 +763,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.7220977,
+        "calculatedValue": 1.08314657,
         "value": 1.0
       },
       {
@@ -561,7 +787,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.962797,
+        "calculatedValue": 1.44419551,
         "value": 1.0
       },
       {
@@ -577,8 +803,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.15191782,
-        "value": 1.0
+        "calculatedValue": 1.72787678,
+        "value": 2.0
       },
       {
         "x": 48,
@@ -593,8 +819,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.37542415,
-        "value": 1.0
+        "calculatedValue": 2.06313634,
+        "value": 2.0
       },
       {
         "x": 50,
@@ -617,8 +843,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.87401545,
-        "value": 2.0
+        "calculatedValue": 2.81102324,
+        "value": 3.0
       },
       {
         "x": 53,
@@ -633,7 +859,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.454666674,
+        "calculatedValue": 0.682000041,
         "value": 1.0
       },
       {
@@ -649,7 +875,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.55733335,
+        "calculatedValue": 0.836,
         "value": 1.0
       },
       {
@@ -665,7 +891,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.6746667,
+        "calculatedValue": 1.01200008,
         "value": 1.0
       },
       {
@@ -689,7 +915,7 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 0.894666731,
+        "calculatedValue": 1.34200013,
         "value": 1.0
       },
       {
@@ -705,8 +931,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.02666676,
-        "value": 1.0
+        "calculatedValue": 1.54000008,
+        "value": 2.0
       },
       {
         "x": 64,
@@ -721,8 +947,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.32,
-        "value": 1.0
+        "calculatedValue": 1.98000014,
+        "value": 2.0
       },
       {
         "x": 66,
@@ -745,8 +971,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "Damage",
-        "calculatedValue": 1.76,
-        "value": 2.0
+        "calculatedValue": 2.64,
+        "value": 3.0
       }
     ],
     "Evolve": [
@@ -766,8 +992,8 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "Damage",
-            "calculatedValue": 2.85000014,
-            "value": 3.0
+            "calculatedValue": 4.27500057,
+            "value": 4.0
           }
         ]
       },
@@ -787,8 +1013,8 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "Damage",
-            "calculatedValue": 4.275,
-            "value": 4.0
+            "calculatedValue": 6.412501,
+            "value": 6.0
           }
         ]
       },
@@ -808,8 +1034,8 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "Damage",
-            "calculatedValue": 5.70000029,
-            "value": 6.0
+            "calculatedValue": 8.550001,
+            "value": 9.0
           }
         ]
       },
@@ -829,8 +1055,8 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "Damage",
-            "calculatedValue": 7.12500048,
-            "value": 7.0
+            "calculatedValue": 10.6875019,
+            "value": 11.0
           }
         ]
       },
@@ -850,8 +1076,8 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "Damage",
-            "calculatedValue": 11.4000006,
-            "value": 11.0
+            "calculatedValue": 17.1000023,
+            "value": 17.0
           }
         ]
       },
@@ -871,8 +1097,8 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "Damage",
-            "calculatedValue": 14.250001,
-            "value": 14.0
+            "calculatedValue": 21.3750038,
+            "value": 21.0
           }
         ]
       }

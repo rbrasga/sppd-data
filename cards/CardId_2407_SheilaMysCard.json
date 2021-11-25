@@ -1,0 +1,1142 @@
+{
+  "Id": 2407,
+  "Visible": true,
+  "Finalized": true,
+  "UnlockedDuringEvent": true,
+  "CanAttack": true,
+  "NameKey": "S-Wow Tittybang Sheila",
+  "OasisNameOverride": "DF_NAME_SHEILAMYS",
+  "OasisDescOverride": "DF_DESC_SHEILAMYS",
+  "Image": "SheilaMysCard",
+  "Frame": "",
+  "ManaCost": 5,
+  "Damage": "44",
+  "Health": "1110",
+  "HealthLoss": "0",
+  "Type": "Character",
+  "IngameAssets": [
+    "SheilaMysCharPF",
+    "ChargedPowerRet",
+    "TargetSpellRet",
+    "TargetFX",
+    "AttackPowerRet"
+  ],
+  "UIAssets": [
+    "SheilaMysCard"
+  ],
+  "Targeting": {
+    "AssetId": "TargetSpellRet",
+    "Radius": 4.0
+  },
+  "CardUI": "CharCardUI",
+  "Tags": [
+    "Adults",
+    "Character",
+    "Female",
+    "Human",
+    "Legendary",
+    "Mys",
+    "Parent",
+    "Tank"
+  ],
+  "CharacterType": "Tank",
+  "Ingame": "SheilaMysCharPF",
+  "AttackRange": 1.0,
+  "TimeToReachMaxVelocity": 0.1,
+  "MaxVelocity": 0.5,
+  "TimeInBetweenAttacks": 0.6,
+  "AgroRangeMultiplier": 2.0,
+  "_notes": "",
+  "PhysicsProperties": {
+    "FrictionCoefficient": 1.0,
+    "RestingFriction": 0.25,
+    "BounceFactor": 0.9,
+    "Weight": 150.0
+  },
+  "KnockbackImpulse": "0.0000",
+  "KnockbackAngleDeg": 45.0,
+  "ChargedPowerRegen": 0.0714285746,
+  "ChargedPowerRadius": 4.0,
+  "ChargedPowerReticle": "ChargedPowerRet",
+  "Rarity": 3,
+  "Theme": "Mys",
+  "RetreatDistanceFactor": 0.8,
+  "RetreatVelocityFactor": 0.3,
+  "WalkingAnimationThresholdFactor": 0.2,
+  "TargetHeightFactor": 0.8,
+  "HealthBarOffset": -0.6,
+  "Pows": [
+    {
+      "Trigger": {
+        "Type": "ChargedPowerActivated",
+        "Params": {
+          "Automatic": false,
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false,
+          "SimulateSelectionDuringAnimation": false
+        }
+      },
+      "UniqueId": "2407_SheilaMys_Charge",
+      "Nodes": [
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "NearestUnitsSelector",
+          "Params": {
+            "CanSelectAnyUnits": false,
+            "IncludeCaster": false,
+            "CanSelectTraps": false,
+            "SelectFurthest": true,
+            "IsAreaOfEffect": false,
+            "Amount": "1",
+            "MaximumDistance": "4",
+            "MaximumDistanceVariableId": "PowerRange",
+            "UnitHighlightAssetId": "TargetFX",
+            "UsedForVisualization": true,
+            "PowerAOEReticleAssetId": "AttackPowerRet",
+            "Side": "Enemy",
+            "ExcludeTags": "Flying,Hero,Trap"
+          }
+        },
+        {
+          "Type": "CreateNamedValueEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "Name": "SheilaTarget",
+            "Value": "SelectedUnitId",
+            "Required": true
+          }
+        },
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "ReachTargetEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "TargetUnitId": "SheilaTarget",
+            "TriggerForAnyTarget": false
+          },
+          "EndTriggers": [
+            {
+              "Type": "UnitDied",
+              "Params": {
+                "UnitId": "SheilaTarget"
+              }
+            },
+            {
+              "Type": "TargetReached"
+            }
+          ]
+        },
+        {
+          "Type": "SpeedUpEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "MovementSpeed": "4",
+            "AnimationSpeed": "1",
+            "HideIcon": true
+          },
+          "EndTriggers": [
+            {
+              "Type": "TargetReached"
+            },
+            {
+              "Type": "CasterAttacked",
+              "Params": {
+                "Amount": "1"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "RunStartOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false,
+            "SoundEvent": "PlaySpeedUp",
+            "SoundBankName": "SoundBank_FX"
+          },
+          "EndTriggers": [
+            {
+              "Type": "TargetReached"
+            },
+            {
+              "Type": "CasterDied"
+            },
+            {
+              "Type": "CasterAttacked",
+              "Params": {
+                "Amount": "1"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "SwapAnimationEffect",
+          "Params": {
+            "State": "Walking",
+            "AnimationName": "Run"
+          },
+          "EndTriggers": [
+            {
+              "Type": "TargetReached"
+            },
+            {
+              "Type": "CasterDied"
+            },
+            {
+              "Type": "CasterAttacked",
+              "Params": {
+                "Amount": "1"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "AddTagsEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "Tags": "isSheilaMys,TemporaryMarked",
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "ToggleEnteredRadiusPowerEffect",
+          "Params": {
+            "TriggerEnabled": true
+          },
+          "EndTriggers": [
+            {
+              "Type": "TargetReached"
+            },
+            {
+              "Type": "CasterAttacked",
+              "Params": {
+                "Amount": "1"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "AttackBoostEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "Multiply": "0",
+            "HideIcon": true
+          },
+          "EndTriggers": [
+            {
+              "Type": "CasterAttacked",
+              "Params": {
+                "Amount": "1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "TargetReached",
+        "Params": {
+          "EnabledByTechTree": false
+        }
+      },
+      "UniqueId": "2407_SheilaMys_HitAnimationSwap",
+      "Nodes": [
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "SwapAnimationEffect",
+          "Params": {
+            "State": "Attacking",
+            "AnimationName": "SuperHit"
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "1.7"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "EnteredRadius",
+        "Params": {
+          "Radius": "0.9",
+          "EnabledByTechTree": false,
+          "TriggerDisabled": true
+        }
+      },
+      "UniqueId": "2407_S-Wow Tittybang Sheila_2",
+      "Nodes": [
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "IfContainsTagsConditionEffect",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "ExcludeTags": "Frozen"
+          }
+        },
+        {
+          "Type": "TriggerTargetUnitSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "KnockbackEffect",
+          "Params": {
+            "Amount": "100"
+          }
+        },
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "AOEDamageRetPowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "Scale": "0.9",
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false
+          }
+        },
+        {
+          "Type": "IfEndConditionEffect",
+          "Params": {
+            "EndPowerEarly": false
+          }
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "Attacked",
+        "Params": {
+          "EnabledByTechTree": false
+        }
+      },
+      "UniqueId": "2407_S-Wow Tittybang Sheila_3",
+      "Nodes": [
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "IfContainsTagsConditionEffect",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "Tags": "isSheilaMys"
+          }
+        },
+        {
+          "Type": "RemoveTagsEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "Tags": "isSheilaMys"
+          }
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "SheilaMysSelfOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false,
+            "SoundEvent": "PlaySheilaMysSuperHit",
+            "SoundBankName": "SoundBank_SheilaMys"
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "1"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "AttractInRadiusEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "Radius": "4",
+            "Side": "Enemy",
+            "ExcludeTags": "AbilityImmune,AttractImmune",
+            "CanSelectAnyUnits": false
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "1"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "NearestUnitsSelector",
+          "Params": {
+            "CanSelectAnyUnits": false,
+            "IncludeCaster": false,
+            "CanSelectTraps": false,
+            "SelectFurthest": false,
+            "IsAreaOfEffect": false,
+            "MaximumDistance": "4",
+            "UsedForVisualization": false,
+            "Side": "Enemy",
+            "ExcludeTags": "AbilityImmune,Invincible"
+          }
+        },
+        {
+          "Type": "DamageEffect",
+          "Params": {
+            "Amount": "GetPropertyDefaultValue(CasterId, 'Damage')/3",
+            "HideDamage": false
+          }
+        },
+        {
+          "Type": "IfEndConditionEffect",
+          "Params": {
+            "EndPowerEarly": false
+          }
+        }
+      ]
+    }
+  ],
+  "SameTeamCollisionRadiusMultiplier": 1.0,
+  "TechTree2": {
+    "Slots": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 35.906086,
+        "value": 36.0
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.43999994,
+        "value": 1.0
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 44.0139122,
+        "value": 44.0
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.72799993,
+        "value": 2.0
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 34.6991577,
+        "value": 35.0
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.427027,
+        "value": 1.0
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 42.53445,
+        "value": 43.0
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.71243238,
+        "value": 2.0
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 51.4890747,
+        "value": 51.0
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 2.07938218,
+        "value": 2.0
+      },
+      {
+        "x": 10,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 62.682354,
+        "value": 63.0
+      },
+      {
+        "x": 11,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 2.48710418,
+        "value": 2.0
+      },
+      {
+        "x": 12,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 74.99496,
+        "value": 75.0
+      },
+      {
+        "x": 13,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 2.854054,
+        "value": 3.0
+      },
+      {
+        "x": 14,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 52.04874,
+        "value": 52.0
+      },
+      {
+        "x": 15,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 2.1405406,
+        "value": 2.0
+      },
+      {
+        "x": 16,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 63.80168,
+        "value": 64.0
+      },
+      {
+        "x": 17,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 2.56864858,
+        "value": 3.0
+      },
+      {
+        "x": 18,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 77.23361,
+        "value": 77.0
+      },
+      {
+        "x": 19,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 3.11907339,
+        "value": 3.0
+      },
+      {
+        "x": 20,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 94.02354,
+        "value": 94.0
+      },
+      {
+        "x": 21,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 3.73065639,
+        "value": 4.0
+      },
+      {
+        "x": 22,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 112.492439,
+        "value": 112.0
+      },
+      {
+        "x": 23,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 4.281081,
+        "value": 4.0
+      },
+      {
+        "x": 24,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 23.0681572,
+        "value": 23.0
+      },
+      {
+        "x": 25,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.21048033,
+        "value": 1.0
+      },
+      {
+        "x": 26,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 28.2770958,
+        "value": 28.0
+      },
+      {
+        "x": 27,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.4525764,
+        "value": 1.0
+      },
+      {
+        "x": 28,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 34.2301674,
+        "value": 34.0
+      },
+      {
+        "x": 29,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.76384282,
+        "value": 2.0
+      },
+      {
+        "x": 30,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 41.6715126,
+        "value": 42.0
+      },
+      {
+        "x": 31,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 2.10969448,
+        "value": 2.0
+      },
+      {
+        "x": 32,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 49.856987,
+        "value": 50.0
+      },
+      {
+        "x": 33,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 2.42096066,
+        "value": 2.0
+      },
+      {
+        "x": 34,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 59.5307274,
+        "value": 60.0
+      },
+      {
+        "x": 35,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 3.112664,
+        "value": 3.0
+      },
+      {
+        "x": 36,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 73.66927,
+        "value": 74.0
+      },
+      {
+        "x": 37,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 3.76978159,
+        "value": 4.0
+      },
+      {
+        "x": 38,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 89.29609,
+        "value": 89.0
+      },
+      {
+        "x": 39,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.304804474,
+        "value": 1.0
+      },
+      {
+        "x": 40,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 10.179039,
+        "value": 10.0
+      },
+      {
+        "x": 41,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.373631269,
+        "value": 1.0
+      },
+      {
+        "x": 42,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 12.2148466,
+        "value": 12.0
+      },
+      {
+        "x": 43,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.4522905,
+        "value": 1.0
+      },
+      {
+        "x": 44,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 14.8323145,
+        "value": 15.0
+      },
+      {
+        "x": 45,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.550614536,
+        "value": 1.0
+      },
+      {
+        "x": 46,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 17.740612,
+        "value": 18.0
+      },
+      {
+        "x": 47,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.658771,
+        "value": 1.0
+      },
+      {
+        "x": 48,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 20.358078,
+        "value": 20.0
+      },
+      {
+        "x": 49,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.7865922,
+        "value": 1.0
+      },
+      {
+        "x": 50,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 26.1746731,
+        "value": 26.0
+      },
+      {
+        "x": 51,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.9734078,
+        "value": 1.0
+      },
+      {
+        "x": 52,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 31.7004356,
+        "value": 32.0
+      },
+      {
+        "x": 53,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.17988825,
+        "value": 1.0
+      },
+      {
+        "x": 54,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 3.07575417,
+        "value": 3.0
+      },
+      {
+        "x": 55,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.161397368,
+        "value": 1.0
+      },
+      {
+        "x": 56,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 3.77027917,
+        "value": 4.0
+      },
+      {
+        "x": 57,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.193676844,
+        "value": 1.0
+      },
+      {
+        "x": 58,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 4.564022,
+        "value": 5.0
+      },
+      {
+        "x": 59,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.235179022,
+        "value": 1.0
+      },
+      {
+        "x": 60,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 5.556201,
+        "value": 6.0
+      },
+      {
+        "x": 61,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.281292558,
+        "value": 1.0
+      },
+      {
+        "x": 62,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 6.647598,
+        "value": 7.0
+      },
+      {
+        "x": 63,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.322794735,
+        "value": 1.0
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 7.93743,
+        "value": 8.0
+      },
+      {
+        "x": 65,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.415021837,
+        "value": 1.0
+      },
+      {
+        "x": 66,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 9.82257,
+        "value": 10.0
+      },
+      {
+        "x": 67,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.5026375,
+        "value": 1.0
+      },
+      {
+        "x": 68,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 11.9061451,
+        "value": 12.0
+      }
+    ],
+    "Evolve": [
+      {
+        "StarLevel": 0,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "MaxHealth",
+            "calculatedValue": 222.000015,
+            "value": 222.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "Damage",
+            "calculatedValue": 8.8,
+            "value": 9.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 1,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "MaxHealth",
+            "calculatedValue": 666.000061,
+            "value": 666.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "Damage",
+            "calculatedValue": 26.4000015,
+            "value": 26.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 2,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "MaxHealth",
+            "calculatedValue": 444.000031,
+            "value": 444.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "Damage",
+            "calculatedValue": 17.6,
+            "value": 18.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 3,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "MaxHealth",
+            "calculatedValue": 222.000015,
+            "value": 222.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "Damage",
+            "calculatedValue": 8.8,
+            "value": 9.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 4,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "MaxHealth",
+            "calculatedValue": 222.000015,
+            "value": 222.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "Damage",
+            "calculatedValue": 8.8,
+            "value": 9.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 5,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "MaxHealth",
+            "calculatedValue": 222.000015,
+            "value": 222.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "Damage",
+            "calculatedValue": 8.8,
+            "value": 9.0
+          }
+        ]
+      }
+    ]
+  },
+  "Requirements": {
+    "MinEpisodeCompleted": 3,
+    "MinPlayerLevel": 0,
+    "MinPVPRank": 15,
+    "MinPVPArena": 0
+  },
+  "AOEAttackType": "No",
+  "AOEDamagePercentage": 0.0,
+  "AOERadius": 0.0,
+  "AOEAttackConeDegree": 0.0,
+  "AOEKnockbackPercentage": 0.0,
+  "TargetingType": "Ground",
+  "PreAttackDelay": 0.0,
+  "CanCastOnLava": false,
+  "CastArea": "OwnSide",
+  "TechtreePatterns": {
+    "Upgrades": [],
+    "Evolutions": []
+  },
+  "OverrideSoundBankName": "",
+  "ChildUnitLimit": 0,
+  "SpineSkin": "",
+  "CastOverrideAnim": "",
+  "ColliderRadiusOverride": -1.0,
+  "AttackEffect": "",
+  "CheckAndRemoveFromDeckOnSpawn": false,
+  "ChargedPowerReticlePositionOffset": "",
+  "ChargedPowerReticleLockDirection": false
+}

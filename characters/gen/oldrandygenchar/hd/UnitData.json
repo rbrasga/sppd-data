@@ -1,0 +1,100 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 782599547169045422
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2439399768947511709
+  },
+  "m_Name": "",
+  "shadow": {
+    "m_FileID": 0,
+    "m_PathID": -1883572125951216003
+  },
+  "body": {
+    "m_FileID": 0,
+    "m_PathID": 2982315989434977773
+  },
+  "visualRoot": {
+    "m_FileID": 0,
+    "m_PathID": -8653072335762812372
+  },
+  "data": {
+    "sourceHeight": 1.900482,
+    "sourceRadius": 0.7749358,
+    "bodyPositionX": 0.0,
+    "bodyPositionY": 0.0,
+    "animations": {
+      "invalidErrors": [],
+      "animationItems": [
+        {
+          "state": 3,
+          "name": "Attacking",
+          "duration": 2.0,
+          "durationTicks": 60,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Attack",
+              "time": 0.9,
+              "timeTicks": 27
+            }
+          ]
+        },
+        {
+          "state": 4,
+          "name": "Dying",
+          "duration": 3.0,
+          "durationTicks": 90,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 2,
+          "name": "Hurt",
+          "duration": 0.6,
+          "durationTicks": 18,
+          "loop": 0,
+          "triggers": []
+        },
+        {
+          "state": 0,
+          "name": "Standing",
+          "duration": 1.4,
+          "durationTicks": 42,
+          "loop": 1,
+          "triggers": []
+        },
+        {
+          "state": 6,
+          "name": "EnteringLevel",
+          "duration": 2.0666666,
+          "durationTicks": 62,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "Land",
+              "time": 1.0,
+              "timeTicks": 30
+            },
+            {
+              "name": "SpawnPower",
+              "time": 1.0,
+              "timeTicks": 30
+            }
+          ]
+        },
+        {
+          "state": 1,
+          "name": "Walking",
+          "duration": 0.5,
+          "durationTicks": 15,
+          "loop": 1,
+          "triggers": []
+        }
+      ]
+    }
+  }
+}

@@ -268,7 +268,7 @@
             "CanSelectTraps": false,
             "SelectFurthest": false,
             "IsAreaOfEffect": false,
-            "Amount": "3",
+            "Amount": "2",
             "MaximumDistance": "5",
             "UsedForVisualization": false,
             "Side": "Enemy",

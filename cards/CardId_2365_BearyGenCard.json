@@ -40,11 +40,11 @@
   ],
   "CharacterType": "Ranged",
   "Ingame": "BearyGenCharPF",
-  "AttackRange": 3.0,
+  "AttackRange": 3.5,
   "TimeToReachMaxVelocity": 0.1,
   "MaxVelocity": 0.55,
   "TimeInBetweenAttacks": 0.5,
-  "AgroRangeMultiplier": 3.33,
+  "AgroRangeMultiplier": 1.0,
   "_notes": "",
   "Projectile": {
     "AssetId": "FireballMagicLaunchProj",
@@ -60,7 +60,7 @@
   },
   "KnockbackImpulse": "30.0000",
   "KnockbackAngleDeg": 45.0,
-  "ChargedPowerRegen": 0.1,
+  "ChargedPowerRegen": 0.25,
   "ChargedPowerRadius": 1.0,
   "ChargedPowerReticle": "",
   "Rarity": 2,
@@ -115,7 +115,7 @@
           "EffectImpact": "Neutral",
           "Params": {
             "Name": "MaxHealthToSteal",
-            "Value": "max(min(315 + PowerMaxHPGainAbs,GetProperty(SelectedUnitId,'HitPoints')), 0)",
+            "Value": "max(min(315+ PowerMaxHPGainAbs,GetProperty(SelectedUnitId,'HitPoints')), 0)",
             "Required": true
           }
         },
@@ -201,7 +201,7 @@
           "Params": {
             "Add": "MaxHealthToSteal",
             "AddVariableId": "PowerMaxHealthBoost",
-            "SimpleAdd": "315 + PowerMaxHPGainAbs"
+            "SimpleAdd": "375 + PowerMaxHPGainAbs"
           }
         },
         {

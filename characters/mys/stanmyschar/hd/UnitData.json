@@ -22,7 +22,7 @@
     "m_PathID": -6895663725964320119
   },
   "data": {
-    "sourceHeight": 1.19564939,
+    "sourceHeight": 1.1956494,
     "sourceRadius": 0.6425423,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
@@ -32,13 +32,13 @@
         {
           "state": 3,
           "name": "Attacking",
-          "duration": 1.86666667,
+          "duration": 1.8666667,
           "durationTicks": 56,
           "loop": 0,
           "triggers": [
             {
               "name": "Attack",
-              "time": 0.733333349,
+              "time": 0.73333335,
               "timeTicks": 22
             }
           ]
@@ -98,7 +98,7 @@
         {
           "state": 1,
           "name": "Walking",
-          "duration": 0.266666681,
+          "duration": 0.26666668,
           "durationTicks": 8,
           "loop": 1,
           "triggers": []

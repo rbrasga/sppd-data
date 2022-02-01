@@ -1,7 +1,7 @@
 {
   "m_GameObject": {
     "m_FileID": 0,
-    "m_PathID": 5040218334741354855
+    "m_PathID": -4655333131004178537
   },
   "m_Enabled": 1,
   "m_Script": {
@@ -11,19 +11,19 @@
   "m_Name": "",
   "shadow": {
     "m_FileID": 0,
-    "m_PathID": 6888987468626999783
+    "m_PathID": 7759470685489210217
   },
   "body": {
     "m_FileID": 0,
-    "m_PathID": 7249117560434710858
+    "m_PathID": -5180022643351831615
   },
   "visualRoot": {
     "m_FileID": 0,
-    "m_PathID": -1731562115530805810
+    "m_PathID": -8643574613906940670
   },
   "data": {
-    "sourceHeight": 2.17842841,
-    "sourceRadius": 0.388427347,
+    "sourceHeight": 0.9309372,
+    "sourceRadius": 0.30719388,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -32,22 +32,22 @@
         {
           "state": 3,
           "name": "Attacking",
-          "duration": 0.9,
-          "durationTicks": 27,
+          "duration": 1.5,
+          "durationTicks": 45,
           "loop": 0,
           "triggers": [
             {
               "name": "Attack",
-              "time": 0.3,
-              "timeTicks": 9
+              "time": 0.5,
+              "timeTicks": 15
             }
           ]
         },
         {
           "state": 4,
           "name": "Dying",
-          "duration": 3.3,
-          "durationTicks": 99,
+          "duration": 2.2333333,
+          "durationTicks": 67,
           "loop": 0,
           "triggers": []
         },
@@ -62,16 +62,44 @@
         {
           "state": 0,
           "name": "Standing",
-          "duration": 1.0,
-          "durationTicks": 30,
+          "duration": 0.6,
+          "durationTicks": 18,
           "loop": 1,
           "triggers": []
         },
         {
+          "state": 6,
+          "name": "EnteringLevel",
+          "duration": 0.9,
+          "durationTicks": 27,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "SpawnPower",
+              "time": 0.3,
+              "timeTicks": 9
+            }
+          ]
+        },
+        {
+          "state": 5,
+          "name": "SuperPower",
+          "duration": 1.0,
+          "durationTicks": 30,
+          "loop": 0,
+          "triggers": [
+            {
+              "name": "SuperPower",
+              "time": 0.7,
+              "timeTicks": 21
+            }
+          ]
+        },
+        {
           "state": 1,
           "name": "Walking",
-          "duration": 0.266666681,
-          "durationTicks": 8,
+          "duration": 0.4,
+          "durationTicks": 12,
           "loop": 1,
           "triggers": []
         }

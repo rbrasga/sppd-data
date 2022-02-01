@@ -23,8 +23,8 @@
   },
   "data": {
     "sourceHeight": 1.2328167,
-    "sourceRadius": 0.461840153,
-    "bodyPositionX": 0.0263999831,
+    "sourceRadius": 0.46184015,
+    "bodyPositionX": 0.026399983,
     "bodyPositionY": 0.0,
     "animations": {
       "invalidErrors": [],
@@ -46,13 +46,13 @@
         {
           "state": 10,
           "name": "BossEntrance",
-          "duration": 3.86666656,
+          "duration": 3.8666666,
           "durationTicks": 116,
           "loop": 0,
           "triggers": [
             {
               "name": "BossName",
-              "time": 3.83333325,
+              "time": 3.8333333,
               "timeTicks": 115
             }
           ]
@@ -106,7 +106,7 @@
         {
           "state": 1,
           "name": "Walking",
-          "duration": 0.266666681,
+          "duration": 0.26666668,
           "durationTicks": 8,
           "loop": 1,
           "triggers": []

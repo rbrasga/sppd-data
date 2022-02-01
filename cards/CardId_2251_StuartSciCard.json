@@ -40,7 +40,7 @@
   "Ingame": "StuartSciCharPF",
   "AttackRange": 0.7,
   "TimeToReachMaxVelocity": 0.1,
-  "MaxVelocity": 0.45,
+  "MaxVelocity": 0.675,
   "TimeInBetweenAttacks": 0.5,
   "AgroRangeMultiplier": 2.5,
   "_notes": "",
@@ -87,8 +87,8 @@
           "Type": "SpeedUpEffect",
           "EffectImpact": "Neutral",
           "Params": {
-            "MovementSpeed": "min(2, 1 + GetProperty(CasterId, 'AttackCounter')* 0.15)",
-            "AnimationSpeed": "min(2, 1 + GetProperty(CasterId, 'AttackCounter')* 0.15)",
+            "MovementSpeed": "min(1.14, 1+GetProperty(CasterId, 'AttackCounter')*0.02)",
+            "AnimationSpeed": "min(1.98, 1+GetProperty(CasterId, 'AttackCounter')*0.14)",
             "HideIcon": true
           }
         },

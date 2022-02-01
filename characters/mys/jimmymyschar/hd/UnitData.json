@@ -23,7 +23,7 @@
   },
   "data": {
     "sourceHeight": 1.170111,
-    "sourceRadius": 0.271352828,
+    "sourceRadius": 0.27135283,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -120,12 +120,12 @@
             },
             {
               "name": "SoundStep",
-              "time": 0.266666681,
+              "time": 0.26666668,
               "timeTicks": 8
             },
             {
               "name": "SoundStep",
-              "time": 0.466666669,
+              "time": 0.46666667,
               "timeTicks": 14
             },
             {

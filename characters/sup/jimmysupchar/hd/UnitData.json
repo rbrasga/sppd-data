@@ -44,7 +44,7 @@
           "triggers": [
             {
               "name": "Attack",
-              "time": 0.933333337,
+              "time": 0.93333334,
               "timeTicks": 28
             }
           ]
@@ -76,13 +76,13 @@
         {
           "state": 5,
           "name": "SuperPower",
-          "duration": 2.16666675,
+          "duration": 2.1666667,
           "durationTicks": 65,
           "loop": 0,
           "triggers": [
             {
               "name": "SuperPower",
-              "time": 1.13333333,
+              "time": 1.1333333,
               "timeTicks": 34
             }
           ]
@@ -101,12 +101,12 @@
             },
             {
               "name": "SoundStep",
-              "time": 0.266666681,
+              "time": 0.26666668,
               "timeTicks": 8
             },
             {
               "name": "SoundStep",
-              "time": 0.466666669,
+              "time": 0.46666667,
               "timeTicks": 14
             },
             {

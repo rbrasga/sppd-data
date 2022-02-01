@@ -23,7 +23,7 @@
   },
   "data": {
     "sourceHeight": 1.3195008,
-    "sourceRadius": 0.446259916,
+    "sourceRadius": 0.44625992,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -52,7 +52,7 @@
           "triggers": [
             {
               "name": "BossName",
-              "time": 4.83333349,
+              "time": 4.8333335,
               "timeTicks": 145
             }
           ]
@@ -103,7 +103,7 @@
         {
           "state": 1,
           "name": "Walking",
-          "duration": 0.266666681,
+          "duration": 0.26666668,
           "durationTicks": 8,
           "loop": 1,
           "triggers": []

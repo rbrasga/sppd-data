@@ -22,10 +22,10 @@
     "m_PathID": 5635223876012459349
   },
   "data": {
-    "sourceHeight": 1.85080516,
-    "sourceRadius": 0.360658675,
+    "sourceHeight": 1.8508052,
+    "sourceRadius": 0.36065868,
     "bodyPositionX": 0.0,
-    "bodyPositionY": 1.09651911,
+    "bodyPositionY": 1.0965191,
     "animations": {
       "invalidErrors": [],
       "animationItems": [
@@ -46,7 +46,7 @@
         {
           "state": 4,
           "name": "Dying",
-          "duration": 4.83333349,
+          "duration": 4.8333335,
           "durationTicks": 145,
           "loop": 0,
           "triggers": []

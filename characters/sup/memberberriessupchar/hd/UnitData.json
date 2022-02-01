@@ -32,7 +32,7 @@
         {
           "state": 4,
           "name": "Dying",
-          "duration": 0.333333343,
+          "duration": 0.33333334,
           "durationTicks": 10,
           "loop": 0,
           "triggers": []
@@ -64,7 +64,7 @@
             },
             {
               "name": "VFXTrigger",
-              "time": 15.1333332,
+              "time": 15.133333,
               "timeTicks": 454
             }
           ]
@@ -72,18 +72,18 @@
         {
           "state": 5,
           "name": "SuperPower",
-          "duration": 1.26666665,
+          "duration": 1.2666667,
           "durationTicks": 38,
           "loop": 0,
           "triggers": [
             {
               "name": "SuperPower",
-              "time": 0.233333334,
+              "time": 0.23333333,
               "timeTicks": 7
             },
             {
               "name": "VFXTrigger",
-              "time": 0.366666675,
+              "time": 0.36666667,
               "timeTicks": 11
             }
           ]

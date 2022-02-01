@@ -54,7 +54,7 @@
         {
           "state": 2,
           "name": "Hurt",
-          "duration": 0.333333343,
+          "duration": 0.33333334,
           "durationTicks": 10,
           "loop": 0,
           "triggers": []
@@ -70,7 +70,7 @@
         {
           "state": 1,
           "name": "Walking",
-          "duration": 0.333333343,
+          "duration": 0.33333334,
           "durationTicks": 10,
           "loop": 1,
           "triggers": []

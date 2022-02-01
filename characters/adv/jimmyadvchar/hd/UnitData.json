@@ -22,8 +22,8 @@
     "m_PathID": -6395114003586298591
   },
   "data": {
-    "sourceHeight": 1.20970416,
-    "sourceRadius": 0.272642851,
+    "sourceHeight": 1.2097042,
+    "sourceRadius": 0.27264285,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -52,7 +52,7 @@
         {
           "state": 10,
           "name": "BossEntrance",
-          "duration": 3.66666675,
+          "duration": 3.6666667,
           "durationTicks": 110,
           "loop": 0,
           "triggers": [
@@ -120,12 +120,12 @@
             },
             {
               "name": "SoundStep",
-              "time": 0.266666681,
+              "time": 0.26666668,
               "timeTicks": 8
             },
             {
               "name": "SoundStep",
-              "time": 0.466666669,
+              "time": 0.46666667,
               "timeTicks": 14
             },
             {

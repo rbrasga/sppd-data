@@ -52,7 +52,7 @@
           "triggers": [
             {
               "name": "BossName",
-              "time": 3.13333344,
+              "time": 3.1333334,
               "timeTicks": 94
             }
           ]
@@ -90,7 +90,7 @@
         {
           "state": 1,
           "name": "Walking",
-          "duration": 0.266666681,
+          "duration": 0.26666668,
           "durationTicks": 8,
           "loop": 1,
           "triggers": []

@@ -22,8 +22,8 @@
     "m_PathID": -8990485861484024330
   },
   "data": {
-    "sourceHeight": 1.38819885,
-    "sourceRadius": 0.435722023,
+    "sourceHeight": 1.3881989,
+    "sourceRadius": 0.43572202,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -46,7 +46,7 @@
         {
           "state": 4,
           "name": "Dying",
-          "duration": 1.66666663,
+          "duration": 1.6666666,
           "durationTicks": 50,
           "loop": 0,
           "triggers": []
@@ -70,7 +70,7 @@
         {
           "state": 1,
           "name": "Walking",
-          "duration": 0.266666681,
+          "duration": 0.26666668,
           "durationTicks": 8,
           "loop": 1,
           "triggers": []

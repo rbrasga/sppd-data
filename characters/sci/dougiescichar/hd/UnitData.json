@@ -23,7 +23,7 @@
   },
   "data": {
     "sourceHeight": 0.8424816,
-    "sourceRadius": 0.322867453,
+    "sourceRadius": 0.32286745,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -46,7 +46,7 @@
         {
           "state": 10,
           "name": "BossEntrance",
-          "duration": 3.33333325,
+          "duration": 3.3333333,
           "durationTicks": 100,
           "loop": 0,
           "triggers": [
@@ -92,13 +92,13 @@
         {
           "state": 6,
           "name": "EnteringLevel",
-          "duration": 1.26666665,
+          "duration": 1.2666667,
           "durationTicks": 38,
           "loop": 0,
           "triggers": [
             {
               "name": "SpawnPower",
-              "time": 1.23333335,
+              "time": 1.2333333,
               "timeTicks": 37
             }
           ]
@@ -112,7 +112,7 @@
           "triggers": [
             {
               "name": "Attack",
-              "time": 0.766666651,
+              "time": 0.76666665,
               "timeTicks": 23
             }
           ]
@@ -120,7 +120,7 @@
         {
           "state": 1,
           "name": "Walking",
-          "duration": 0.266666681,
+          "duration": 0.26666668,
           "durationTicks": 8,
           "loop": 1,
           "triggers": []

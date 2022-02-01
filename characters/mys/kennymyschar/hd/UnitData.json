@@ -22,8 +22,8 @@
     "m_PathID": 7243039907399250972
   },
   "data": {
-    "sourceHeight": 1.29756773,
-    "sourceRadius": 0.497642219,
+    "sourceHeight": 1.2975677,
+    "sourceRadius": 0.49764222,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -52,7 +52,7 @@
           "triggers": [
             {
               "name": "BossName",
-              "time": 3.23333335,
+              "time": 3.2333333,
               "timeTicks": 97
             }
           ]
@@ -60,7 +60,7 @@
         {
           "state": 4,
           "name": "Dying",
-          "duration": 3.33333325,
+          "duration": 3.3333333,
           "durationTicks": 100,
           "loop": 0,
           "triggers": [
@@ -90,7 +90,7 @@
         {
           "state": 1,
           "name": "Walking",
-          "duration": 0.266666681,
+          "duration": 0.26666668,
           "durationTicks": 8,
           "loop": 1,
           "triggers": []

@@ -23,7 +23,7 @@
   },
   "data": {
     "sourceHeight": 2.113179,
-    "sourceRadius": 0.455429554,
+    "sourceRadius": 0.45542955,
     "bodyPositionX": 0.0,
     "bodyPositionY": 1.0,
     "animations": {
@@ -52,12 +52,12 @@
           "triggers": [
             {
               "name": "VFXwind",
-              "time": 2.23333335,
+              "time": 2.2333333,
               "timeTicks": 67
             },
             {
               "name": "BossName",
-              "time": 3.86666656,
+              "time": 3.8666666,
               "timeTicks": 116
             }
           ]

@@ -22,8 +22,8 @@
     "m_PathID": 7352779480317771179
   },
   "data": {
-    "sourceHeight": 1.57109118,
-    "sourceRadius": 1.15701294,
+    "sourceHeight": 1.5710912,
+    "sourceRadius": 1.1570129,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -70,7 +70,7 @@
         {
           "state": 6,
           "name": "EnteringLevel",
-          "duration": 0.766666651,
+          "duration": 0.76666665,
           "durationTicks": 23,
           "loop": 0,
           "triggers": [

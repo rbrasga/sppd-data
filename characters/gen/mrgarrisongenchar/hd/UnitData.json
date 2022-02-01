@@ -38,7 +38,7 @@
           "triggers": [
             {
               "name": "Attack",
-              "time": 1.56666672,
+              "time": 1.5666667,
               "timeTicks": 47
             }
           ]
@@ -46,7 +46,7 @@
         {
           "state": 4,
           "name": "Dying",
-          "duration": 3.33333325,
+          "duration": 3.3333333,
           "durationTicks": 100,
           "loop": 0,
           "triggers": []

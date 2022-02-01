@@ -22,7 +22,7 @@
     "m_PathID": 4450655404268326508
   },
   "data": {
-    "sourceHeight": 1.10116029,
+    "sourceHeight": 1.1011603,
     "sourceRadius": 0.3728987,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
@@ -70,7 +70,7 @@
         {
           "state": 6,
           "name": "EnteringLevel",
-          "duration": 1.26666665,
+          "duration": 1.2666667,
           "durationTicks": 38,
           "loop": 0,
           "triggers": [
@@ -81,7 +81,7 @@
             },
             {
               "name": "SpawnPower",
-              "time": 1.23333335,
+              "time": 1.2333333,
               "timeTicks": 37
             }
           ]
@@ -103,7 +103,7 @@
         {
           "state": 1,
           "name": "Walking",
-          "duration": 0.266666681,
+          "duration": 0.26666668,
           "durationTicks": 8,
           "loop": 1,
           "triggers": []

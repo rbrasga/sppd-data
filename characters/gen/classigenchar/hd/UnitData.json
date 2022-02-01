@@ -23,7 +23,7 @@
   },
   "data": {
     "sourceHeight": 2.2886138,
-    "sourceRadius": 0.352904737,
+    "sourceRadius": 0.35290474,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -46,7 +46,7 @@
         {
           "state": 4,
           "name": "Dying",
-          "duration": 2.86666656,
+          "duration": 2.8666666,
           "durationTicks": 86,
           "loop": 0,
           "triggers": []

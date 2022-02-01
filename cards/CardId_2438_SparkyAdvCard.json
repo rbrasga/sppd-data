@@ -1,0 +1,280 @@
+{
+  "Id": 2438,
+  "Visible": false,
+  "Finalized": false,
+  "UnlockedDuringEvent": false,
+  "CanAttack": false,
+  "NameKey": "Dog Bone (Sparky ADV)",
+  "OasisNameOverride": "DF_NAME_DOGBONEADV",
+  "OasisDescOverride": "DF_DESC_DOGBONEADV",
+  "Image": "SparkyAdvCard",
+  "Frame": "",
+  "ManaCost": 2,
+  "Damage": "0",
+  "Health": "30",
+  "HealthLoss": "1",
+  "Type": "Character",
+  "IngameAssets": [
+    "DogboneGenTrapPF",
+    "TotemAuraPowerRet",
+    "TargetSpellRet"
+  ],
+  "UIAssets": [
+    "SparkyAdvCard"
+  ],
+  "Targeting": {
+    "AssetId": "TargetSpellRet",
+    "Radius": 0.0
+  },
+  "CardUI": "CharCardUI",
+  "Tags": [
+    "Adv",
+    "AttackchangeImmune",
+    "AttractImmune",
+    "Character",
+    "FreezeImmune",
+    "HealImmune",
+    "IgnoreDublicates",
+    "Invincible",
+    "KillAbilityImmune",
+    "Legendary",
+    "LifestealImmune",
+    "Object",
+    "PoisonImmune",
+    "PowerbindImmune",
+    "PurifyImmune",
+    "ResurrectImmune",
+    "ShieldImmune",
+    "SpeedchangeImmune",
+    "SpellImmune",
+    "TeleportImmune",
+    "TransformImmune",
+    "Trap"
+  ],
+  "CharacterType": "Trap",
+  "Ingame": "DogboneGenTrapPF",
+  "AttackRange": 0.6,
+  "TimeToReachMaxVelocity": 0.1,
+  "MaxVelocity": 0.0,
+  "TimeInBetweenAttacks": 0.5,
+  "AgroRangeMultiplier": 1.2,
+  "_notes": "",
+  "PhysicsProperties": {
+    "FrictionCoefficient": 1.0,
+    "RestingFriction": 1.0,
+    "BounceFactor": 0.0,
+    "Weight": 200.0
+  },
+  "KnockbackImpulse": "5",
+  "KnockbackAngleDeg": 45.0,
+  "ChargedPowerRegen": 0.0,
+  "ChargedPowerRadius": 0.0,
+  "ChargedPowerReticle": "TotemAuraPowerRet",
+  "Rarity": 3,
+  "Theme": "Adv",
+  "RetreatDistanceFactor": 0.8,
+  "RetreatVelocityFactor": 0.3,
+  "WalkingAnimationThresholdFactor": 0.2,
+  "TargetHeightFactor": 0.8,
+  "HealthBarOffset": 1000.0,
+  "Pows": [
+    {
+      "Trigger": {
+        "Type": "Spawned",
+        "Params": {
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false,
+          "RemoveAOEVisualWhenPlayed": false,
+          "RemoveUnitHighlightWhenPlayed": false
+        }
+      },
+      "UniqueId": "2438_1",
+      "Nodes": [
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "SwitchTeamEffect",
+          "EffectImpact": "Neutral"
+        },
+        {
+          "Type": "ToggleEnteredRadiusPowerEffect",
+          "Params": {
+            "TriggerEnabled": true
+          }
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "DogboneAdvLoopPowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false
+          },
+          "EndTriggers": [
+            {
+              "Type": "CasterDied"
+            }
+          ]
+        },
+        {
+          "Type": "EveryXSecondsLoop",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "Time": "0.5"
+          }
+        },
+        {
+          "Type": "AttractInRadiusEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "Radius": "300",
+            "Side": "Enemy",
+            "Tags": "isSparkyADV",
+            "CanSelectAnyUnits": false
+          },
+          "EndTriggers": [
+            {
+              "Type": "CasterDied"
+            },
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "0.5"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "EnteredRadius",
+        "Params": {
+          "Radius": "100",
+          "EnabledByTechTree": false,
+          "TriggerDisabled": true
+        }
+      },
+      "UniqueId": "2438_Dog Bone (Sparky ADV)_2",
+      "Nodes": [
+        {
+          "Type": "TriggerTargetUnitSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterEnemiesSelector",
+          "Params": {
+            "CanSelectAnyUnits": false
+          }
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "Tags": "isSparkyADV"
+          }
+        },
+        {
+          "Type": "SpeedUpEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "MovementSpeed": "2",
+            "AnimationSpeed": "1",
+            "HideIcon": true
+          },
+          "EndTriggers": [
+            {
+              "Type": "LeftRadius",
+              "Params": {
+                "Radius": "100"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "SpeedUpGroundTargetLoopPowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false,
+            "SoundEvent": "PlaySpeedUp",
+            "SoundBankName": "SoundBank_FX"
+          },
+          "EndTriggers": [
+            {
+              "Type": "LeftRadius",
+              "Params": {
+                "Radius": "100"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "SameTeamCollisionRadiusMultiplier": 1.0,
+  "TechTree2": {
+    "Slots": [],
+    "Evolve": []
+  },
+  "Requirements": {
+    "MinEpisodeCompleted": 0,
+    "MinPlayerLevel": 0,
+    "MinPVPRank": 0,
+    "MinPVPArena": 0
+  },
+  "AOEAttackType": "No",
+  "AOEDamagePercentage": 0.0,
+  "AOERadius": 0.0,
+  "AOEAttackConeDegree": 0.0,
+  "AOEKnockbackPercentage": 0.0,
+  "TargetingType": "Ground",
+  "PreAttackDelay": 0.0,
+  "CanCastOnLava": false,
+  "CastArea": "OwnSide",
+  "TechtreePatterns": {
+    "Upgrades": [],
+    "Evolutions": [
+      {
+        "EvoPatternType": 3,
+        "SlotType": "TechSlotPropertyModifier",
+        "SlotProperty": "",
+        "SlotValue": "",
+        "MaxMultiplier": "",
+        "PowerValue": "",
+        "Weighted": true,
+        "IgnoreEvoLvl": []
+      },
+      {
+        "EvoPatternType": 4,
+        "SlotType": "TechSlotPropertyModifier",
+        "SlotProperty": "",
+        "SlotValue": "",
+        "MaxMultiplier": "",
+        "PowerValue": "",
+        "Weighted": true,
+        "IgnoreEvoLvl": []
+      }
+    ]
+  },
+  "OverrideSoundBankName": "",
+  "ChildUnitLimit": 0,
+  "SpineSkin": "",
+  "CastOverrideAnim": "",
+  "ColliderRadiusOverride": -1.0,
+  "AttackEffect": "",
+  "CheckAndRemoveFromDeckOnSpawn": false,
+  "ChargedPowerReticlePositionOffset": "",
+  "ChargedPowerReticleLockDirection": false
+}

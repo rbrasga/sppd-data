@@ -23,7 +23,7 @@
   },
   "data": {
     "sourceHeight": 1.0693872,
-    "sourceRadius": 0.358772278,
+    "sourceRadius": 0.35877228,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -98,7 +98,7 @@
         {
           "state": 1,
           "name": "Walking",
-          "duration": 0.266666681,
+          "duration": 0.26666668,
           "durationTicks": 8,
           "loop": 1,
           "triggers": []

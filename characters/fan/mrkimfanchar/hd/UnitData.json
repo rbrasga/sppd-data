@@ -23,7 +23,7 @@
   },
   "data": {
     "sourceHeight": 2.19286,
-    "sourceRadius": 0.655877352,
+    "sourceRadius": 0.65587735,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -32,13 +32,13 @@
         {
           "state": 3,
           "name": "Attacking",
-          "duration": 1.93333328,
+          "duration": 1.9333333,
           "durationTicks": 58,
           "loop": 0,
           "triggers": [
             {
               "name": "Attack",
-              "time": 1.43333328,
+              "time": 1.4333333,
               "timeTicks": 43
             }
           ]

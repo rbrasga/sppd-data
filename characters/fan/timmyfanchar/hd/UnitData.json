@@ -22,8 +22,8 @@
     "m_PathID": -239053421853758644
   },
   "data": {
-    "sourceHeight": 2.28348684,
-    "sourceRadius": 0.442802966,
+    "sourceHeight": 2.2834868,
+    "sourceRadius": 0.44280297,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -52,7 +52,7 @@
           "triggers": [
             {
               "name": "BossName",
-              "time": 1.93333328,
+              "time": 1.9333333,
               "timeTicks": 58
             }
           ]

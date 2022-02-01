@@ -23,7 +23,7 @@
   },
   "data": {
     "sourceHeight": 2.165608,
-    "sourceRadius": 0.468680143,
+    "sourceRadius": 0.46868014,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -84,7 +84,7 @@
         {
           "state": 5,
           "name": "SuperPower",
-          "duration": 0.766666651,
+          "duration": 0.76666665,
           "durationTicks": 23,
           "loop": 0,
           "triggers": [

@@ -2,7 +2,7 @@
   "Id": 2429,
   "Visible": true,
   "Finalized": false,
-  "UnlockedDuringEvent": true,
+  "UnlockedDuringEvent": false,
   "CanAttack": true,
   "NameKey": "Old Randy",
   "OasisNameOverride": "DF_NAME_OLDRANDYGEN",
@@ -1199,7 +1199,7 @@
     "MinEpisodeCompleted": 0,
     "MinPlayerLevel": 0,
     "MinPVPRank": 0,
-    "MinPVPArena": 0
+    "MinPVPArena": 11
   },
   "AOEAttackType": "No",
   "AOEDamagePercentage": 0.0,

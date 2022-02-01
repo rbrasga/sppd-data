@@ -22,8 +22,8 @@
     "m_PathID": 4658267227882990193
   },
   "data": {
-    "sourceHeight": 1.51166141,
-    "sourceRadius": 0.260852873,
+    "sourceHeight": 1.5116614,
+    "sourceRadius": 0.26085287,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -69,7 +69,7 @@
         {
           "state": 4,
           "name": "Dying",
-          "duration": 3.33333325,
+          "duration": 3.3333333,
           "durationTicks": 100,
           "loop": 0,
           "triggers": []
@@ -123,12 +123,12 @@
             },
             {
               "name": "SoundStep",
-              "time": 0.266666681,
+              "time": 0.26666668,
               "timeTicks": 8
             },
             {
               "name": "SpawnPower",
-              "time": 0.466666669,
+              "time": 0.46666667,
               "timeTicks": 14
             },
             {

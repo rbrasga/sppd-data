@@ -22,8 +22,8 @@
     "m_PathID": 5923871897830039112
   },
   "data": {
-    "sourceHeight": 2.24516463,
-    "sourceRadius": 0.357175767,
+    "sourceHeight": 2.2451646,
+    "sourceRadius": 0.35717577,
     "bodyPositionX": 0.0,
     "bodyPositionY": -0.006539993,
     "animations": {
@@ -98,7 +98,7 @@
         {
           "state": 1,
           "name": "Walking",
-          "duration": 0.266666681,
+          "duration": 0.26666668,
           "durationTicks": 8,
           "loop": 1,
           "triggers": []

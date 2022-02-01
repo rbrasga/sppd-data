@@ -22,8 +22,8 @@
     "m_PathID": -1146353561131856026
   },
   "data": {
-    "sourceHeight": 2.35257626,
-    "sourceRadius": 0.438020974,
+    "sourceHeight": 2.3525763,
+    "sourceRadius": 0.43802097,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -56,13 +56,13 @@
         {
           "state": 5,
           "name": "SuperPower",
-          "duration": 1.86666667,
+          "duration": 1.8666667,
           "durationTicks": 56,
           "loop": 0,
           "triggers": [
             {
               "name": "SuperPower",
-              "time": 1.26666665,
+              "time": 1.2666667,
               "timeTicks": 38
             }
           ]

@@ -22,7 +22,7 @@
     "m_PathID": 8074524592885861391
   },
   "data": {
-    "sourceHeight": 2.19132185,
+    "sourceHeight": 2.1913218,
     "sourceRadius": 0.56187433,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
@@ -46,13 +46,13 @@
         {
           "state": 10,
           "name": "BossEntrance",
-          "duration": 1.66666663,
+          "duration": 1.6666666,
           "durationTicks": 50,
           "loop": 0,
           "triggers": [
             {
               "name": "BossName",
-              "time": 1.63333333,
+              "time": 1.6333333,
               "timeTicks": 49
             }
           ]

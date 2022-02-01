@@ -22,8 +22,8 @@
     "m_PathID": -1171482336117725762
   },
   "data": {
-    "sourceHeight": 2.26307559,
-    "sourceRadius": 0.373536766,
+    "sourceHeight": 2.2630756,
+    "sourceRadius": 0.37353677,
     "bodyPositionX": 0.0,
     "bodyPositionY": 0.0,
     "animations": {
@@ -46,7 +46,7 @@
         {
           "state": 10,
           "name": "BossEntrance",
-          "duration": 4.16666651,
+          "duration": 4.1666665,
           "durationTicks": 125,
           "loop": 0,
           "triggers": [
@@ -68,7 +68,7 @@
         {
           "state": 2,
           "name": "Hurt",
-          "duration": 0.766666651,
+          "duration": 0.76666665,
           "durationTicks": 23,
           "loop": 0,
           "triggers": []
@@ -98,7 +98,7 @@
         {
           "state": 1,
           "name": "Walking",
-          "duration": 0.266666681,
+          "duration": 0.26666668,
           "durationTicks": 8,
           "loop": 1,
           "triggers": []

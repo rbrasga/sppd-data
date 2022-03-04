@@ -84,7 +84,8 @@
         {
           "Type": "FilterOriginalTeamSelector",
           "Params": {
-            "FilterEnemiesOfOriginalCasterTeam": false
+            "FilterEnemiesOfOriginalCasterTeam": false,
+            "CanSelectAnyUnits": false
           }
         },
         {
@@ -136,13 +137,17 @@
             "CardId": 2147,
             "UseCardFromSelection": false,
             "OnSpot": false,
+            "IgnoreUnitDirection": false,
             "Amount": "1",
             "Level": "0",
             "UseCardFromPlayer": true,
+            "UseCardFromTeamUnits": false,
+            "UseCardFromOpponentTeamUnits": false,
             "RemoveCardFromHand": false,
+            "RemoveCardFromDeck": false,
             "MaxUnitGeneration": "20",
             "SpawnForOriginalTeam": true,
-            "IgnoreIfYourSameUnitAlive": false
+            "IgnoreIfYourSameUnitAlive": true
           }
         }
       ]

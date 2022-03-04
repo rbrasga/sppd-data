@@ -213,7 +213,7 @@
         {
           "Type": "DamageEffect",
           "Params": {
-            "Amount": "(160+PowerDamageAbs)/5",
+            "Amount": "(160+PowerDamageAbs)*0.1",
             "AmountVariableId": "PowerHeroDamage",
             "HideDamage": false
           }

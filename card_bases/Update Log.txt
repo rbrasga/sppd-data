@@ -9,10 +9,16 @@ all sword icons visible
 - Inproved some class icons
 - Added Mystical Legendary Totem
 
+
+
+
 11/8/20
 
 - Rearraged the layers, making the text overlay the art
 - Changed the position of Totems
+
+
+
 
 11/23/20 Happy B-Day Me
 
@@ -22,6 +28,9 @@ all sword icons visible
 - Tweeked the Superheroes assets
 - Tweeked the Legend Neutral Class Icons
 - Higher Quality Rarity Icons
+
+
+
 
 2/11/21
 
@@ -35,15 +44,21 @@ all sword icons visible
 - Darken all of the Rare and Legendary Neutral class icons
 - Darken the Spell, Totem, and Trap class icons
 
+
+
 2/12/21
 - Made the Epic and Legendary trap icon's shadow lighter
 - Added a lighter shadow on the rartiy icons
 - Made the rarity icons slightly larger
 - Moved the Sci-fi and Fantasy theme logo
 
+
+
 2/18/21
 - Moved the Mystical and Sci-fi theme icon
 - Shrunk the Mystical theme icon
+
+
 
 3/26/21
 - Inproved the textboxes to better represent cards in-game
@@ -51,3 +66,21 @@ all sword icons visible
 - Made the Mystical Theme Icon Bigger
 - Made the Rarity Icons bigger
 - Lowered the textboxes by 1px
+
+
+
+5/2/22
+- Canvas Size increased to 717px x 1040px
+- Rarity Icons are less bright
+- Class Icons have be shifted 3px to the left
+- Theme Icons sizes readjusted
+- New Traps Icons (credit to Excessiveiser#1363 for those)
+- The Stat Overlay is now under the card bases
+- Text Sizes changed
+Energy Cost - 86px
+Level - 22px
+Name - 35px
+HP - 41px
+ATK - 39px
+Description - 25px
+                                                                                                                                                                                                                                                                                                                                                                                              

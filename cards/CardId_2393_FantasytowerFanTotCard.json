@@ -11,8 +11,8 @@
   "Frame": "",
   "ManaCost": 5,
   "Damage": "55",
-  "Health": "360",
-  "HealthLoss": "10",
+  "Health": "480",
+  "HealthLoss": "8",
   "Type": "Character",
   "IngameAssets": [
     "FantasykidtowerFanCharPF",
@@ -200,8 +200,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 13.26261,
-        "value": 13.0
+        "calculatedValue": 17.68348,
+        "value": 18.0
       },
       {
         "x": 1,
@@ -216,8 +216,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 16.2573929,
-        "value": 16.0
+        "calculatedValue": 21.6765232,
+        "value": 22.0
       },
       {
         "x": 3,
@@ -232,8 +232,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 8.97176552,
-        "value": 9.0
+        "calculatedValue": 11.9623537,
+        "value": 12.0
       },
       {
         "x": 5,
@@ -248,8 +248,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 10.9976482,
-        "value": 11.0
+        "calculatedValue": 14.66353,
+        "value": 15.0
       },
       {
         "x": 7,
@@ -264,8 +264,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 13.3129425,
-        "value": 13.0
+        "calculatedValue": 17.75059,
+        "value": 18.0
       },
       {
         "x": 9,
@@ -280,8 +280,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 16.2070618,
-        "value": 16.0
+        "calculatedValue": 21.6094131,
+        "value": 22.0
       },
       {
         "x": 11,
@@ -296,8 +296,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 19.39059,
-        "value": 19.0
+        "calculatedValue": 25.85412,
+        "value": 26.0
       },
       {
         "x": 13,
@@ -312,8 +312,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 8.97176552,
-        "value": 9.0
+        "calculatedValue": 11.9623537,
+        "value": 12.0
       },
       {
         "x": 15,
@@ -328,8 +328,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 10.9976482,
-        "value": 11.0
+        "calculatedValue": 14.66353,
+        "value": 15.0
       },
       {
         "x": 17,
@@ -344,8 +344,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 13.3129425,
-        "value": 13.0
+        "calculatedValue": 17.75059,
+        "value": 18.0
       },
       {
         "x": 19,
@@ -360,8 +360,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 16.2070618,
-        "value": 16.0
+        "calculatedValue": 21.6094131,
+        "value": 22.0
       },
       {
         "x": 21,
@@ -376,8 +376,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 19.39059,
-        "value": 19.0
+        "calculatedValue": 25.85412,
+        "value": 26.0
       },
       {
         "x": 23,
@@ -392,8 +392,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 6.24849224,
-        "value": 6.0
+        "calculatedValue": 8.331323,
+        "value": 8.0
       },
       {
         "x": 25,
@@ -408,8 +408,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 7.659442,
-        "value": 8.0
+        "calculatedValue": 10.2125893,
+        "value": 10.0
       },
       {
         "x": 27,
@@ -424,8 +424,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 9.271956,
-        "value": 9.0
+        "calculatedValue": 12.362608,
+        "value": 12.0
       },
       {
         "x": 29,
@@ -440,8 +440,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 11.2876,
-        "value": 11.0
+        "calculatedValue": 15.0501318,
+        "value": 15.0
       },
       {
         "x": 31,
@@ -456,8 +456,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 13.5048065,
-        "value": 14.0
+        "calculatedValue": 18.0064087,
+        "value": 18.0
       },
       {
         "x": 33,
@@ -472,8 +472,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 16.1251411,
-        "value": 16.0
+        "calculatedValue": 21.5001869,
+        "value": 22.0
       },
       {
         "x": 35,
@@ -488,8 +488,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 19.9548626,
-        "value": 20.0
+        "calculatedValue": 26.6064835,
+        "value": 27.0
       },
       {
         "x": 37,
@@ -504,8 +504,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 24.1877117,
-        "value": 24.0
+        "calculatedValue": 32.2502823,
+        "value": 32.0
       },
       {
         "x": 39,
@@ -520,8 +520,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 8.271617,
-        "value": 8.0
+        "calculatedValue": 11.0288219,
+        "value": 11.0
       },
       {
         "x": 41,
@@ -536,8 +536,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 9.92594,
-        "value": 10.0
+        "calculatedValue": 13.2345858,
+        "value": 13.0
       },
       {
         "x": 43,
@@ -552,8 +552,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 12.052927,
-        "value": 12.0
+        "calculatedValue": 16.0705681,
+        "value": 16.0
       },
       {
         "x": 45,
@@ -568,8 +568,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 14.4162464,
-        "value": 14.0
+        "calculatedValue": 19.22166,
+        "value": 19.0
       },
       {
         "x": 47,
@@ -584,8 +584,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 16.5432339,
-        "value": 17.0
+        "calculatedValue": 22.0576439,
+        "value": 22.0
       },
       {
         "x": 49,
@@ -600,8 +600,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 21.2698727,
-        "value": 21.0
+        "calculatedValue": 28.3598289,
+        "value": 28.0
       },
       {
         "x": 51,
@@ -616,8 +616,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 25.7601776,
-        "value": 26.0
+        "calculatedValue": 34.3469,
+        "value": 34.0
       },
       {
         "x": 53,
@@ -632,8 +632,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 6.24849224,
-        "value": 6.0
+        "calculatedValue": 8.331323,
+        "value": 8.0
       },
       {
         "x": 55,
@@ -648,8 +648,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 7.659442,
-        "value": 8.0
+        "calculatedValue": 10.2125893,
+        "value": 10.0
       },
       {
         "x": 57,
@@ -664,8 +664,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 9.271956,
-        "value": 9.0
+        "calculatedValue": 12.362608,
+        "value": 12.0
       },
       {
         "x": 59,
@@ -680,8 +680,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 11.2876,
-        "value": 11.0
+        "calculatedValue": 15.0501318,
+        "value": 15.0
       },
       {
         "x": 61,
@@ -696,8 +696,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 13.5048065,
-        "value": 14.0
+        "calculatedValue": 18.0064087,
+        "value": 18.0
       },
       {
         "x": 63,
@@ -712,8 +712,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 16.1251411,
-        "value": 16.0
+        "calculatedValue": 21.5001869,
+        "value": 22.0
       },
       {
         "x": 65,
@@ -728,8 +728,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 19.9548626,
-        "value": 20.0
+        "calculatedValue": 26.6064835,
+        "value": 27.0
       },
       {
         "x": 67,
@@ -744,8 +744,8 @@
         "y": 0,
         "type": "TechSlotPropertyModifier",
         "property": "MaxHealth",
-        "calculatedValue": 24.1877117,
-        "value": 24.0
+        "calculatedValue": 32.2502823,
+        "value": 32.0
       }
     ],
     "Evolve": [
@@ -757,8 +757,8 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "MaxHealth",
-            "calculatedValue": 49.20001,
-            "value": 49.0
+            "calculatedValue": 65.6000061,
+            "value": 66.0
           },
           {
             "x": 0,
@@ -786,8 +786,8 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "MaxHealth",
-            "calculatedValue": 98.40002,
-            "value": 98.0
+            "calculatedValue": 131.200012,
+            "value": 131.0
           },
           {
             "x": 0,
@@ -815,8 +815,8 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "MaxHealth",
-            "calculatedValue": 147.600021,
-            "value": 148.0
+            "calculatedValue": 196.800018,
+            "value": 197.0
           },
           {
             "x": 0,
@@ -844,8 +844,8 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "MaxHealth",
-            "calculatedValue": 196.800034,
-            "value": 197.0
+            "calculatedValue": 262.400024,
+            "value": 262.0
           },
           {
             "x": 0,
@@ -873,8 +873,8 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "MaxHealth",
-            "calculatedValue": 147.600021,
-            "value": 148.0
+            "calculatedValue": 196.800018,
+            "value": 197.0
           },
           {
             "x": 0,
@@ -902,8 +902,8 @@
             "y": 0,
             "type": "TechSlotPropertyModifier",
             "property": "MaxHealth",
-            "calculatedValue": 98.40002,
-            "value": 98.0
+            "calculatedValue": 131.200012,
+            "value": 131.0
           },
           {
             "x": 0,

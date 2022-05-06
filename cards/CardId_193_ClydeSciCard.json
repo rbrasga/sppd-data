@@ -188,7 +188,7 @@
           "Params": {
             "IncludeAll": false,
             "CanSelectAnyUnits": false,
-            "ExcludeTags": "AbilityImmune,Flying,PoisonImmune"
+            "ExcludeTags": "AbilityImmune,PoisonImmune"
           }
         },
         {

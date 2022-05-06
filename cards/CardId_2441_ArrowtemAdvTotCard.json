@@ -2,7 +2,7 @@
   "Id": 2441,
   "Visible": true,
   "Finalized": true,
-  "UnlockedDuringEvent": true,
+  "UnlockedDuringEvent": false,
   "CanAttack": true,
   "NameKey": "Arrow Tower [PvP]",
   "OasisNameOverride": "",
@@ -12,7 +12,7 @@
   "ManaCost": 3,
   "Damage": "43",
   "Health": "300",
-  "HealthLoss": "3",
+  "HealthLoss": "5",
   "Type": "Character",
   "IngameAssets": [
     "IndianAdvTotPF",
@@ -824,7 +824,7 @@
     "MinEpisodeCompleted": 0,
     "MinPlayerLevel": 0,
     "MinPVPRank": 3,
-    "MinPVPArena": 0
+    "MinPVPArena": 2
   },
   "AOEAttackType": "No",
   "AOEDamagePercentage": 0.0,

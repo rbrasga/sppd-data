@@ -322,7 +322,7 @@
           "Params": {
             "IncludeAll": false,
             "CanSelectAnyUnits": false,
-            "ExcludeTags": "Hero"
+            "ExcludeTags": "AbilityImmune,Hero,Totem,Trap"
           }
         },
         {

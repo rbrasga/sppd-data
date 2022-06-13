@@ -2,7 +2,7 @@
   "Id": 2436,
   "Visible": true,
   "Finalized": false,
-  "UnlockedDuringEvent": true,
+  "UnlockedDuringEvent": false,
   "CanAttack": true,
   "NameKey": "Full Moon Sparky",
   "OasisNameOverride": "DF_NAME_SPARKYADV",

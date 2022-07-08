@@ -2,7 +2,7 @@
   "Id": 2408,
   "Visible": true,
   "Finalized": true,
-  "UnlockedDuringEvent": true,
+  "UnlockedDuringEvent": false,
   "CanAttack": true,
   "NameKey": "Cyborg Tower",
   "OasisNameOverride": "",
@@ -880,7 +880,7 @@
     "MinEpisodeCompleted": 3,
     "MinPlayerLevel": 0,
     "MinPVPRank": 0,
-    "MinPVPArena": 0
+    "MinPVPArena": 3
   },
   "AOEAttackType": "No",
   "AOEDamagePercentage": 0.0,

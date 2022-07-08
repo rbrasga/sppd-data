@@ -59,7 +59,7 @@
   },
   "KnockbackImpulse": "0.0000",
   "KnockbackAngleDeg": 45.0,
-  "ChargedPowerRegen": 0.05,
+  "ChargedPowerRegen": 0.055555556,
   "ChargedPowerRadius": 2.0,
   "ChargedPowerReticle": "",
   "Rarity": 0,

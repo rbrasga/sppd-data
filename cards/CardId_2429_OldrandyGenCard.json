@@ -1218,7 +1218,7 @@
         "SlotProperty": "PowerHealAbs",
         "SlotValue": "",
         "MaxMultiplier": "",
-        "PowerValue": "100",
+        "PowerValue": "0",
         "StartIndex": 3,
         "EndIndex": 0,
         "RepeatInterval": 7,

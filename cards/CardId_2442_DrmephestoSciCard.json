@@ -1,0 +1,1055 @@
+{
+  "Id": 2442,
+  "Visible": true,
+  "Finalized": true,
+  "UnlockedDuringEvent": false,
+  "CanAttack": true,
+  "NameKey": "Dr. Mephesto SCI AnimationTriggers",
+  "OasisNameOverride": "DF_NAME_DRMEPHESTOSCI",
+  "OasisDescOverride": "DF_DESC_DRMEPHESTOSCI",
+  "Image": "DrmephestoSciCard",
+  "Frame": "",
+  "ManaCost": 5,
+  "Damage": "21",
+  "Health": "790",
+  "HealthLoss": "0",
+  "Type": "Character",
+  "IngameAssets": [
+    "DrmephestoSciCharPF",
+    "TargetSpellRet"
+  ],
+  "UIAssets": [
+    "DrmephestoSciCard"
+  ],
+  "Targeting": {
+    "AssetId": "TargetSpellRet",
+    "Radius": 0.0
+  },
+  "CardUI": "CharCardUI",
+  "Tags": [
+    "Adults",
+    "Character",
+    "Human",
+    "Legendary",
+    "Male",
+    "Sci",
+    "Tank"
+  ],
+  "CharacterType": "Tank",
+  "Ingame": "DrmephestoSciCharPF",
+  "AttackRange": 1.3,
+  "TimeToReachMaxVelocity": 0.1,
+  "MaxVelocity": 0.3,
+  "TimeInBetweenAttacks": 0.5,
+  "AgroRangeMultiplier": 1.9,
+  "_notes": "",
+  "PhysicsProperties": {
+    "FrictionCoefficient": 1.0,
+    "RestingFriction": 0.25,
+    "BounceFactor": 0.9,
+    "Weight": 200.0
+  },
+  "KnockbackImpulse": "100.0000",
+  "KnockbackAngleDeg": 45.0,
+  "ChargedPowerRegen": 0.05882353,
+  "ChargedPowerRadius": 0.0,
+  "ChargedPowerReticle": "",
+  "Rarity": 3,
+  "Theme": "Sci",
+  "RetreatDistanceFactor": 0.8,
+  "RetreatVelocityFactor": 0.3,
+  "WalkingAnimationThresholdFactor": 0.2,
+  "TargetHeightFactor": 0.8,
+  "HealthBarOffset": -0.6,
+  "Pows": [
+    {
+      "Trigger": {
+        "Type": "AnimationTrigger",
+        "Params": {
+          "AnimationName": "SuperPower",
+          "AnimationTrigger": "SuperPower",
+          "EnabledByTechTree": false
+        }
+      },
+      "UniqueId": "2442_0",
+      "Nodes": [
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "DrmephestoSciSelfOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false
+          }
+        },
+        {
+          "Type": "AllUnitsSelector",
+          "Params": {
+            "CanSelectTraps": false,
+            "CanSelectAnyUnits": true
+          }
+        },
+        {
+          "Type": "FilterFriendsSelector",
+          "Params": {
+            "CanSelectAnyUnits": true
+          }
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "Tags": "Hero",
+            "ExcludeTags": "Enemy"
+          }
+        },
+        {
+          "Type": "NearestUnitsSelector",
+          "Params": {
+            "CanSelectAnyUnits": true,
+            "IncludeCaster": false,
+            "CanSelectTraps": false,
+            "SelectFurthest": false,
+            "IsAreaOfEffect": false,
+            "Amount": "1",
+            "MaximumDistance": "12",
+            "UsedForVisualization": false,
+            "Side": "Enemy",
+            "ExcludeTags": "AbilityImmune,Flying,Hero,Trap"
+          }
+        },
+        {
+          "Type": "UnitsToPositionsSelector"
+        },
+        {
+          "Type": "PhysicsPullEffect",
+          "Params": {
+            "Radius": "1",
+            "Force": "-6",
+            "Side": "Enemy",
+            "PositionOffset": "-0.3,0,0",
+            "LockToDefaultDirection": true,
+            "IgnoreCaster": false,
+            "ExcludeTags": "AbilityImmune,Flying,Hero,Totem,Trap",
+            "CanSelectAnyUnits": true,
+            "Damage": "0",
+            "EveryXSeconds": "0.1",
+            "HideDamage": false
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "0.15"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "ChargedPowerActivated",
+        "Params": {
+          "Automatic": false,
+          "Delay": "10000",
+          "EnabledByTechTree": false,
+          "EnabledByFSM": false,
+          "SimulateSelectionDuringAnimation": false
+        }
+      },
+      "UniqueId": "2442_Dr. Mephesto SCI AnimationTriggers_1",
+      "Nodes": [
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "HealEffect",
+          "Params": {
+            "Amount": "1"
+          }
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "AnimationStarted",
+        "Params": {
+          "AnimationName": "SuperPower",
+          "EnabledByTechTree": false
+        }
+      },
+      "UniqueId": "2442_Dr. Mephesto SCI AnimationTriggers_2",
+      "Nodes": [
+        {
+          "Type": "CasterSelector"
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "DrmephestoSciGroundPierceOncePowerFX",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": false,
+            "Scale": "0.6",
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": true,
+            "CannotClearVFXOnPause": true
+          }
+        }
+      ]
+    },
+    {
+      "Trigger": {
+        "Type": "AnimationTrigger",
+        "Params": {
+          "AnimationName": "SuperPower",
+          "AnimationTrigger": "SuperPower",
+          "EnabledByTechTree": false
+        }
+      },
+      "UniqueId": "2442_Dr. Mephesto SCI AnimationTriggers_3",
+      "Nodes": [
+        {
+          "Type": "AllUnitsSelector",
+          "Params": {
+            "CanSelectTraps": false,
+            "CanSelectAnyUnits": true
+          }
+        },
+        {
+          "Type": "FilterFriendsSelector",
+          "Params": {
+            "CanSelectAnyUnits": true
+          }
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": false,
+            "Tags": "Hero",
+            "ExcludeTags": "Enemy"
+          }
+        },
+        {
+          "Type": "NearestUnitsSelector",
+          "Params": {
+            "CanSelectAnyUnits": true,
+            "IncludeCaster": false,
+            "CanSelectTraps": false,
+            "SelectFurthest": false,
+            "IsAreaOfEffect": false,
+            "Amount": "1",
+            "MaximumDistance": "20",
+            "UsedForVisualization": false,
+            "Side": "Enemy",
+            "ExcludeTags": "AbilityImmune,Flying,Hero,Trap"
+          }
+        },
+        {
+          "Type": "DamageEffect",
+          "Params": {
+            "Amount": "21+PowerDamageAbs",
+            "AmountVariableId": "PowerDamage",
+            "HideDamage": false
+          }
+        },
+        {
+          "Type": "FilterByTagSelector",
+          "Params": {
+            "IncludeAll": false,
+            "CanSelectAnyUnits": true,
+            "ExcludeTags": "AbilityImmune,Flying,FreezeImmune,Hero,Trap"
+          }
+        },
+        {
+          "Type": "FreezeEffect",
+          "EffectImpact": "Negative",
+          "Params": {
+            "MuteFreezeSound": true,
+            "CannotDeactivateEarly": false,
+            "RemoveAllFreezeEffects": false
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "0.9",
+                "ElapsedTimeVariableId": "PowerDuration"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "AddTagsEffect",
+          "EffectImpact": "Negative",
+          "Params": {
+            "Tags": "Frozen",
+            "CanSelectAnyUnits": false
+          },
+          "EndTriggers": [
+            {
+              "Type": "ElapsedTimeSinceActivation",
+              "Params": {
+                "ElapsedTime": "0.9"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "UnitsToPositionsSelector"
+        },
+        {
+          "Type": "VisualEffect",
+          "EffectImpact": "Neutral",
+          "Params": {
+            "AssetId": "DrmephestoSciOncePowerFX",
+            "PositionOffset": "-0.3,0,0",
+            "IsOffetRelative": false,
+            "LockToDefaultDirection": true,
+            "Scale": "0.62",
+            "OwnerTeamOnly": false,
+            "CannotPauseVFX": false,
+            "CannotClearVFXOnPause": false,
+            "SoundEvent": "PlayDrmephestoSciSuperHit",
+            "SoundBankName": "SoundBank_DrmephestoSci"
+          }
+        }
+      ]
+    }
+  ],
+  "SameTeamCollisionRadiusMultiplier": 1.0,
+  "TechTree2": {
+    "Slots": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 24.15452,
+        "value": 24.0
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.512,
+        "value": 2.0
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 3.78,
+        "value": 4.0
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 32.72548,
+        "value": 33.0
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.7851257,
+        "value": 1.0
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 3.10563374,
+        "value": 3.0
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 46.1846123,
+        "value": 46.0
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.06371868,
+        "value": 1.0
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 4.08169031,
+        "value": 4.0
+      },
+      {
+        "x": 9,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 61.9846153,
+        "value": 62.0
+      },
+      {
+        "x": 10,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.41829157,
+        "value": 1.0
+      },
+      {
+        "x": 11,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 5.412676,
+        "value": 5.0
+      },
+      {
+        "x": 12,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 81.43077,
+        "value": 81.0
+      },
+      {
+        "x": 13,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.77286434,
+        "value": 2.0
+      },
+      {
+        "x": 14,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 2.94422126,
+        "value": 3.0
+      },
+      {
+        "x": 15,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 70.0985947,
+        "value": 70.0
+      },
+      {
+        "x": 16,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.84153855,
+        "value": 2.0
+      },
+      {
+        "x": 17,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 3.98894477,
+        "value": 4.0
+      },
+      {
+        "x": 18,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 92.12958,
+        "value": 92.0
+      },
+      {
+        "x": 19,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 2.47153854,
+        "value": 2.0
+      },
+      {
+        "x": 20,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 5.3185935,
+        "value": 5.0
+      },
+      {
+        "x": 21,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 122.171837,
+        "value": 122.0
+      },
+      {
+        "x": 22,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 3.24692321,
+        "value": 3.0
+      },
+      {
+        "x": 23,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 6.64824152,
+        "value": 7.0
+      },
+      {
+        "x": 24,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 29.5852356,
+        "value": 30.0
+      },
+      {
+        "x": 25,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.7993958,
+        "value": 1.0
+      },
+      {
+        "x": 26,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 1.962295,
+        "value": 2.0
+      },
+      {
+        "x": 27,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 40.08322,
+        "value": 40.0
+      },
+      {
+        "x": 28,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.0506345,
+        "value": 1.0
+      },
+      {
+        "x": 29,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 2.63360667,
+        "value": 3.0
+      },
+      {
+        "x": 30,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 53.4442978,
+        "value": 53.0
+      },
+      {
+        "x": 31,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.3932327,
+        "value": 1.0
+      },
+      {
+        "x": 32,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 3.45983624,
+        "value": 3.0
+      },
+      {
+        "x": 33,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 66.80537,
+        "value": 67.0
+      },
+      {
+        "x": 34,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 1.8271904,
+        "value": 2.0
+      },
+      {
+        "x": 35,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 4.64754152,
+        "value": 5.0
+      },
+      {
+        "x": 36,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 94.48188,
+        "value": 94.0
+      },
+      {
+        "x": 37,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 2.489547,
+        "value": 2.0
+      },
+      {
+        "x": 38,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 6.19672155,
+        "value": 6.0
+      },
+      {
+        "x": 39,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 9.861745,
+        "value": 10.0
+      },
+      {
+        "x": 40,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.266465276,
+        "value": 1.0
+      },
+      {
+        "x": 41,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 0.654098332,
+        "value": 1.0
+      },
+      {
+        "x": 42,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 13.3610735,
+        "value": 13.0
+      },
+      {
+        "x": 43,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.3502115,
+        "value": 1.0
+      },
+      {
+        "x": 44,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 0.877868831,
+        "value": 1.0
+      },
+      {
+        "x": 45,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 17.8147659,
+        "value": 18.0
+      },
+      {
+        "x": 46,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.4644109,
+        "value": 1.0
+      },
+      {
+        "x": 47,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 1.15327871,
+        "value": 1.0
+      },
+      {
+        "x": 48,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 22.2684555,
+        "value": 22.0
+      },
+      {
+        "x": 49,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.609063447,
+        "value": 1.0
+      },
+      {
+        "x": 50,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 1.54918039,
+        "value": 2.0
+      },
+      {
+        "x": 51,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 31.49396,
+        "value": 31.0
+      },
+      {
+        "x": 52,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.829848945,
+        "value": 1.0
+      },
+      {
+        "x": 53,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 2.06557369,
+        "value": 2.0
+      },
+      {
+        "x": 54,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 3.94469762,
+        "value": 4.0
+      },
+      {
+        "x": 55,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.106586106,
+        "value": 1.0
+      },
+      {
+        "x": 56,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 0.261639327,
+        "value": 1.0
+      },
+      {
+        "x": 57,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 5.344429,
+        "value": 5.0
+      },
+      {
+        "x": 58,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.1400846,
+        "value": 1.0
+      },
+      {
+        "x": 59,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 0.351147532,
+        "value": 1.0
+      },
+      {
+        "x": 60,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 7.125906,
+        "value": 7.0
+      },
+      {
+        "x": 61,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.185764357,
+        "value": 1.0
+      },
+      {
+        "x": 62,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 0.4613115,
+        "value": 1.0
+      },
+      {
+        "x": 63,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 8.907382,
+        "value": 9.0
+      },
+      {
+        "x": 64,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.243625373,
+        "value": 1.0
+      },
+      {
+        "x": 65,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 0.6196721,
+        "value": 1.0
+      },
+      {
+        "x": 66,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "MaxHealth",
+        "calculatedValue": 12.5975828,
+        "value": 13.0
+      },
+      {
+        "x": 67,
+        "y": 0,
+        "type": "TechSlotPropertyModifier",
+        "property": "Damage",
+        "calculatedValue": 0.331939578,
+        "value": 1.0
+      },
+      {
+        "x": 68,
+        "y": 0,
+        "type": "TechSlotPowerValueModifier",
+        "property": "PowerDamageAbs",
+        "calculatedValue": 0.826229453,
+        "value": 1.0
+      }
+    ],
+    "Evolve": [
+      {
+        "StarLevel": 0,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "MaxHealth",
+            "calculatedValue": 158.0,
+            "value": 158.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "Damage",
+            "calculatedValue": 4.20000029,
+            "value": 4.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 1,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "MaxHealth",
+            "calculatedValue": 474.0,
+            "value": 474.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "Damage",
+            "calculatedValue": 12.6000013,
+            "value": 13.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 2,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "MaxHealth",
+            "calculatedValue": 316.0,
+            "value": 316.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "Damage",
+            "calculatedValue": 8.400001,
+            "value": 8.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 3,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "MaxHealth",
+            "calculatedValue": 158.0,
+            "value": 158.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "Damage",
+            "calculatedValue": 4.20000029,
+            "value": 4.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 4,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "MaxHealth",
+            "calculatedValue": 158.0,
+            "value": 158.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "Damage",
+            "calculatedValue": 4.20000029,
+            "value": 4.0
+          }
+        ]
+      },
+      {
+        "StarLevel": 5,
+        "Slots": [
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "MaxHealth",
+            "calculatedValue": 158.0,
+            "value": 158.0
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "type": "TechSlotPropertyModifier",
+            "property": "Damage",
+            "calculatedValue": 4.20000029,
+            "value": 4.0
+          }
+        ]
+      }
+    ]
+  },
+  "Requirements": {
+    "MinEpisodeCompleted": 3,
+    "MinPlayerLevel": 0,
+    "MinPVPRank": 15,
+    "MinPVPArena": 8
+  },
+  "AOEAttackType": "No",
+  "AOEDamagePercentage": 0.0,
+  "AOERadius": 0.0,
+  "AOEAttackConeDegree": 0.0,
+  "AOEKnockbackPercentage": 0.0,
+  "TargetingType": "Ground",
+  "PreAttackDelay": 0.0,
+  "CanCastOnLava": false,
+  "CastArea": "OwnSide",
+  "TechtreePatterns": {
+    "Upgrades": [
+      {
+        "PatternType": 0,
+        "SlotType": "TechSlotPowerValueModifier",
+        "SlotProperty": "PowerDamageAbs",
+        "SlotValue": "",
+        "MaxMultiplier": "",
+        "PowerValue": "21",
+        "StartIndex": 3,
+        "EndIndex": 0,
+        "RepeatInterval": 3,
+        "Weighted": true
+      }
+    ],
+    "Evolutions": []
+  },
+  "OverrideSoundBankName": "",
+  "ChildUnitLimit": 0,
+  "SpineSkin": "",
+  "CastOverrideAnim": "",
+  "ColliderRadiusOverride": -1.0,
+  "AttackEffect": "",
+  "CheckAndRemoveFromDeckOnSpawn": false,
+  "ChargedPowerReticlePositionOffset": "",
+  "ChargedPowerReticleLockDirection": false
+}
